@@ -1,0 +1,53 @@
+Estoy creando un mod de jojos, de momento estoy haciedno a white snake, quiero hacer lo siguiente, su habilidad con el click derecho consistira en lo siguiente
+
+
+
+1r Crearemos un debuffo llamado ''Ammnesia'', este buffo, cuando se le aplique a un emigo, caera al suelo y no se movera ni reaccionara de NINGUNA manera dejara de cambiar de frames se qeudara en la pociion en la que estaba hasta que el buffo termine, el debufo durara 20 segundso
+
+
+
+se parece a la ahbilidad de sueño profundo de mi stand sivler chariote requiem, sin embargo no desprendera ningun tipo de imagen particula, solo quedara en suelo
+
+
+
+Otras cosas, ¿COmo se aplicara este debufo? de la siguiente manera
+
+
+
+Con tu stand, al moment o de darle a click derecho, y manternerlo, emepzara a moverse hacia donde tengas el cursor, (claro ,respetando siempre el rango de movimiento del stand) que en caso de whitesnake debes auemtnarlo
+
+
+
+El stand se esta movienito con tu raton lo puedes dirijir a cualqeuir lado, cuando lo coloques sobre un enemigo, el stand se quedara encima NO COMPLETAMENTE, si no en el centro superior del enemigo y cambiara a un spritesheet llamado ''Extraccion_Tier_4''
+
+
+
+que son 6 frames de izqeuirda a derecha
+
+528 ancho x 76 alto
+
+cada fgramesa da 88 pixeles
+
+
+
+Cuanto esté encima del enemigo, al momento empezara a reproducir (mientras el enemigo se mueve lo sigue a no ser de que salga del ranog, entonces volvera a la pociion quieto/ nomrla y seguira como si nada hubeira pasado)
+
+
+
+pero si el enemigo no escapa, eme0pzara a cambiar de frame 1 a frame 2 a 3 a 4 a 5 a 6 (relativamente lento) al llegar al frame 6 se aplicara instantaneamente el debuffo
+
+
+
+SI alguien YA TIENE el debufo, no puedes volver a usarselo
+
+
+
+Quiero que la gran parte de la logica pesada, este repartida en OTRO sciprt por ejemplo llamado ''Extraccion_Tier_4''
+
+
+
+Te voy a enseñar primeor a silver chario requien yu su habilida (sueño profundo) son relativamente parecidos, yo quieor tambien ''dormirlos'' pero sin el sprite del zzz
+
+
+
+pero por lo demas muy parecido
