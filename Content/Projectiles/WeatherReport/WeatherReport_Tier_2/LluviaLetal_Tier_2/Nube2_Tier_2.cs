@@ -1,0 +1,144 @@
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Terraria;
+using Terraria.Audio;
+using Terraria.ID;
+using Terraria.ModLoader;
+using Jojo.Content.Clases;
+using Jojo.Content.Players;
+using Jojo.Content.Projectiles.WeatherReport.WeatherReport_Tier_2;
+using Jojo.Content.Projectiles.WeatherReport.WeatherReport_Tier_2.LluviaLetal_Tier_2;
+
+namespace Jojo.Content.Projectiles.WeatherReport.WeatherReport_Tier_2.LluviaLetal_Tier_2
+{
+    public class Nube2_Tier_2 : ModProjectile
+    {
+        static int standTypeCache = -1;
+        static int StandType => standTypeCache != -1 ? standTypeCache : (standTypeCache = ModContent.ProjectileType<WEATHERSTAND_Tier_2>());
+
+        private bool isFadingOut = false;
+
+        public override void SetStaticDefaults()
+        {
+            Main.projFrames[Projectile.type] = 4;
+        }
+
+        public override void SetDefaults()
+        {
+            Projectile.width = 28;
+            Projectile.height = 28;
+            Projectile.friendly = false;
+            Projectile.hostile = false;
+            Projectile.tileCollide = false;
+            Projectile.ignoreWater = true;
+            Projectile.penetrate = -1;
+            Projectile.timeLeft = 300;
+        }
+
+        bool StandRoto(Player p)
+        {
+            if (!p.active || p.dead) return true;
+            if (!p.TryGetModPlayer(out StandStatsPlayer stats)) return true;
+            if (stats.activeStand == null) return true;
+            if (!stats.activeStand.active) return true;
+            if (stats.activeStand.type != StandType) return true;
+            return false;
+        }
+
+        public override void AI()
+        {
+            Player p = Main.player[Projectile.owner];
+
+            if (StandRoto(p))
+            {
+                isFadingOut = true;
+            }
+
+            if (isFadingOut)
+            {
+                Projectile.velocity *= 0.9f;
+                Projectile.alpha += 15;
+                if (Projectile.alpha >= 255)
+                {
+                    Projectile.Kill();
+                }
+                return;
+            }
+
+            if (++Projectile.frameCounter >= 5)
+            {
+                Projectile.frameCounter = 0;
+                if (++Projectile.frame >= 4)
+                {
+                    Projectile.frame = 0;
+                }
+            }
+
+            if (Main.rand.NextBool(3))
+            {
+                Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, DustID.Cloud, Projectile.velocity.X * 0.5f, Projectile.velocity.Y * 0.5f);
+            }
+
+            Vector2 targetPosition = new Vector2(Projectile.ai[0], Projectile.ai[1]);
+            Vector2 direction = targetPosition - Projectile.Center;
+            float distance = direction.Length();
+
+            if (distance < 15f)
+            {
+                Projectile.Kill();
+            }
+            else
+            {
+                direction.Normalize();
+                Projectile.velocity = direction * 12f;
+            }
+        }
+
+        public override void OnKill(int timeLeft)
+        {
+            if (Projectile.owner == Main.myPlayer)
+            {
+                Player p = Main.player[Projectile.owner];
+
+                if (!StandRoto(p) && !isFadingOut)
+                {
+                    int nube1Type = ModContent.ProjectileType<Nube_1_Tier_2>();
+                    int maxNubes = 3; //MAXIMA NUBES
+                    int count = 0;
+                    int oldestIndex = -1;
+                    int oldestTimeLeft = int.MaxValue;
+
+                    for (int i = 0; i < Main.maxProjectiles; i++)
+                    {
+                        Projectile proj = Main.projectile[i];
+                        if (proj.active && proj.type == nube1Type && proj.owner == Projectile.owner)
+                        {
+                            count++;
+                            if (proj.timeLeft < oldestTimeLeft)
+                            {
+                                oldestTimeLeft = proj.timeLeft;
+                                oldestIndex = i;
+                            }
+                        }
+                    }
+
+                    if (count >= maxNubes && oldestIndex != -1)
+                    {
+                        Main.projectile[oldestIndex].Kill();
+                    }
+
+                    Projectile.NewProjectile(
+                        Projectile.GetSource_FromThis(),
+                        Projectile.Center,
+                        Vector2.Zero,
+                        nube1Type,
+                        Projectile.damage,
+                        Projectile.knockBack,
+                        Projectile.owner
+                    );
+                }
+            }
+            SoundEngine.PlaySound(SoundID.Item21, Projectile.Center);
+        }
+    }
+}
