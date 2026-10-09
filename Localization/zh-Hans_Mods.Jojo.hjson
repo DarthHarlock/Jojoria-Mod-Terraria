@@ -1,0 +1,2282 @@
+Projectiles: {
+	// WHITESNAKESTAND_Tier_4.DisplayName: W H I T E S N A K E S T A N D_ Tier_4
+	// WhiteSnake_BarragePunch_Tier_4.DisplayName: White Snake_ Barrage Punch_ Tier_4
+	// Whitesnake_RastroSuelo_Tier_4.DisplayName: Whitesnake_ Rastro Suelo_ Tier_4
+	// Whitesnake_RastroPared_Tier_4.DisplayName: Whitesnake_ Rastro Pared_ Tier_4
+	// Whitesnake_GotaVomito_Tier_4.DisplayName: Whitesnake_ Gota Vomito_ Tier_4
+	// WHITESNAKESTAND_Tier_3.DisplayName: W H I T E S N A K E S T A N D_ Tier_3
+	// WhiteSnake_BarragePunch_Tier_3.DisplayName: White Snake_ Barrage Punch_ Tier_3
+	// Whitesnake_RastroSuelo_Tier_3.DisplayName: Whitesnake_ Rastro Suelo_ Tier_3
+	// Whitesnake_RastroPared_Tier_3.DisplayName: Whitesnake_ Rastro Pared_ Tier_3
+	// Whitesnake_GotaVomito_Tier_3.DisplayName: Whitesnake_ Gota Vomito_ Tier_3
+	// WHITESNAKESTAND_Tier_2.DisplayName: W H I T E S N A K E S T A N D_ Tier_2
+	// WhiteSnake_BarragePunch_Tier_2.DisplayName: White Snake_ Barrage Punch_ Tier_2
+	// Whitesnake_RastroSuelo_Tier_2.DisplayName: Whitesnake_ Rastro Suelo_ Tier_2
+	// Whitesnake_RastroPared_Tier_2.DisplayName: Whitesnake_ Rastro Pared_ Tier_2
+	// Whitesnake_GotaVomito_Tier_2.DisplayName: Whitesnake_ Gota Vomito_ Tier_2
+	// WHITESNAKESTAND_Tier_1.DisplayName: W H I T E S N A K E S T A N D_ Tier_1
+	// WhiteSnake_BarragePunch_Tier_1.DisplayName: White Snake_ Barrage Punch_ Tier_1
+	// WEATHERSTAND_Tier_4.DisplayName: W E A T H E R S T A N D_ Tier_4
+	// Weather_BarragePunch_Tier_4.DisplayName: Weather_ Barrage Punch_ Tier_4
+	// TornadoWeather_Tier_4.DisplayName: Tornado Weather_ Tier_4
+	// Nube2_Tier_4.DisplayName: Nube2_ Tier_4
+	// Nube_1_Tier_4.DisplayName: Nube_1_ Tier_4
+	// Gota_Tier_4.DisplayName: Gota_ Tier_4
+	// NubeCielo_Tier_4.DisplayName: Nube Cielo_ Tier_4
+	// NubeCielo_Arcoiris_Tier_4.DisplayName: Nube Cielo_ Arcoiris_ Tier_4
+	// WEATHERSTAND_Tier_3.DisplayName: W E A T H E R S T A N D_ Tier_3
+	// Weather_BarragePunch_Tier_3.DisplayName: Weather_ Barrage Punch_ Tier_3
+	// TornadoWeather_Tier_3.DisplayName: Tornado Weather_ Tier_3
+	// Nube2_Tier_3.DisplayName: Nube2_ Tier_3
+	// Nube_1_Tier_3.DisplayName: Nube_1_ Tier_3
+	// Gota_Tier_3.DisplayName: Gota_ Tier_3
+	// NubeCielo_Tier_3.DisplayName: Nube Cielo_ Tier_3
+	// WEATHERSTAND_Tier_2.DisplayName: W E A T H E R S T A N D_ Tier_2
+	// Weather_BarragePunch_Tier_2.DisplayName: Weather_ Barrage Punch_ Tier_2
+	// TornadoWeather_Tier_2.DisplayName: Tornado Weather_ Tier_2
+	// Nube2_Tier_2.DisplayName: Nube2_ Tier_2
+	// Nube_1_Tier_2.DisplayName: Nube_1_ Tier_2
+	// Gota_Tier_2.DisplayName: Gota_ Tier_2
+	// WEATHERSTAND_Tier_1.DisplayName: W E A T H E R S T A N D_ Tier_1
+	// Weather_BarragePunch_Tier_1.DisplayName: Weather_ Barrage Punch_ Tier_1
+	// Nube2_Tier_1.DisplayName: Nube2_ Tier_1
+	// Nube_1_Tier_1.DisplayName: Nube_1_ Tier_1
+	// Gota_Tier_1.DisplayName: Gota_ Tier_1
+	TW_BarragePunch_Tier_4.DisplayName: 世界 连续拳 Tier 4
+	THEWORLDSTAND_Tier_4.DisplayName: 世界 Tier 4
+	// Cuchillo_Tier_4.DisplayName: Cuchillo_ Tier_4
+	// TW_BarragePunch_Tier_3.DisplayName: T W_ Barrage Punch_ Tier_3
+	// THEWORLDSTAND_Tier_3.DisplayName: T H E W O R L D S T A N D_ Tier_3
+	// Cuchillo_Tier_3.DisplayName: Cuchillo_ Tier_3
+	// TW_BarragePunch_Tier_2.DisplayName: T W_ Barrage Punch_ Tier_2
+	// THEWORLDSTAND_Tier_2.DisplayName: T H E W O R L D S T A N D_ Tier_2
+	// Cuchillo_Tier_2.DisplayName: Cuchillo_ Tier_2
+	TW_BarragePunch_Tier_1.DisplayName: 世界 连续拳 Tier 1
+	THEWORLDSTAND_Tier_1.DisplayName: 世界 Tier 1
+	STARPLATINUMSTAND_Tier_4.DisplayName: 白金之星 Tier 4
+	// SP_BarragePunch_Tier_4.DisplayName: S P_ Barrage Punch_ Tier_4
+	// STARPLATINUMSTAND_Tier_3.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_3
+	// SP_BarragePunch_Tier_3.DisplayName: S P_ Barrage Punch_ Tier_3
+	// STARPLATINUMSTAND_Tier_2.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_2
+	// SP_BarragePunch_Tier_2.DisplayName: S P_ Barrage Punch_ Tier_2
+	// STARPLATINUMSTAND_Tier_1.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_1
+	// SP_BarragePunch_Tier_1.DisplayName: S P_ Barrage Punch_ Tier_1
+	// SLIVERCHARIOTSTAND_Tier_4.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_4
+	// ShotChariot_Tier_4.DisplayName: Shot Chariot_ Tier_4
+	// Estocada_Tier_4.DisplayName: Estocada_ Tier_4
+	// ChariotClon_Tier_4.DisplayName: Chariot Clon_ Tier_4
+	// SLIVERCHARIOTSTAND_Tier_3.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_3
+	// ShotChariot_Tier_3.DisplayName: Shot Chariot_ Tier_3
+	// Estocada_Tier_3.DisplayName: Estocada_ Tier_3
+	// ChariotClon_Tier_3.DisplayName: Chariot Clon_ Tier_3
+	// SLIVERCHARIOTSTAND_Tier_2.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_2
+	// ShotChariot_Tier_2.DisplayName: Shot Chariot_ Tier_2
+	// Estocada_Tier_2.DisplayName: Estocada_ Tier_2
+	// SLIVERCHARIOTSTAND_Tier_1.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_1
+	// ShotChariot_Tier_1.DisplayName: Shot Chariot_ Tier_1
+	// Estocada_Tier_1.DisplayName: Estocada_ Tier_1
+	// ZZZ_Visual.DisplayName: Z Z Z_ Visual
+	// SILVERCHARIOTSTAND_Requiem.DisplayName: S I L V E R C H A R I O T S T A N D_ Requiem
+	// SCR_BarragePunch_Requiem.DisplayName: S C R_ Barrage Punch_ Requiem
+	// SCR_AuraPasiva.DisplayName: S C R_ Aura Pasiva
+	// SCR_Aura2.DisplayName: S C R_ Aura2
+	// SCR_Aura.DisplayName: S C R_ Aura
+	RIKASTAND.DisplayName: 里 香
+	RIKA_BarragePunch.DisplayName: 里香 连续拳
+	SHA_Minion_Tier_4.DisplayName: 枯萎穿心攻击 Tier 4
+	// SHA_Minion_Tier_3.DisplayName: S H A_ Minion_ Tier_3
+	// SHA_Minion_Tier_2.DisplayName: S H A_ Minion_ Tier_2
+	// Tornado_Tier_4.DisplayName: Tornado_ Tier_4
+	// MAGICIANSREDSTAND_Tier_4.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_4
+	// FuegoLanzallamas_Tier_4.DisplayName: Fuego Lanzallamas_ Tier_4
+	// Fuego2_Tier_4.DisplayName: Fuego2_ Tier_4
+	// Fuego1_Tier_4.DisplayName: Fuego1_ Tier_4
+	// Tornado_Tier_3.DisplayName: Tornado_ Tier_3
+	// MAGICIANSREDSTAND_Tier_3.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_3
+	// FuegoLanzallamas_Tier_3.DisplayName: Fuego Lanzallamas_ Tier_3
+	// Fuego2_Tier_3.DisplayName: Fuego2_ Tier_3
+	// Fuego1_Tier_3.DisplayName: Fuego1_ Tier_3
+	// MAGICIANSREDSTAND_Tier_2.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_2
+	// FuegoLanzallamas_Tier_2.DisplayName: Fuego Lanzallamas_ Tier_2
+	// Fuego2_Tier_2.DisplayName: Fuego2_ Tier_2
+	// Fuego1_Tier_2.DisplayName: Fuego1_ Tier_2
+	// MAGICIANSREDSTAND_Tier_1.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_1
+	// FuegoLanzallamas_Tier_1.DisplayName: Fuego Lanzallamas_ Tier_1
+	// Fuego1_Tier_1.DisplayName: Fuego1_ Tier_1
+	// MIHDashSkill.DisplayName: M I H Dash Skill
+	// MIH_OmnidirectionalDash.DisplayName: M I H_ Omnidirectional Dash
+	// MIH_BarragePunch.DisplayName: M I H_ Barrage Punch
+	// MADEINHEAVENSTAND.DisplayName: M A D E I N H E A V E N S T A N D
+	// MadeInHeaven_UltimateField.DisplayName: Made In Heaven_ Ultimate Field
+	// TimeErasedEffect_Tier_4.DisplayName: Time Erased Effect_ Tier_4
+	// KingCrimsonTeleport_Tier_4.DisplayName: King Crimson Teleport_ Tier_4
+	// KINGCRIMSONSTAND_Tier_4.DisplayName: K I N G C R I M S O N S T A N D_ Tier_4
+	// KingCrimsonShadow_Tier_4.DisplayName: King Crimson Shadow_ Tier_4
+	// KingCrimsonHeavyTrail_Tier_4.DisplayName: King Crimson Heavy Trail_ Tier_4
+	// KingCrimsonHeavyAttack_Tier_4.DisplayName: King Crimson Heavy Attack_ Tier_4
+	// KingCrimsonBackgroundDrawer_Tier_4.DisplayName: King Crimson Background Drawer_ Tier_4
+	// KC_BarragePunch_Tier_4.DisplayName: K C_ Barrage Punch_ Tier_4
+	// TimeErasedEffect_Tier_3.DisplayName: Time Erased Effect_ Tier_3
+	// KingCrimsonTeleport_Tier_3.DisplayName: King Crimson Teleport_ Tier_3
+	// KINGCRIMSONSTAND_Tier_3.DisplayName: K I N G C R I M S O N S T A N D_ Tier_3
+	// KingCrimsonShadow_Tier_3.DisplayName: King Crimson Shadow_ Tier_3
+	// KingCrimsonHeavyTrail_Tier_3.DisplayName: King Crimson Heavy Trail_ Tier_3
+	// KingCrimsonHeavyAttack_Tier_3.DisplayName: King Crimson Heavy Attack_ Tier_3
+	// KingCrimsonBackgroundDrawer_Tier_3.DisplayName: King Crimson Background Drawer_ Tier_3
+	// KC_BarragePunch_Tier_3.DisplayName: K C_ Barrage Punch_ Tier_3
+	// TimeErasedEffect_Tier_2.DisplayName: Time Erased Effect_ Tier_2
+	// KINGCRIMSONSTAND_Tier_2.DisplayName: K I N G C R I M S O N S T A N D_ Tier_2
+	// KingCrimsonShadow_Tier_2.DisplayName: King Crimson Shadow_ Tier_2
+	// KingCrimsonHeavyTrail_Tier_2.DisplayName: King Crimson Heavy Trail_ Tier_2
+	// KingCrimsonHeavyAttack_Tier_2.DisplayName: King Crimson Heavy Attack_ Tier_2
+	// KingCrimsonBackgroundDrawer_Tier_2.DisplayName: King Crimson Background Drawer_ Tier_2
+	// KC_BarragePunch_Tier_2.DisplayName: K C_ Barrage Punch_ Tier_2
+	// KINGCRIMSONSTAND_Tier_1.DisplayName: K I N G C R I M S O N S T A N D_ Tier_1
+	// KingCrimsonHeavyTrail_Tier_1.DisplayName: King Crimson Heavy Trail_ Tier_1
+	// KingCrimsonHeavyAttack_Tier_1.DisplayName: King Crimson Heavy Attack_ Tier_1
+	// KingCrimsonBackgroundDrawer_Tier_1.DisplayName: King Crimson Background Drawer_ Tier_1
+	// KC_BarragePunch_Tier_1.DisplayName: K C_ Barrage Punch_ Tier_1
+	// StrayCat_BOMBA_Tier_4.DisplayName: Stray Cat_ B O M B A_ Tier_4
+	// KQ_BarragePunch_Tier_4.DisplayName: K Q_ Barrage Punch_ Tier_4
+	KILLERQUEENSTAND_Tier_4.DisplayName: 杀手皇后 Tier 4
+	// BOMBA1_Tier_4.DisplayName: B O M B A1_ Tier_4
+	// BitesTheDust_Explosion.DisplayName: Bites The Dust_ Explosion
+	// StrayCat_BOMBA_Tier_3.DisplayName: Stray Cat_ B O M B A_ Tier_3
+	// KQ_BarragePunch_Tier_3.DisplayName: K Q_ Barrage Punch_ Tier_3
+	// KILLERQUEENSTAND_Tier_3.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_3
+	// BOMBA1_Tier_3.DisplayName: B O M B A1_ Tier_3
+	// KQ_BarragePunch_Tier_2.DisplayName: K Q_ Barrage Punch_ Tier_2
+	// KILLERQUEENSTAND_Tier_2.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_2
+	// BOMBA1_Tier_2.DisplayName: B O M B A1_ Tier_2
+	// KQ_BarragePunch_Tier_1.DisplayName: K Q_ Barrage Punch_ Tier_1
+	// KILLERQUEENSTAND_Tier_1.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_1
+	// BOMBA1_Tier_1.DisplayName: B O M B A1_ Tier_1
+	// JUSTICESTAND_Tier_4.DisplayName: J U S T I C E S T A N D_ Tier_4
+	// Justice_Niebla.DisplayName: Justice_ Niebla
+	// Justice_HealingAura.DisplayName: Justice_ Healing Aura
+	// HGreen_Aura_Tier_4.DisplayName: H Green_ Aura_ Tier_4
+	// Esmeralda_2_Tier_4.DisplayName: Esmeralda_2_ Tier_4
+	// Cadena_Tier_4.DisplayName: Cadena_ Tier_4
+	// HGREENSTAND_Tier_4.DisplayName: H G R E E N S T A N D_ Tier_4
+	// Gancho_Tier_4_Cabeza.DisplayName: Gancho_ Tier_4_ Cabeza
+	// Esmeralda_Tier_4.DisplayName: Esmeralda_ Tier_4
+	// Esmeralda_3_Tier_4.DisplayName: Esmeralda_3_ Tier_4
+	// Control_Cadena_Tier_4.DisplayName: Control_ Cadena_ Tier_4
+	// Esmeralda_4_Tier_4.DisplayName: Esmeralda_4_ Tier_4
+	// HGreen_Aura_Tier_3.DisplayName: H Green_ Aura_ Tier_3
+	// Esmeralda_2_Tier_3.DisplayName: Esmeralda_2_ Tier_3
+	// Cadena_Tier_3.DisplayName: Cadena_ Tier_3
+	// HGREENSTAND_Tier_3.DisplayName: H G R E E N S T A N D_ Tier_3
+	// Gancho_Tier_3_Cabeza.DisplayName: Gancho_ Tier_3_ Cabeza
+	// Esmeralda_Tier_3.DisplayName: Esmeralda_ Tier_3
+	// Esmeralda_3_Tier_3.DisplayName: Esmeralda_3_ Tier_3
+	// Control_Cadena_Tier_3.DisplayName: Control_ Cadena_ Tier_3
+	// Esmeralda_4_Tier_3.DisplayName: Esmeralda_4_ Tier_3
+	// HGREENSTAND_Tier_2.DisplayName: H G R E E N S T A N D_ Tier_2
+	// Gancho_Tier_2_Cabeza.DisplayName: Gancho_ Tier_2_ Cabeza
+	// Esmeralda_Tier_2.DisplayName: Esmeralda_ Tier_2
+	// Esmeralda_3_Tier_2.DisplayName: Esmeralda_3_ Tier_2
+	// Control_Cadena_Tier_2.DisplayName: Control_ Cadena_ Tier_2
+	// Esmeralda_4_Tier_2.DisplayName: Esmeralda_4_ Tier_2
+	// HGREENSTAND_Tier_1.DisplayName: H G R E E N S T A N D_ Tier_1
+	// Gancho_Tier_1_Cabeza.DisplayName: Gancho_ Tier_1_ Cabeza
+	// Esmeralda_Tier_1.DisplayName: Esmeralda_ Tier_1
+	// Esmeralda_3_Tier_1.DisplayName: Esmeralda_3_ Tier_1
+	// Control_Cadena_Tier_1.DisplayName: Control_ Cadena_ Tier_1
+	// RanaGolpeProjectile_Tier_4.DisplayName: Rana Golpe Projectile_ Tier_4
+	// MariposaGolpeProjectile_Tier_4.DisplayName: Mariposa Golpe Projectile_ Tier_4
+	// GOLDENSTAND_Tier_4.DisplayName: G O L D E N S T A N D_ Tier_4
+	// Golden_BarragePunch_Tier_4.DisplayName: Golden_ Barrage Punch_ Tier_4
+	// Arbol_Torre_Controller_Tier_4.DisplayName: Arbol_ Torre_ Controller_ Tier_4
+	// Arbol_Pieza_Tier_4.DisplayName: Arbol_ Pieza_ Tier_4
+	// RanaGolpeProjectile_Tier_3.DisplayName: Rana Golpe Projectile_ Tier_3
+	// MariposaGolpeProjectile_Tier_3.DisplayName: Mariposa Golpe Projectile_ Tier_3
+	// GOLDENSTAND_Tier_3.DisplayName: G O L D E N S T A N D_ Tier_3
+	// Golden_BarragePunch_Tier_3.DisplayName: Golden_ Barrage Punch_ Tier_3
+	// Arbol_Torre_Controller_Tier_3.DisplayName: Arbol_ Torre_ Controller_ Tier_3
+	// Arbol_Pieza_Tier_3.DisplayName: Arbol_ Pieza_ Tier_3
+	// RanaGolpeProjectile_Tier_2.DisplayName: Rana Golpe Projectile_ Tier_2
+	// GOLDENSTAND_Tier_2.DisplayName: G O L D E N S T A N D_ Tier_2
+	// Golden_BarragePunch_Tier_2.DisplayName: Golden_ Barrage Punch_ Tier_2
+	// Arbol_Torre_Controller_Tier_2.DisplayName: Arbol_ Torre_ Controller_ Tier_2
+	// Arbol_Pieza_Tier_2.DisplayName: Arbol_ Pieza_ Tier_2
+	// Arbol_Pieza.DisplayName: Arbol_ Pieza
+	// GOLDENSTAND_Tier_1.DisplayName: G O L D E N S T A N D_ Tier_1
+	// Golden_BarragePunch_Tier_1.DisplayName: Golden_ Barrage Punch_ Tier_1
+	// Arbol_Torre_Controller_Tier_1.DisplayName: Arbol_ Torre_ Controller_ Tier_1
+	// ReturnZeroAfterimage.DisplayName: Return Zero Afterimage
+	// GoldenRequiem_Laser.DisplayName: Golden Requiem_ Laser
+	// GOLDENSTAND_Requiem.DisplayName: G O L D E N S T A N D_ Requiem
+	// Golden_BarragePunch_Requiem.DisplayName: Golden_ Barrage Punch_ Requiem
+	// AnimalGolpeProjectile_Requiem.DisplayName: Animal Golpe Projectile_ Requiem
+	// D4CSTAND_Tier_4.DisplayName: D4 C S T A N D_ Tier_4
+	// D4CRedBridgeProjectile_Tier_4.DisplayName: D4 C Red Bridge Projectile_ Tier_4
+	// D4CMarcaBridgeProjectile_Tier_4.DisplayName: D4 C Marca Bridge Projectile_ Tier_4
+	// D4CClonExplosionProjectile_Tier_4.DisplayName: D4 C Clon Explosion Projectile_ Tier_4
+	// D4CAliadosBridgeProjectile_Tier_4.DisplayName: D4 C Aliados Bridge Projectile_ Tier_4
+	// D4CAliadoMeleeGolpeProjectile_Tier_4.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_4
+	// D4C_BarragePunch_Tier_4.DisplayName: D4 C_ Barrage Punch_ Tier_4
+	// D4CSTAND_Tier_3.DisplayName: D4 C S T A N D_ Tier_3
+	// D4CRedBridgeProjectile_Tier_3.DisplayName: D4 C Red Bridge Projectile_ Tier_3
+	// D4CMarcaBridgeProjectile_Tier_3.DisplayName: D4 C Marca Bridge Projectile_ Tier_3
+	// D4CClonExplosionProjectile_Tier_3.DisplayName: D4 C Clon Explosion Projectile_ Tier_3
+	// D4CAliadosBridgeProjectile_Tier_3.DisplayName: D4 C Aliados Bridge Projectile_ Tier_3
+	// D4CAliadoMeleeGolpeProjectile_Tier_3.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_3
+	// D4C_BarragePunch_Tier_3.DisplayName: D4 C_ Barrage Punch_ Tier_3
+	// D4CSTAND_Tier_2.DisplayName: D4 C S T A N D_ Tier_2
+	// D4CRedBridgeProjectile_Tier_2.DisplayName: D4 C Red Bridge Projectile_ Tier_2
+	// D4CMarcaBridgeProjectile_Tier_2.DisplayName: D4 C Marca Bridge Projectile_ Tier_2
+	// D4CClonExplosionProjectile_Tier_2.DisplayName: D4 C Clon Explosion Projectile_ Tier_2
+	// D4CAliadosBridgeProjectile_Tier_2.DisplayName: D4 C Aliados Bridge Projectile_ Tier_2
+	// D4CAliadoMeleeGolpeProjectile_Tier_2.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_2
+	// D4C_BarragePunch_Tier_2.DisplayName: D4 C_ Barrage Punch_ Tier_2
+	// D4CSTAND_Tier_1.DisplayName: D4 C S T A N D_ Tier_1
+	// D4CRedBridgeProjectile_Tier_1.DisplayName: D4 C Red Bridge Projectile_ Tier_1
+	// D4CMarcaBridgeProjectile_Tier_1.DisplayName: D4 C Marca Bridge Projectile_ Tier_1
+	// D4CAliadosBridgeProjectile_Tier_1.DisplayName: D4 C Aliados Bridge Projectile_ Tier_1
+	// D4CAliadoMeleeGolpeProjectile_Tier_1.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_1
+	// D4C_BarragePunch_Tier_1.DisplayName: D4 C_ Barrage Punch_ Tier_1
+	// CMOONSTAND_Tier_3.DisplayName: C M O O N S T A N D_ Tier_3
+	// CMoon_UltimateField_Tier_3.DisplayName: C Moon_ Ultimate Field_ Tier_3
+	// CMoon_ShockwaveAura_Tier_3.DisplayName: C Moon_ Shockwave Aura_ Tier_3
+	// CMoon_GravityAura_Tier_3.DisplayName: C Moon_ Gravity Aura_ Tier_3
+	// CMOON_BarragePunch.DisplayName: C M O O N_ Barrage Punch
+	// CMOONSTAND_Tier_2.DisplayName: C M O O N S T A N D_ Tier_2
+	// CMoon_ShockwaveAura_Tier_2.DisplayName: C Moon_ Shockwave Aura_ Tier_2
+	// CMoon_GravityAura_Tier_2.DisplayName: C Moon_ Gravity Aura_ Tier_2
+	// CMOON_BarragePunch_Tier_2.DisplayName: C M O O N_ Barrage Punch_ Tier_2
+	// CMOONSTAND_Tier_1.DisplayName: C M O O N S T A N D_ Tier_1
+	// CMoon_GravityAura_Tier_1.DisplayName: C Moon_ Gravity Aura_ Tier_1
+	// CMOON_BarragePunch_Tier_1.DisplayName: C M O O N_ Barrage Punch_ Tier_1
+	// CINDERELLASTAND_Tier_4.DisplayName: C I N D E R E L L A S T A N D_ Tier_4
+	// Cinderella_BarragePunch_Tier_4.DisplayName: Cinderella_ Barrage Punch_ Tier_4
+	// KatanaSlash_Tier_4.DisplayName: Katana Slash_ Tier_4
+	ANUBISSTAND_Tier_4.DisplayName: 阿努比斯 Tier 4
+	// KatanaSlash_Tier_3.DisplayName: Katana Slash_ Tier_3
+	// ANUBISSTAND_Tier_3.DisplayName: A N U B I S S T A N D_ Tier_3
+	// KatanaSlash_Tier_2.DisplayName: Katana Slash_ Tier_2
+	// ANUBISSTAND_Tier_2.DisplayName: A N U B I S S T A N D_ Tier_2
+	// KatanaSlash_Tier_1.DisplayName: Katana Slash_ Tier_1
+	// ANUBISSTAND_Tier_1.DisplayName: A N U B I S S T A N D_ Tier_1
+	// TimeStopAreaProj.DisplayName: Time Stop Area Proj
+	TheWorldNpcProj.DisplayName: 世界
+	StarPlatinumNpcProj.DisplayName: 白金之星
+	// HirofantGreenNpcProj.DisplayName: Hirofant Green Npc Proj
+	// EsmeraldaNpc_Tier_1.DisplayName: Esmeralda Npc_ Tier_1
+	// ProyectilCuchilloItem.DisplayName: Proyectil Cuchillo Item
+	FlechaStandProj.DisplayName: 替身之箭
+	WHITESNAKESTAND_Tier_4.DisplayName: 白蛇 Tier 4
+	WhiteSnake_BarragePunch_Tier_4.DisplayName: 白蛇 连续拳 Tier 4
+	Whitesnake_RastroSuelo_Tier_4.DisplayName: 白蛇 地面痕迹 Tier 4
+	Whitesnake_RastroPared_Tier_4.DisplayName: 白蛇 墙面痕迹 Tier 4
+	Whitesnake_GotaVomito_Tier_4.DisplayName: 白蛇 消化液 Tier 4
+	WHITESNAKESTAND_Tier_3.DisplayName: 白蛇 Tier 3
+	WhiteSnake_BarragePunch_Tier_3.DisplayName: 白蛇 连续拳 Tier 3
+	Whitesnake_RastroSuelo_Tier_3.DisplayName: 白蛇 地面痕迹 Tier 3
+	Whitesnake_RastroPared_Tier_3.DisplayName: 白蛇 墙面痕迹 Tier 3
+	Whitesnake_GotaVomito_Tier_3.DisplayName: 白蛇 消化液 Tier 3
+	WHITESNAKESTAND_Tier_2.DisplayName: 白蛇 Tier 2
+	WhiteSnake_BarragePunch_Tier_2.DisplayName: 白蛇 连续拳 Tier 2
+	Whitesnake_RastroSuelo_Tier_2.DisplayName: 白蛇 地面痕迹 Tier 2
+	Whitesnake_RastroPared_Tier_2.DisplayName: 白蛇 墙面痕迹 Tier 2
+	Whitesnake_GotaVomito_Tier_2.DisplayName: 白蛇 消化液 Tier 2
+	WHITESNAKESTAND_Tier_1.DisplayName: 白蛇 Tier 1
+	WhiteSnake_BarragePunch_Tier_1.DisplayName: 白蛇 连续拳 Tier 1
+	WEATHERSTAND_Tier_4.DisplayName: 天气预报 Tier 4
+	Weather_BarragePunch_Tier_4.DisplayName: 天气预报 连续拳 Tier 4
+	TornadoWeather_Tier_4.DisplayName: 天气龙卷风 Tier 4
+	Nube2_Tier_4.DisplayName: 云 2 Tier 4
+	Nube_1_Tier_4.DisplayName: 云朵 1 Tier 4
+	Gota_Tier_4.DisplayName: 雨滴 Tier 4
+	NubeCielo_Tier_4.DisplayName: 天空云 Tier 4
+	NubeCielo_Arcoiris_Tier_4.DisplayName: 天空彩虹云 Tier 4
+	WEATHERSTAND_Tier_3.DisplayName: 天气预报 Tier 3
+	Weather_BarragePunch_Tier_3.DisplayName: 天气预报 连续拳 Tier 3
+	TornadoWeather_Tier_3.DisplayName: 天气龙卷风 Tier 3
+	Nube2_Tier_3.DisplayName: 云 2 Tier 3
+	Nube_1_Tier_3.DisplayName: 云朵 1 Tier 3
+	Gota_Tier_3.DisplayName: 雨滴 Tier 3
+	NubeCielo_Tier_3.DisplayName: 天空云 Tier 3
+	WEATHERSTAND_Tier_2.DisplayName: 天气预报 Tier 2
+	Weather_BarragePunch_Tier_2.DisplayName: 天气预报 连续拳 Tier 2
+	TornadoWeather_Tier_2.DisplayName: 天气龙卷风 Tier 2
+	Nube2_Tier_2.DisplayName: 云 2 Tier 2
+	Nube_1_Tier_2.DisplayName: 云朵 1 Tier 2
+	Gota_Tier_2.DisplayName: 雨滴 Tier 2
+	WEATHERSTAND_Tier_1.DisplayName: 天气预报 Tier 1
+	Weather_BarragePunch_Tier_1.DisplayName: 天气预报 连续拳 Tier 1
+	Nube2_Tier_1.DisplayName: 云 2 Tier 1
+	Nube_1_Tier_1.DisplayName: 云朵 1 Tier 1
+	Gota_Tier_1.DisplayName: 雨滴 Tier 1
+	Cuchillo_Tier_4.DisplayName: 飞刀 Tier 4
+	TW_BarragePunch_Tier_3.DisplayName: 世界 连续拳 Tier 3
+	THEWORLDSTAND_Tier_3.DisplayName: 世界 Tier 3
+	Cuchillo_Tier_3.DisplayName: 飞刀 Tier 3
+	TW_BarragePunch_Tier_2.DisplayName: 世界 连续拳 Tier 2
+	THEWORLDSTAND_Tier_2.DisplayName: 世界 Tier 2
+	Cuchillo_Tier_2.DisplayName: 飞刀 Tier 2
+	SP_BarragePunch_Tier_4.DisplayName: 白金之星 连续拳 Tier 4
+	STARPLATINUMSTAND_Tier_3.DisplayName: 白金之星 Tier 3
+	SP_BarragePunch_Tier_3.DisplayName: 白金之星 连续拳 Tier 3
+	STARPLATINUMSTAND_Tier_2.DisplayName: 白金之星 Tier 2
+	SP_BarragePunch_Tier_2.DisplayName: 白金之星 连续拳 Tier 2
+	STARPLATINUMSTAND_Tier_1.DisplayName: 白金之星 Tier 1
+	SP_BarragePunch_Tier_1.DisplayName: 白金之星 连续拳 Tier 1
+	SLIVERCHARIOTSTAND_Tier_4.DisplayName: 银色战车 Tier 4
+	ShotChariot_Tier_4.DisplayName: 战车射击 Tier 4
+	Estocada_Tier_4.DisplayName: 突刺 Tier 4
+	ChariotClon_Tier_4.DisplayName: 战车残影 Tier 4
+	SLIVERCHARIOTSTAND_Tier_3.DisplayName: 银色战车 Tier 3
+	ShotChariot_Tier_3.DisplayName: 战车射击 Tier 3
+	Estocada_Tier_3.DisplayName: 突刺 Tier 3
+	ChariotClon_Tier_3.DisplayName: 战车残影 Tier 3
+	SLIVERCHARIOTSTAND_Tier_2.DisplayName: 银色战车 Tier 2
+	ShotChariot_Tier_2.DisplayName: 战车射击 Tier 2
+	Estocada_Tier_2.DisplayName: 突刺 Tier 2
+	SLIVERCHARIOTSTAND_Tier_1.DisplayName: 银色战车 Tier 1
+	ShotChariot_Tier_1.DisplayName: 战车射击 Tier 1
+	Estocada_Tier_1.DisplayName: 突刺 Tier 1
+	ZZZ_Visual.DisplayName: 睡眠特效
+	SILVERCHARIOTSTAND_Requiem.DisplayName: 银色战车 [镇魂曲]
+	SCR_BarragePunch_Requiem.DisplayName: 银色战车 连续拳 [镇魂曲]
+	SCR_AuraPasiva.DisplayName: 银色战车 [镇魂曲] 被动光环
+	SCR_Aura2.DisplayName: 银色战车 [镇魂曲] 光环 2
+	SCR_Aura.DisplayName: 银色战车 [镇魂曲] 光环
+	SHA_Minion_Tier_3.DisplayName: 枯萎穿心攻击 Tier 3
+	SHA_Minion_Tier_2.DisplayName: 枯萎穿心攻击 Tier 2
+	Tornado_Tier_4.DisplayName: 龙卷风 Tier 4
+	MAGICIANSREDSTAND_Tier_4.DisplayName: 魔术师之红 Tier 4
+	FuegoLanzallamas_Tier_4.DisplayName: 喷火器火焰 Tier 4
+	Fuego2_Tier_4.DisplayName: 火焰 2 Tier 4
+	Fuego1_Tier_4.DisplayName: 火焰 1 Tier 4
+	Tornado_Tier_3.DisplayName: 龙卷风 Tier 3
+	MAGICIANSREDSTAND_Tier_3.DisplayName: 魔术师之红 Tier 3
+	FuegoLanzallamas_Tier_3.DisplayName: 喷火器火焰 Tier 3
+	Fuego2_Tier_3.DisplayName: 火焰 2 Tier 3
+	Fuego1_Tier_3.DisplayName: 火焰 1 Tier 3
+	MAGICIANSREDSTAND_Tier_2.DisplayName: 魔术师之红 Tier 2
+	FuegoLanzallamas_Tier_2.DisplayName: 喷火器火焰 Tier 2
+	Fuego2_Tier_2.DisplayName: 火焰 2 Tier 2
+	Fuego1_Tier_2.DisplayName: 火焰 1 Tier 2
+	MAGICIANSREDSTAND_Tier_1.DisplayName: 魔术师之红 Tier 1
+	FuegoLanzallamas_Tier_1.DisplayName: 喷火器火焰 Tier 1
+	Fuego1_Tier_1.DisplayName: 火焰 1 Tier 1
+	MIHDashSkill.DisplayName: 天堂制造 冲刺技能
+	MIH_OmnidirectionalDash.DisplayName: 天堂制造 全向冲刺
+	MIH_BarragePunch.DisplayName: 天堂制造 连续拳
+	MADEINHEAVENSTAND.DisplayName: 天堂制造
+	MadeInHeaven_UltimateField.DisplayName: 天堂制造 终极领域
+	TimeErasedEffect_Tier_4.DisplayName: 时间消去特效 Tier 4
+	KingCrimsonTeleport_Tier_4.DisplayName: 绯红之王传送 Tier 4
+	KINGCRIMSONSTAND_Tier_4.DisplayName: 绯红之王 Tier 4
+	KingCrimsonShadow_Tier_4.DisplayName: 绯红之王残影 Tier 4
+	KingCrimsonHeavyTrail_Tier_4.DisplayName: 绯红之王重击拖尾 Tier 4
+	KingCrimsonHeavyAttack_Tier_4.DisplayName: 绯红之王重击 Tier 4
+	KingCrimsonBackgroundDrawer_Tier_4.DisplayName: 绯红之王背景 Tier 4
+	KC_BarragePunch_Tier_4.DisplayName: 绯红之王 连续拳 Tier 4
+	TimeErasedEffect_Tier_3.DisplayName: 时间消去特效 Tier 3
+	KingCrimsonTeleport_Tier_3.DisplayName: 绯红之王传送 Tier 3
+	KINGCRIMSONSTAND_Tier_3.DisplayName: 绯红之王 Tier 3
+	KingCrimsonShadow_Tier_3.DisplayName: 绯红之王残影 Tier 3
+	KingCrimsonHeavyTrail_Tier_3.DisplayName: 绯红之王重击拖尾 Tier 3
+	KingCrimsonHeavyAttack_Tier_3.DisplayName: 绯红之王重击 Tier 3
+	KingCrimsonBackgroundDrawer_Tier_3.DisplayName: 绯红之王背景 Tier 3
+	KC_BarragePunch_Tier_3.DisplayName: 绯红之王 连续拳 Tier 3
+	TimeErasedEffect_Tier_2.DisplayName: 时间消去特效 Tier 2
+	KINGCRIMSONSTAND_Tier_2.DisplayName: 绯红之王 Tier 2
+	KingCrimsonShadow_Tier_2.DisplayName: 绯红之王残影 Tier 2
+	KingCrimsonHeavyTrail_Tier_2.DisplayName: 绯红之王重击拖尾 Tier 2
+	KingCrimsonHeavyAttack_Tier_2.DisplayName: 绯红之王重击 Tier 2
+	KingCrimsonBackgroundDrawer_Tier_2.DisplayName: 绯红之王背景 Tier 2
+	KC_BarragePunch_Tier_2.DisplayName: 绯红之王 连续拳 Tier 2
+	KINGCRIMSONSTAND_Tier_1.DisplayName: 绯红之王 Tier 1
+	KingCrimsonHeavyTrail_Tier_1.DisplayName: 绯红之王重击拖尾 Tier 1
+	KingCrimsonHeavyAttack_Tier_1.DisplayName: 绯红之王重击 Tier 1
+	KingCrimsonBackgroundDrawer_Tier_1.DisplayName: 绯红之王背景 Tier 1
+	KC_BarragePunch_Tier_1.DisplayName: 绯红之王 连续拳 Tier 1
+	StrayCat_BOMBA_Tier_4.DisplayName: 猫草炸弹 Tier 4
+	KQ_BarragePunch_Tier_4.DisplayName: 杀手皇后 连续拳 Tier 4
+	BOMBA1_Tier_4.DisplayName: 炸弹 1 Tier 4
+	BitesTheDust_Explosion.DisplayName: 败者食尘爆炸
+	StrayCat_BOMBA_Tier_3.DisplayName: 猫草炸弹 Tier 3
+	KQ_BarragePunch_Tier_3.DisplayName: 杀手皇后 连续拳 Tier 3
+	KILLERQUEENSTAND_Tier_3.DisplayName: 杀手皇后 Tier 3
+	BOMBA1_Tier_3.DisplayName: 炸弹 1 Tier 3
+	KQ_BarragePunch_Tier_2.DisplayName: 杀手皇后 连续拳 Tier 2
+	KILLERQUEENSTAND_Tier_2.DisplayName: 杀手皇后 Tier 2
+	BOMBA1_Tier_2.DisplayName: 炸弹 1 Tier 2
+	KQ_BarragePunch_Tier_1.DisplayName: 杀手皇后 连续拳 Tier 1
+	KILLERQUEENSTAND_Tier_1.DisplayName: 杀手皇后 Tier 1
+	BOMBA1_Tier_1.DisplayName: 炸弹 1 Tier 1
+	JUSTICESTAND_Tier_4.DisplayName: 正义 Tier 4
+	Justice_Niebla.DisplayName: 正义 迷雾
+	Justice_HealingAura.DisplayName: 正义 治疗光环
+	HGreen_Aura_Tier_4.DisplayName: 绿之法皇 光环 Tier 4
+	Esmeralda_2_Tier_4.DisplayName: 翡翠 2 Tier 4
+	Cadena_Tier_4.DisplayName: 锁链 Tier 4
+	HGREENSTAND_Tier_4.DisplayName: 绿之法皇 Tier 4
+	Gancho_Tier_4_Cabeza.DisplayName: 钩爪 Tier 4 头部
+	Esmeralda_Tier_4.DisplayName: 翡翠 Tier 4
+	Esmeralda_3_Tier_4.DisplayName: 翡翠 3 Tier 4
+	Control_Cadena_Tier_4.DisplayName: 锁链控制 Tier 4
+	Esmeralda_4_Tier_4.DisplayName: 翡翠 4 Tier 4
+	HGreen_Aura_Tier_3.DisplayName: 绿之法皇 光环 Tier 3
+	Esmeralda_2_Tier_3.DisplayName: 翡翠 2 Tier 3
+	Cadena_Tier_3.DisplayName: 锁链 Tier 3
+	HGREENSTAND_Tier_3.DisplayName: 绿之法皇 Tier 3
+	Gancho_Tier_3_Cabeza.DisplayName: 钩爪 Tier 3 头部
+	Esmeralda_Tier_3.DisplayName: 翡翠 Tier 3
+	Esmeralda_3_Tier_3.DisplayName: 翡翠 3 Tier 3
+	Control_Cadena_Tier_3.DisplayName: 锁链控制 Tier 3
+	Esmeralda_4_Tier_3.DisplayName: 翡翠 4 Tier 3
+	HGREENSTAND_Tier_2.DisplayName: 绿之法皇 Tier 2
+	Gancho_Tier_2_Cabeza.DisplayName: 钩爪 Tier 2 头部
+	Esmeralda_Tier_2.DisplayName: 翡翠 Tier 2
+	Esmeralda_3_Tier_2.DisplayName: 翡翠 3 Tier 2
+	Control_Cadena_Tier_2.DisplayName: 锁链控制 Tier 2
+	Esmeralda_4_Tier_2.DisplayName: 翡翠 4 Tier 2
+	HGREENSTAND_Tier_1.DisplayName: 绿之法皇 Tier 1
+	Gancho_Tier_1_Cabeza.DisplayName: 钩爪 Tier 1 头部
+	Esmeralda_Tier_1.DisplayName: 翡翠 Tier 1
+	Esmeralda_3_Tier_1.DisplayName: 翡翠 3 Tier 1
+	Control_Cadena_Tier_1.DisplayName: 锁链控制 Tier 1
+	RanaGolpeProjectile_Tier_4.DisplayName: 青蛙攻击弹幕 Tier 4
+	MariposaGolpeProjectile_Tier_4.DisplayName: 蝴蝶攻击弹幕 Tier 4
+	GOLDENSTAND_Tier_4.DisplayName: 黄金体验 Tier 4
+	Golden_BarragePunch_Tier_4.DisplayName: 黄金体验 连续拳 Tier 4
+	Arbol_Torre_Controller_Tier_4.DisplayName: 树塔控制器 Tier 4
+	Arbol_Pieza_Tier_4.DisplayName: 树木碎片 Tier 4
+	RanaGolpeProjectile_Tier_3.DisplayName: 青蛙攻击弹幕 Tier 3
+	MariposaGolpeProjectile_Tier_3.DisplayName: 蝴蝶攻击弹幕 Tier 3
+	GOLDENSTAND_Tier_3.DisplayName: 黄金体验 Tier 3
+	Golden_BarragePunch_Tier_3.DisplayName: 黄金体验 连续拳 Tier 3
+	Arbol_Torre_Controller_Tier_3.DisplayName: 树塔控制器 Tier 3
+	Arbol_Pieza_Tier_3.DisplayName: 树木碎片 Tier 3
+	RanaGolpeProjectile_Tier_2.DisplayName: 青蛙攻击弹幕 Tier 2
+	GOLDENSTAND_Tier_2.DisplayName: 黄金体验 Tier 2
+	Golden_BarragePunch_Tier_2.DisplayName: 黄金体验 连续拳 Tier 2
+	Arbol_Torre_Controller_Tier_2.DisplayName: 树塔控制器 Tier 2
+	Arbol_Pieza_Tier_2.DisplayName: 树木碎片 Tier 2
+	Arbol_Pieza.DisplayName: 树木碎片
+	GOLDENSTAND_Tier_1.DisplayName: 黄金体验 Tier 1
+	Golden_BarragePunch_Tier_1.DisplayName: 黄金体验 连续拳 Tier 1
+	Arbol_Torre_Controller_Tier_1.DisplayName: 树塔控制器 Tier 1
+	ReturnZeroAfterimage.DisplayName: 归零残影
+	GoldenRequiem_Laser.DisplayName: 黄金体验 [镇魂曲] 激光
+	GOLDENSTAND_Requiem.DisplayName: 黄金体验 [镇魂曲]
+	Golden_BarragePunch_Requiem.DisplayName: 黄金体验 连续拳 [镇魂曲]
+	AnimalGolpeProjectile_Requiem.DisplayName: 动物攻击弹幕 [镇魂曲]
+	D4CSTAND_Tier_4.DisplayName: D4C Tier 4
+	D4CRedBridgeProjectile_Tier_4.DisplayName: D4C 红色桥梁弹幕 Tier 4
+	D4CMarcaBridgeProjectile_Tier_4.DisplayName: D4C 标记桥梁弹幕 Tier 4
+	D4CClonExplosionProjectile_Tier_4.DisplayName: D4C 克隆体爆炸弹幕 Tier 4
+	D4CAliadosBridgeProjectile_Tier_4.DisplayName: D4C 盟友桥梁弹幕 Tier 4
+	D4CAliadoMeleeGolpeProjectile_Tier_4.DisplayName: D4C 近战克隆体攻击弹幕 Tier 4
+	D4C_BarragePunch_Tier_4.DisplayName: D4C 连续拳 Tier 4
+	D4CSTAND_Tier_3.DisplayName: D4C Tier 3
+	D4CRedBridgeProjectile_Tier_3.DisplayName: D4C 红色桥梁弹幕 Tier 3
+	D4CMarcaBridgeProjectile_Tier_3.DisplayName: D4C 标记桥梁弹幕 Tier 3
+	D4CClonExplosionProjectile_Tier_3.DisplayName: D4C 克隆体爆炸弹幕 Tier 3
+	D4CAliadosBridgeProjectile_Tier_3.DisplayName: D4C 盟友桥梁弹幕 Tier 3
+	D4CAliadoMeleeGolpeProjectile_Tier_3.DisplayName: D4C 近战克隆体攻击弹幕 Tier 3
+	D4C_BarragePunch_Tier_3.DisplayName: D4C 连续拳 Tier 3
+	D4CSTAND_Tier_2.DisplayName: D4C Tier 2
+	D4CRedBridgeProjectile_Tier_2.DisplayName: D4C 红色桥梁弹幕 Tier 2
+	D4CMarcaBridgeProjectile_Tier_2.DisplayName: D4C 标记桥梁弹幕 Tier 2
+	D4CClonExplosionProjectile_Tier_2.DisplayName: D4C 克隆体爆炸弹幕 Tier 2
+	D4CAliadosBridgeProjectile_Tier_2.DisplayName: D4C 盟友桥梁弹幕 Tier 2
+	D4CAliadoMeleeGolpeProjectile_Tier_2.DisplayName: D4C 近战克隆体攻击弹幕 Tier 2
+	D4C_BarragePunch_Tier_2.DisplayName: D4C 连续拳 Tier 2
+	D4CSTAND_Tier_1.DisplayName: D4C Tier 1
+	D4CRedBridgeProjectile_Tier_1.DisplayName: D4C 红色桥梁弹幕 Tier 1
+	D4CMarcaBridgeProjectile_Tier_1.DisplayName: D4C 标记桥梁弹幕 Tier 1
+	D4CAliadosBridgeProjectile_Tier_1.DisplayName: D4C 盟友桥梁弹幕 Tier 1
+	D4CAliadoMeleeGolpeProjectile_Tier_1.DisplayName: D4C 近战克隆体攻击弹幕 Tier 1
+	D4C_BarragePunch_Tier_1.DisplayName: D4C 连续拳 Tier 1
+	CMOONSTAND_Tier_3.DisplayName: C-Moon Tier 3
+	CMoon_UltimateField_Tier_3.DisplayName: C-Moon 终极领域 Tier 3
+	CMoon_ShockwaveAura_Tier_3.DisplayName: C-Moon 冲击波光环 Tier 3
+	CMoon_GravityAura_Tier_3.DisplayName: C-Moon 重力光环 Tier 3
+	CMOON_BarragePunch.DisplayName: C-Moon 连续拳
+	CMOONSTAND_Tier_2.DisplayName: C-Moon Tier 2
+	CMoon_ShockwaveAura_Tier_2.DisplayName: C-Moon 冲击波光环 Tier 2
+	CMoon_GravityAura_Tier_2.DisplayName: C-Moon 重力光环 Tier 2
+	CMOON_BarragePunch_Tier_2.DisplayName: C-Moon 连续拳 Tier 2
+	CMOONSTAND_Tier_1.DisplayName: C-Moon Tier 1
+	CMoon_GravityAura_Tier_1.DisplayName: C-Moon 重力光环 Tier 1
+	CMOON_BarragePunch_Tier_1.DisplayName: C-Moon 连续拳 Tier 1
+	CINDERELLASTAND_Tier_4.DisplayName: 灰姑娘 Tier 4
+	Cinderella_BarragePunch_Tier_4.DisplayName: 灰姑娘 连续拳 Tier 4
+	KatanaSlash_Tier_4.DisplayName: 刀斩 Tier 4
+	KatanaSlash_Tier_3.DisplayName: 刀斩 Tier 3
+	ANUBISSTAND_Tier_3.DisplayName: 阿努比斯 Tier 3
+	KatanaSlash_Tier_2.DisplayName: 刀斩 Tier 2
+	ANUBISSTAND_Tier_2.DisplayName: 阿努比斯 Tier 2
+	KatanaSlash_Tier_1.DisplayName: 刀斩 Tier 1
+	ANUBISSTAND_Tier_1.DisplayName: 阿努比斯 Tier 1
+	TimeStopAreaProj.DisplayName: 时间停止区域弹幕
+	HirofantGreenNpcProj.DisplayName: 绿之法皇 NPC 弹幕
+	EsmeraldaNpc_Tier_1.DisplayName: 翡翠 NPC Tier 1
+	ProyectilCuchilloItem.DisplayName: 飞刀弹幕
+	BalasStand_Trayectoria.DisplayName: 替身子弹轨迹
+	DiarioExplosionProjectile.DisplayName: 日记爆炸弹幕
+	CinderellaArmaduraProj.DisplayName: 灰姑娘 护甲弹幕
+	CinderellaGHabilidadProj.DisplayName: 灰姑娘 G 技能弹幕
+	Cinderella_BarragePunch_Tier_3.DisplayName: 灰姑娘 连续拳 Tier 3
+	CINDERELLASTAND_Tier_3.DisplayName: 灰姑娘 Tier 3
+	Cinderella_BarragePunch_Tier_2.DisplayName: 灰姑娘 连续拳 Tier 2
+	CINDERELLASTAND_Tier_2.DisplayName: 灰姑娘 Tier 2
+	Cinderella_BarragePunch_Tier_1.DisplayName: 灰姑娘 连续拳 Tier 1
+	CINDERELLASTAND_Tier_1.DisplayName: 灰姑娘 Tier 1
+	CinderellaCuracionParticulasProj.DisplayName: 灰姑娘 治疗粒子弹幕
+	CinderellaCuracionAreaProj.DisplayName: 灰姑娘 治疗区域弹幕
+	CinderellaNpcProj.DisplayName: 灰姑娘 NPC 弹幕
+	CrazyDiamond_BarragePunch_Tier_4.DisplayName: 疯狂钻石 连续拳 Tier 4
+	CRAZYDIAMONDSTAND_Tier_4.DisplayName: 疯狂钻石 Tier 4
+	RocaProyectil.DisplayName: 岩石弹幕
+	EscudoRocaProyectil.DisplayName: 岩石护盾弹幕
+	CrazyDiamond_BarragePunch_Tier_1.DisplayName: 疯狂钻石 连续拳 Tier 1
+	CRAZYDIAMONDSTAND_Tier_1.DisplayName: 疯狂钻石 Tier 1
+	CrazyDiamond_BarragePunch_Tier_2.DisplayName: 疯狂钻石 连续拳 Tier 2
+	CRAZYDIAMONDSTAND_Tier_2.DisplayName: 疯狂钻石 Tier 2
+	CrazyDiamond_BarragePunch_Tier_3.DisplayName: 疯狂钻石 连续拳 Tier 3
+	CRAZYDIAMONDSTAND_Tier_3.DisplayName: 疯狂钻石 Tier 3
+	SilverChariotNpcProj.DisplayName: 银色战车 NPC 弹幕
+	ShotNpc.DisplayName: 银色战车 射击弹幕
+	GarraSlash_Tier_4.DisplayName: 爪击 Tier 4
+	MONSTERSTAND_Tier_4.DisplayName: 骇人恶兽 Tier 4
+	// MONSTERCLAW_Tier_4.DisplayName: M O N S T E R C L A W_ Tier_4
+	MiniDino.DisplayName: 迷你恐龙
+	// TransformedDino.DisplayName: Transformed Dino
+	// DinoInfectado.DisplayName: Dino Infectado
+	MONSTERSTAND_Tier_3.DisplayName: 骇人恶兽 Tier 3
+	GarraSlash_Tier_3.DisplayName: 爪击 Tier 3
+	GarraSlash_Tier_2.DisplayName: 爪击 Tier 2
+	MONSTERSTAND_Tier_2.DisplayName: 骇人恶兽 Tier 2
+	GarraSlash_Tier_1.DisplayName: 爪击 Tier 1
+	MONSTERSTAND_Tier_1.DisplayName: 骇人恶兽 Tier 1
+	// TUSKSTAND_Tier_1.DisplayName: T U S K S T A N D_ Tier_1
+	// TuskBala.DisplayName: Tusk Bala
+	// TuskEstela.DisplayName: Tusk Estela
+}
+
+NPCs: {
+	RanaVenenosa_Tier_4.DisplayName: 毒蛙 Tier 4
+	RanaVenenosa_Tier_3.DisplayName: 毒蛙 Tier 3
+	Rana_Refleja_Tier_4.DisplayName: 反射青蛙 Tier 4
+	Mariposa_Refleja_Tier_4.DisplayName: 反射蝴蝶 Tier 4
+	Rana_Refleja_Tier_3.DisplayName: 反射青蛙 Tier 3
+	Mariposa_Refleja_Tier_3.DisplayName: 反射蝴蝶 Tier 3
+	Rana_Refleja_Tier_2.DisplayName: 反射青蛙 Tier 2
+	RanaRequiem.DisplayName: 青蛙 [镇魂曲]
+	PajaroRequiem.DisplayName: 小鸟 [镇魂曲]
+	MariposaRequiem.DisplayName: 蝴蝶 [镇魂曲]
+	ClonJugadorNPC_Tier_4.DisplayName: 自爆克隆体 Tier 4
+	AliadoRangedNPC_Tier_4.DisplayName: 远程克隆体 Tier 4
+	AliadoMeleeNPC_Tier_4.DisplayName: 近战克隆体 Tier 4
+	ClonJugadorNPC_Tier_3.DisplayName: 自爆克隆体 Tier 3
+	AliadoRangedNPC_Tier_3.DisplayName: 远程克隆体 Tier 3
+	AliadoMeleeNPC_Tier_3.DisplayName: 近战克隆体 Tier 3
+	ClonJugadorNPC_Tier_2.DisplayName: 自爆克隆体 Tier 2
+	AliadoRangedNPC_Tier_2.DisplayName: 远程克隆体 Tier 2
+	AliadoMeleeNPC_Tier_2.DisplayName: 近战克隆体 Tier 2
+	AliadoRangedNPC_Tier_1.DisplayName: 远程克隆体 Tier 1
+	AliadoMeleeNPC_Tier_1.DisplayName: 近战克隆体 Tier 1
+
+	Jotaro: {
+		TownNPCMood: {
+			Princess_LovesNPC: 我喜欢 {NPCName}。
+			LikeNPC_Princess: 我喜欢 {NPCName}。
+			HateBiome: 我讨厌 {BiomeName} 生物群落。
+			LoveBiome: 我热爱 {BiomeName} 生物群落。
+			HateCrowded: 我讨厌这里太拥挤。
+			DislikeCrowded: 我不喜欢拥挤的环境。
+			LoveSpace: 我喜欢这里有这么宽敞的空间。
+			FarFromHome: 我离家太远了。
+			NoHome: 我讨厌没有房子住。
+			Content: 我现在很满意。
+		}
+
+		DisplayName: 空条承太郎
+	}
+
+	Roca.DisplayName: 岩石
+	TransformedDinoNPC.DisplayName: 变身恐龙 NPC
+}
+
+Items: {
+	WhiteSnakeItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/2B4EAD:右键点击]) [c/2B4EAD:记忆碟片]：将替身附于敌人身上，使其短时间内失去移动与攻击能力
+			普通敌人失效 [c/2B4EAD:10] 秒，Boss 失效 [c/2B4EAD:7] 秒
+			​​
+			([c/2B4EAD:1]) [c/2B4EAD:消化毒雾]：产生附着于表面的液体，造成持续伤害并降低速度。
+			（减速效果随阶级提升）
+			​​
+			([c/2B4EAD:2]) [c/2B4EAD:远程模式]：进入使用枪械射击的模式。 
+			（武器伤害同时受远程伤害和替身伤害加成）。
+			'''
+		DisplayName: 白蛇 Tier 4
+	}
+
+	WhiteSnakeItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/2B4EAD:右键点击]) [c/2B4EAD:记忆碟片]：将替身附于敌人身上，使其短时间内失去移动与攻击能力
+			普通敌人失效 [c/2B4EAD:9] 秒，Boss 失效 [c/2B4EAD:6] 秒
+			​​
+			([c/2B4EAD:1]) [c/2B4EAD:消化毒雾]：产生附着于表面的液体，造成持续伤害并降低速度。
+			（减速效果随阶级提升）
+			​​
+			([c/2B4EAD:2]) [c/2B4EAD:远程模式]：进入使用枪械射击的模式。 
+			（武器伤害同时受远程伤害和替身伤害加成）。
+			'''
+		DisplayName: 白蛇 Tier 3
+	}
+
+	WhiteSnakeItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/2B4EAD:右键点击]) [c/2B4EAD:记忆碟片]：将替身附于敌人身上，使其短时间内失去移动与攻击能力
+			普通敌人失效 [c/2B4EAD:8] 秒，Boss 失效 [c/2B4EAD:5] 秒
+			​​
+			([c/2B4EAD:1]) [c/2B4EAD:消化毒雾]：产生附着于表面的液体，造成持续伤害并降低速度。
+			（减速效果随阶级提升）
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 白蛇 Tier 2
+	}
+
+	WhiteSnakeItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/2B4EAD:右键点击]) [c/2B4EAD:记忆碟片]：将替身附于敌人身上，使其短时间内失去移动与攻击能力
+			普通敌人失效 [c/2B4EAD:7] 秒，Boss 失效 [c/2B4EAD:4] 秒
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 白蛇 Tier 1
+	}
+
+	WeatherReportItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/FA4f80:右键点击]) [c/FA4f80:细雨]：召唤 [c/FA4f80:5] 朵能发射强力水滴的云
+			​​
+			[c/FA4f80:2]) [c/FA4f80:龙卷风]：强劲的气流，可卷走部分敌人
+			​​
+			[c/FA4f80:3]) [c/FA4f80:毒蛙雨]：引发一场接触即剧毒的毒蛙雨      
+			​​
+			[c/FA4f80:4]) [c/FA4f80:狂风暴雨]：若敌人生命值低于 40%，将自动死亡并变为蜗牛。（对 Boss 为 5%）
+			'''
+		DisplayName: 天气预报 Tier 4
+	}
+
+	WeatherReportItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/FA4f80:右键点击]) [c/FA4f80:细雨]：召唤 [c/FA4f80:4] 朵能发射强力水滴的云
+			​​
+			[c/FA4f80:2]) [c/FA4f80:龙卷风]：强劲的气流，可卷走部分敌人
+			​​
+			[c/FA4f80:3]) [c/FA4f80:毒蛙雨]：引发一场接触即剧毒的毒蛙雨      
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 天气预报 Tier 3
+	}
+
+	WeatherReportItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/FA4f80:右键点击]) [c/FA4f80:细雨]：召唤 [c/FA4f80:3] 朵能发射强力水滴的云
+			​​
+			[c/FA4f80:2]) [c/FA4f80:龙卷风]：强劲的气流，可卷走部分敌人
+			​​
+			[c/000000:3) ???]      
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 天气预报 Tier 2
+	}
+
+	WeatherReportItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/FA4f80:右键点击]) [c/FA4f80:细雨]：召唤 [c/FA4f80:2] 朵能发射强力水滴的云
+			​​
+			[c/000000:3) ???]
+			​​
+			[c/000000:3) ???]    
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 天气预报 Tier 1
+	}
+
+	TheWorldItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/FFD700:1]) [c/FFD700:时间停止]：停止时间 9 秒。
+			​​
+			[c/FFD700:2]) [c/FFD700:飞刀投掷]：连续发射 3 轮飞刀，每轮 6 把。
+			​​
+			[c/FFD700:3]) [c/FFD700:时间跳跃]：传送至鼠标位置。  
+			'''
+		DisplayName: 世界 Tier 4
+	}
+
+	TheWorldItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/FFD700:1]) [c/FFD700:时间停止]：停止时间 7 秒。
+			​​
+			[c/FFD700:2]) [c/FFD700:飞刀投掷]：连续发射 3 轮飞刀，每轮 4 把。
+			​​
+			[c/FFD700:3]) [c/FFD700:时间跳跃]：传送至鼠标位置。  
+			'''
+		DisplayName: 世界 Tier 3
+	}
+
+	TheWorldItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/FFD700:1]) [c/FFD700:时间停止]：停止时间 5 秒。
+			​​
+			[c/FFD700:2]) [c/FFD700:飞刀投掷]：连续发射 2 轮飞刀，每轮 3 把。
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 世界 Tier 2
+	}
+
+	TheWorldItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/FFD700:1]) [c/FFD700:时间停止]：停止时间 2 秒。
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 世界 Tier 1
+	}
+
+	StarPlatinumItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/9F39C9:1]) [c/9F39C9:流星指刺]：伸长白金之星的手指以增加攻击范围。
+			​​
+			[c/9F39C9:2]) [c/9F39C9:呀嘞呀嘞……]：在 15 秒内提升 20% 伤害。
+			​​
+			[c/9F39C9:3]) [c/9F39C9:时间停止]：停止时间 [c/9F39C9:6] 秒。              
+			'''
+		DisplayName: 白金之星 Tier 4
+	}
+
+	StarPlatinumItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/9F39C9:1]) [c/9F39C9:流星指刺]：伸长白金之星的手指以增加攻击范围。
+			​​
+			[c/9F39C9:2]) [c/9F39C9:呀嘞呀嘞……]：在 15 秒内提升 15% 伤害。
+			​​
+			[c/9F39C9:3]) [c/9F39C9:时间停止]：停止时间 [c/9F39C9:4] 秒。              
+			'''
+		DisplayName: 白金之星 Tier 3
+	}
+
+	StarPlatinumItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/9F39C9:1]) [c/9F39C9:流星指刺]：伸长白金之星的手指以增加攻击范围。
+			​​
+			[c/9F39C9:2]) [c/9F39C9:呀嘞呀嘞……]：在 15 秒内提升 10% 伤害。
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 白金之星 Tier 2
+	}
+
+	StarPlatinumItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/9F39C9:1]) [c/9F39C9:流星指刺]：伸长白金之星的手指以增加攻击范围。
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]          
+			'''
+		DisplayName: 白金之星 Tier 1
+	}
+
+	SilverChariotItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/9EBFEC:1]) [c/9EBFEC:刺突射击]：高速射出细剑，弹跳 10 次并穿透敌人。
+			​​
+			[c/9EBFEC:2]) [c/9EBFEC:格挡防守]：进入格挡姿态，摧毁靠近的任何敌方弹幕。
+			​​
+			[c/9EBFEC:3]) [c/9EBFEC:银色残影]：生成 7 个银色战车残影进行高速攻击。（期间无法使用其他技能）
+			'''
+		DisplayName: 银色战车 Tier 4
+	}
+
+	SilverChariotItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/9EBFEC:1]) [c/9EBFEC:刺突射击]：高速射出细剑，弹跳 8 次并穿透敌人。
+			​​
+			[c/9EBFEC:2]) [c/9EBFEC:格挡防守]：进入格挡姿态，摧毁靠近的任何敌方弹幕。
+			​​
+			[c/9EBFEC:3]) [c/9EBFEC:银色残影]：生成 7 个银色战车残影进行高速攻击。（期间无法使用其他技能）
+			'''
+		DisplayName: 银色战车 Tier 3
+	}
+
+	SilverChariotItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/9EBFEC:1]) [c/9EBFEC:刺突射击]：高速射出细剑，弹跳 6 次并穿透敌人。
+			​​
+			[c/9EBFEC:2]) [c/9EBFEC:格挡防守]：进入格挡姿态，摧毁靠近的任何敌方弹幕。
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 银色战车 Tier 2
+	}
+
+	SilverChariotItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/9EBFEC:1]) [c/9EBFEC:刺突射击]：高速射出细剑，弹跳 4 次并穿透敌人。
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 银色战车 Tier 1
+	}
+
+	SilverChariotRequiemItem_Requiem: {
+		Tooltip:
+			'''
+			([c/5913D5:被动技能]) [c/5913D5:暗黑光环]：每 20 秒对附近所有生物施加银色战车镇魂曲的减益效果。
+			​​
+			[c/5913D5:1]) [c/5913D5:镇魂意志]：使区域内的所有实体陷入沉睡。受到伤害时会醒来。
+			​​
+			[c/5913D5:2]) [c/5913D5:灵魂异变]：在大范围内持续施加减益效果，包括：
+			敌人减速 50%、防御降低 50%、变异出血。
+			​​
+			[c/5913D5:3]) [c/5913D5:暗影反射]：任何针对战车镇魂曲的攻击都会自动反射给攻击者。
+			'''
+		DisplayName: 银色战车镇魂曲 Tier Requiem
+	}
+
+	RikaItem: {
+		Tooltip:
+			'''
+			[c/C493C7:1]) 大家都别动。
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 里香 Tier Final
+	}
+
+	MRedItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/F14F14:右键点击]) [c/F14F14:炽热吐息]：喷射持续的火焰，灼烧所触及的一切。
+			​​
+			[c/F14F14:1]) [c/F14F14:火焰操控]：在使用者周围生成安卡十字架区域。结束后十字架将飞向敌人。
+			​​
+			[c/F14F14:2]) [c/F14F14:十字火焰飓风]：生成强力的火焰风暴，造成高额伤害。
+			'''
+		DisplayName: 魔术师之红 Tier 4
+	}
+
+	MRedItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/F14F14:右键点击]) [c/F14F14:炽热吐息]：喷射持续的火焰，灼烧所触及的一切。
+			​​
+			[c/F14F14:1]) [c/F14F14:火焰操控]：在使用者周围生成安卡十字架区域。结束后十字架将飞向敌人。
+			​​
+			[c/F14F14:2]) [c/F14F14:十字火焰飓风]：生成强力的火焰风暴，造成高额伤害。
+			'''
+		DisplayName: 魔术师之红 Tier 3
+	}
+
+	MRedItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/F14F14:右键点击]) [c/F14F14:炽热吐息]：喷射持续的火焰，灼烧所触及的一切。
+			​​
+			[c/F14F14:1]) [c/F14F14:火焰操控]：在使用者周围生成安卡十字架区域。结束后十字架将飞向敌人。
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: 魔术师之红 Tier 2
+	}
+
+	MRedItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/F14F14:右键点击]) [c/F14F14:炽热吐息]：喷射持续的火焰，灼烧所触及的一切。
+			​​
+			[c/000000:1) ???]
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: 魔术师之红 Tier 1
+	}
+
+	MadeInHeavenItem: {
+		Tooltip:
+			'''
+			[c/74FCFC:1]) [c/74FCFC:超高速]：极速冲刺，穿透并伤害路径上的所有目标
+			​​
+			[c/74FCFC:2]) [c/74FCFC:闪电步]：形成一个区域并在其中高速移动，快速穿透多个敌人
+			​​
+			[c/74FCFC:3]) [c/74FCFC:时间加速]：时间流逝越快，“超高速”技能的冷却时间缩短得越多         
+			'''
+		DisplayName: 天堂制造 Tier Final
+	}
+
+	KingCrimsonItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/FB2E74:右键点击]) [c/FB2E74:穿胸重击]：贯穿敌人的强力一击。
+			​​
+			[c/FB2E74:1]) [c/FB2E74:墓志铭]：预测敌人可能的位置，并为使用者提供 1 次必定回避。
+			​​
+			[c/FB2E74:2]) [c/FB2E74:时间删除]：使用者变为虚体，在此期间实体自由移动并留下残影。
+			技能结束或取消时，实体将返回起点并沿原路线移动。
+			时间删除结束后，[c/FB2E74:穿胸重击]将获得 [c/FB2E74:10倍伤害] 持续 1.67 秒。          
+			​​
+			[c/FB2E74:3]) [c/FB2E74:时间跳跃]：进行传送并使附近的生物陷入混乱。
+			'''
+		DisplayName: 绯红之王 Tier 4
+	}
+
+	KingCrimsonItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/FB2E74:右键点击]) [c/FB2E74:穿胸重击]：贯穿敌人的强力一击。
+			​​
+			[c/FB2E74:1]) [c/FB2E74:墓志铭]：预测敌人可能的位置，并为使用者提供 1 次必定回避。
+			​​
+			[c/FB2E74:2]) [c/FB2E74:时间删除]：使用者变为虚体，在此期间实体自由移动并留下残影。
+			技能结束或取消时，实体将返回起点并沿原路线移动。
+			时间删除结束后，[c/FB2E74:穿胸重击]将获得 [c/FB2E74:8倍伤害] 持续 1.67 秒。          
+			​​
+			[c/FB2E74:3]) [c/FB2E74:时间跳跃]：进行传送并使附近的生物陷入混乱。
+			'''
+		DisplayName: 绯红之王 Tier 3
+	}
+
+	KingCrimsonItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/FB2E74:右键点击]) [c/FB2E74:穿胸重击]：贯穿敌人的强力一击。
+			​​
+			[c/FB2E74:1]) [c/FB2E74:墓志铭]：预测敌人可能的位置，并为使用者提供 1 次必定回避。
+			​​
+			[c/FB2E74:2]) [c/FB2E74:时间删除]：使用者变为虚体，在此期间实体自由移动并留下残影。
+			技能结束或取消时，实体将返回起点并沿原路线移动。
+			时间删除结束后，[c/FB2E74:穿胸重击]将获得 [c/FB2E74:6倍伤害] 持续 1.67 秒。          
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 绯红之王 Tier 2
+	}
+
+	KingCrimsonItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/FB2E74:右键点击]) [c/FB2E74:穿胸重击]：贯穿敌人的强力一击。
+			​​
+			[c/FB2E74:1]) [c/FB2E74:墓志铭]：预测敌人可能的位置，并为使用者提供 1 次必定回避。
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 绯红之王 Tier 1
+	}
+
+	KillerQueenItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/EB87D4:右键点击]) [c/EB87D4:炸弹转化]："右键点击"在方块或实体上安放炸弹，再次点击引爆。
+			​​
+			[c/EB87D4:1]) [c/EB87D4:第二炸弹]：召唤枯萎穿心攻击持续 24 秒。
+			​​
+			[c/EB87D4:2]) [c/EB87D4:炸弹气泡]：制造一个具有高伤害和大范围的爆炸气泡，随时按相同按键引爆。
+			​​
+			[c/EB87D4:3]) [c/EB87D4:败者食尘！]：在实体上安放缩小版的杀手皇后。技能将在以下情况触发：
+			当濒临死亡时自动触发并恢复至预触发生命值，倒计时结束或手动激活。使你和实体回到过去的位置并在 10 秒内产生连续爆炸。
+			'''
+		DisplayName: 杀手皇后 Tier 4
+	}
+
+	KillerQueenItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/EB87D4:右键点击]) [c/EB87D4:炸弹转化]："右键点击"在方块或实体上安放炸弹，再次点击引爆。
+			​​
+			[c/EB87D4:1]) [c/EB87D4:第二炸弹]：召唤枯萎穿心攻击持续 22 秒。
+			​​
+			[c/EB87D4:2]) [c/EB87D4:炸弹气泡]：制造一个具有高伤害和大范围的爆炸气泡，随时按相同按键引爆。
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 杀手皇后 Tier 3
+	}
+
+	KillerQueenItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/EB87D4:右键点击]) [c/EB87D4:炸弹转化]："右键点击"在方块或实体上安放炸弹，再次点击引爆。
+			​​
+			[c/EB87D4:1]) [c/EB87D4:第二炸弹]：召唤枯萎穿心攻击持续 20 秒。
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 杀手皇后 Tier 2
+	}
+
+	KillerQueenItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/EB87D4:右键点击]) [c/EB87D4:炸弹转化]："右键点击"在方块或实体上安放炸弹，再次点击引爆。
+			​​
+			[c/000000:1) ???]
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 杀手皇后 Tier 1
+	}
+
+	JusticeItem_Tier_4: {
+		Tooltip: ""
+		DisplayName: 正义 Tier 4
+	}
+
+	HGreenItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/2DCE22:抓钩]：（抓钩按键）仅当背包中没有装备抓钩或装备时生效
+			​​
+			[c/2DCE22:1]) [c/2DCE22:傀儡]：向敌人发射多条锁链使其定身并可拖拽敌人
+			​​
+			[c/2DCE22:2]) [c/2DCE22:绿宝石散射]：向四周散射会弹跳的翡翠
+			​​
+			[c/2DCE22:3]) [c/2DCE22:绿宝石水花！]：形成翡翠结界线，接触时伤害敌人
+			'''
+		DisplayName: 绿之法皇 Tier 4
+	}
+
+	HGreenItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/2DCE22:抓钩]：（抓钩按键）仅当背包中没有装备抓钩或装备时生效
+			​​
+			[c/2DCE22:1]) [c/2DCE22:傀儡]：向敌人发射多条锁链使其定身并可拖拽敌人
+			​​
+			[c/2DCE22:2]) [c/2DCE22:绿宝石散射]：向四周散射会弹跳的翡翠
+			​​
+			[c/2DCE22:3]) [c/2DCE22:绿宝石水花！]：形成翡翠结界线，接触时伤害敌人
+			'''
+		DisplayName: 绿之法皇 Tier 3
+	}
+
+	HGreenItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/2DCE22:抓钩]：（抓钩按键）仅当背包中没有装备抓钩或装备时生效
+			​​
+			[c/2DCE22:1]) [c/2DCE22:傀儡]：向敌人发射多条锁链使其定身并可拖拽敌人
+			​​
+			[c/2DCE22:2]) [c/2DCE22:绿宝石散射]：向四周散射会弹跳的翡翠
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 绿之法皇 Tier 2
+	}
+
+	HGreenItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/2DCE22:抓钩]：（抓钩按键）仅当背包中没有装备抓钩或装备时生效
+			​​
+			[c/2DCE22:1]) [c/2DCE22:傀儡]：向敌人发射多条锁链使其定身并可拖拽敌人
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 绿之法皇 Tier 1
+	}
+
+	GoldenItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/FBD45F:右键点击]) [c/FBD45F:复苏]：向使用者注入生命能量，回复 [c/FBD45F:22] 点生命值                 
+			​​
+			[c/FBD45F:1]) [c/FBD45F:赋予生命]：加速植物生长以伤害敌人
+			​​
+			[c/FBD45F:2]) [c/FBD45F:伤害反射]：召唤一只具有 [c/FBD45F:80] 点接触伤害的青蛙，并额外反射所受伤害的 [c/FBD45F:100%]
+			​​
+			[c/FBD45F:3]) [c/FBD45F:蝴蝶军团]：召唤一大群具有接触伤害的蝴蝶，并反射 [c/FBD45F:40%] 的伤害
+			'''
+		DisplayName: 黄金体验 Tier 4
+	}
+
+	GoldenItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/FBD45F:右键点击]) [c/FBD45F:复苏]：向使用者注入生命能量，回复 [c/FBD45F:22] 点生命值                 
+			​​
+			[c/FBD45F:1]) [c/FBD45F:赋予生命]：加速植物生长以伤害敌人
+			​​
+			[c/FBD45F:2]) [c/FBD45F:伤害反射]：召唤一只具有 [c/FBD45F:65] 点接触伤害的青蛙，并额外反射所受伤害的 [c/FBD45F:70%]
+			​​
+			[c/FBD45F:3]) [c/FBD45F:蝴蝶军团]：召唤一大群具有接触伤害的蝴蝶，并反射 [c/FBD45F:30%] 的伤害
+			'''
+		DisplayName: 黄金体验 Tier 3
+	}
+
+	GoldenItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/FBD45F:右键点击]) [c/FBD45F:复苏]：向使用者注入生命能量，回复 [c/FBD45F:22] 点生命值
+			​​
+			[c/FBD45F:1]) [c/FBD45F:赋予生命]：加速植物生长以伤害敌人
+			​​
+			[c/FBD45F:2]) [c/FBD45F:伤害反射]：召唤一只具有 [c/FBD45F:65] 点接触伤害的青蛙，并额外反射所受伤害的 [c/FBD45F:50%]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 黄金体验 Tier 2
+	}
+
+	GoldenItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/FBD45F:右键点击]) [c/FBD45F:复苏]：向使用者注入生命能量，回复 [c/FBD45F:22] 点生命值                 
+			​​
+			[c/FBD45F:1]) [c/FBD45F:赋予生命]：加速植物生长以伤害敌人
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: 黄金体验 Tier 1
+	}
+
+	GoldenItem_Requiem: {
+		Tooltip: 尚未制作完成，所以... 技能 1 和 3 也许可以使用，但可能会有些 Bug。
+		DisplayName: 黄金体验镇魂曲 Tier Final
+	}
+
+	D4CItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/EB4196:右键点击]) [c/EB4196:标记]：标记一名敌人，使你的克隆体对其发起攻击。
+			​​
+			[c/EB4196:1]) [c/EB4196:另一个我]：召唤 [c/EB4196:4] 个近战克隆体和 [c/EB4196:4] 个远程克隆体。
+			​​
+			[c/EB4196:2]) [c/EB4196:献祭]：召唤 [c/EB4196:3] 个奔向敌人并自爆的克隆体。
+			​​
+			[c/EB4196:3]) [c/EB4196:口袋维度]：进入一个无人能够攻击你的口袋维度。
+			'''
+		DisplayName: D4C Tier 4
+	}
+
+	D4CItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/EB4196:右键点击]) [c/EB4196:标记]：标记一名敌人，使你的克隆体对其发起攻击。
+			​​
+			[c/EB4196:1]) [c/EB4196:另一个我]：召唤 [c/EB4196:3] 个近战克隆体和 [c/EB4196:3] 个远程克隆体。
+			​​
+			[c/EB4196:2]) [c/EB4196:献祭]：召唤 [c/EB4196:2] 个奔向敌人并自爆的克隆体。
+			​​
+			[c/EB4196:3]) [c/EB4196:口袋维度]：进入一个无人能够攻击你的口袋维度。
+			'''
+		DisplayName: D4C Tier 3
+	}
+
+	D4CItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/EB4196:右键点击]) [c/EB4196:标记]：标记一名敌人，使你的克隆体对其发起攻击。
+			​​
+			[c/EB4196:1]) [c/EB4196:另一个我]：召唤 [c/EB4196:2] 个近战克隆体和 [c/EB4196:2] 个远程克隆体。
+			​​
+			[c/EB4196:2]) [c/EB4196:献祭]：召唤 [c/EB4196:1] 个奔向敌人并自爆的克隆体。
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: D4C Tier 2
+	}
+
+	D4CItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/EB4196:右键点击]) [c/EB4196:标记]：标记一名敌人，使你的克隆体对其发起攻击。
+			​​
+			[c/EB4196:1]) [c/EB4196:另一个我]：召唤 [c/EB4196:1] 个近战克隆体和 [c/EB4196:1] 个远程克隆体。
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: D4C Tier 1
+	}
+
+	CMoonItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/2ABF59:W 键]) [c/2ABF59:反向重力]：永久保持重力颠倒增益。
+			​​
+			[c/2ABF59:1]) [c/2ABF59:地表反转]：掀起敌人并将其猛砸向地面。
+			​​
+			[c/2ABF59:2]) [c/2ABF59:排斥力场]：释放冲击波击退敌人。 
+			​​
+			[c/2ABF59:3]) [c/2ABF59:失重领域]：取消大范围内敌人的重力。
+			'''
+		DisplayName: C-Moon Tier 3
+	}
+
+	CMoonItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/2ABF59:W 键]) [c/2ABF59:反向重力]：永久保持重力颠倒增益。
+			​​
+			[c/2ABF59:1]) [c/2ABF59:地表反转]：掀起敌人并将其猛砸向地面。
+			​​
+			[c/2ABF59:2]) [c/2ABF59:排斥力场]：释放冲击波击退敌人。 
+
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: C-Moon Tier 2
+	}
+
+	CMoonItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/2ABF59:W 键]) [c/2ABF59:反向重力]：永久保持重力颠倒增益。
+			​​
+			[c/2ABF59:1]) [c/2ABF59:地表反转]：掀起敌人并将其猛砸向地面。
+			​​
+			[c/000000:2) ???] 
+
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: C-Moon Tier 1
+	}
+
+	CinderellaItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/F389B2:被动]): 对命中的敌人施加 ''毁容 IV'' 减益效果（-30% 防御 / 18% 减速）
+			​​
+			[c/F389B2:1]) [c/F389B2:治疗]: 在范围内恢复法力和生命值，同时也影响其他玩家
+			​​
+			[c/F389B2:2]) [c/F389B2:衣柜]: 允许玩家随时改变自己的外观
+			​​
+			[c/F389B2:3]) [c/F389B2:面部替换]: 短时间内改变你的外观。对附近敌人施加毁容和混乱效果
+			'''
+		DisplayName: 灰姑娘 Tier 4
+	}
+
+	AnubisItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/BA55D3:1]) 阿努比斯的记忆... ([c/BA55D3:被动技能])
+			[c/BA55D3:每次击败敌人都会获得灵魂，灵魂会半永久提升伤害。]
+			[c/BA55D3:• (敌人生命＜300)：] [c/BA55D3:+0.2% 伤害]
+			[c/BA55D3:• (敌人生命≥300)：] [c/1E90FF:+0.4% 伤害]                                                         
+			[c/BA55D3:• (敌人生命≥800)：] [c/FF69B4:+0.6% 伤害]                                                   
+			[c/BA55D3:• Boss：] [c/FFD700:+1.4% 伤害] 
+			[c/F75973:死亡或卸下时进度将完全丢失]
+			[c/F75973:替换为其它等级的阿努比斯替身时将取最大击杀数。]
+			'''
+		DisplayName: 阿努比斯 Tier 4
+	}
+
+	AnubisItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/BA55D3:1]) 阿努比斯的记忆... ([c/BA55D3:被动技能])
+			[c/BA55D3:每次击败敌人都会获得灵魂，灵魂会半永久提升伤害。]
+			[c/BA55D3:• (敌人生命＜300)：] [c/BA55D3:+0.2% 伤害]
+			[c/BA55D3:• (敌人生命≥300)：] [c/1E90FF:+0.4% 伤害]                                                         
+			[c/BA55D3:• (敌人生命≥800)：] [c/FF69B4:+0.6% 伤害]                                                   
+			[c/BA55D3:• Boss：] [c/FFD700:+1.4% 伤害] 
+			[c/F75973:死亡或卸下时进度将完全丢失]
+			[c/F75973:替换为其它等级的阿努比斯替身时将取最大击杀数。]
+			'''
+		DisplayName: 阿努比斯 Tier 3
+	}
+
+	AnubisItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/BA55D3:1]) 阿努比斯的记忆... ([c/BA55D3:被动技能])
+			[c/BA55D3:每次击败敌人都会获得灵魂，灵魂会半永久提升伤害。]
+			[c/BA55D3:• (敌人生命＜200)：] [c/BA55D3:+0.2% 伤害]
+			[c/BA55D3:• (敌人生命≥200)：] [c/1E90FF:+0.4% 伤害]                                                         
+			[c/BA55D3:• Boss：] [c/FFD700:+1.4% 伤害] 
+			[c/F75973:死亡或卸下时进度将完全丢失]
+			[c/F75973:替换为其它等级的阿努比斯替身时将取最大击杀数。]
+			'''
+		DisplayName: 阿努比斯 Tier 2
+	}
+
+	AnubisItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/BA55D3:1]) 阿努比斯的记忆... ([c/BA55D3:被动技能])
+			[c/BA55D3:每次击败敌人都会获得灵魂，灵魂会半永久提升伤害。]
+			[c/BA55D3:• (所有敌人)：] [c/BA55D3:+0.2% 伤害]
+			[c/BA55D3:• Boss：] [c/FFD700:+1.0% 伤害] 
+			[c/F75973:死亡或卸下时进度将完全丢失]
+			[c/F75973:替换为其它等级的阿努比斯替身时将取最大击杀数。]
+			'''
+		DisplayName: 阿努比斯 Tier 1
+	}
+
+	Voluntad_Tenebrosa: {
+		Tooltip: 用于升级替身的物品
+		DisplayName: 暗黑意志
+	}
+
+	Voluntad_Soberano: {
+		Tooltip: 用于升级替身的物品
+		DisplayName: 君王意志
+	}
+
+	Voluntad_Siniestra: {
+		Tooltip: 用于升级替身的物品
+		DisplayName: 阴险意志
+	}
+
+	Voluntad_Malvada: {
+		Tooltip: 用于升级替身的物品
+		DisplayName: 邪恶意志
+	}
+
+	Voluntad_Justa: {
+		Tooltip: 用于升级替身的物品
+		DisplayName: 正义意志
+	}
+
+	Voluntad_Conquistador: {
+		Tooltip: 用于升级替身的物品
+		DisplayName: 征服者意志
+	}
+
+	Voluntad_Bondadosa: {
+		Tooltip: 用于升级替身的物品
+		DisplayName: 善良意志
+	}
+
+	Voluntad_Basica: {
+		Tooltip: 用于升级替身的物品
+		DisplayName: 意志
+	}
+
+	Voluntad_Ardiente: {
+		Tooltip: 用于升级替身的物品
+		DisplayName: 炽热意志
+	}
+
+	UniversalCritAmulet: {
+		Tooltip: 调试 调试 调试
+		DisplayName: 通用暴击护符
+	}
+
+	SuperPotenciador: {
+		Tooltip: ""
+		DisplayName: 超级强化剂
+	}
+
+	ItemVelocidad2: {
+		Tooltip: 提升替身攻击速度 2 级（可叠加）。
+		DisplayName: 白金之星手套
+	}
+
+	ItemVelocidad1: {
+		Tooltip: 提升替身攻击速度 1 级（可叠加）。
+		DisplayName: 拳击手套
+	}
+
+	ItemMovilidad2: {
+		Tooltip: 增加 20% 替身移动范围（可叠加）
+		DisplayName: 作用域戒指 II
+	}
+
+	ItemMovilidad1: {
+		Tooltip: 增加 10% 替身移动范围（可叠加）
+		DisplayName: 作用域戒指 I
+	}
+
+	ItemCooldown3_Debug: {
+		Tooltip: ""
+		DisplayName: 物品冷却 3（调试）
+	}
+
+	ItemCooldown3_2: {
+		Tooltip: 缩短技能 3 的冷却时间 20%（可叠加）
+		DisplayName: 冷却戒指 III 2 阶
+	}
+
+	ItemCooldown3_1: {
+		Tooltip: 缩短技能 3 的冷却时间 15%（可叠加）
+		DisplayName: 冷却戒指 III 1 阶
+	}
+
+	ItemCooldown2_Debug: {
+		Tooltip: ""
+		DisplayName: 物品冷却 2（调试）
+	}
+
+	ItemCooldown2_2: {
+		Tooltip: 缩短技能 2 的冷却时间 20%（可叠加）
+		DisplayName: 冷却戒指 II 2 阶
+	}
+
+	ItemCooldown2_1: {
+		Tooltip: 缩短技能 2 的冷却时间 10%（可叠加）
+		DisplayName: 冷却戒指 II 1 阶
+	}
+
+	ItemCooldown1_Debug: {
+		Tooltip: ""
+		DisplayName: 物品冷却 1（调试）
+	}
+
+	ItemCooldown1_2: {
+		Tooltip: 缩短技能 1 的冷却时间 20%（可叠加）
+		DisplayName: 冷却戒指 I 2 阶
+	}
+
+	ItemCooldown1_1: {
+		Tooltip: 缩短技能 1 的冷却时间 15%（可叠加）
+		DisplayName: 冷却戒指 I 1 阶
+	}
+
+	EmblemaDeStand: {
+		Tooltip: 增加 15% 替身伤害
+		DisplayName: 替身徽章
+	}
+
+	Npc_Killer: {
+		Tooltip: 获取村民灵魂的最佳途径
+		DisplayName: 献祭之刃
+	}
+
+	FlechaStand: {
+		Tooltip: 若击中任何活物，将赋予其箭矢的力量
+		DisplayName: 替身之箭
+	}
+
+	BalasStand: {
+		Tooltip: 每颗子弹有 0.5% 的概率赋予被击中者替身能力... 你确定要使用它们吗？
+		DisplayName: 奇异陨石子弹
+	}
+
+	MineralMeteoritoJojo: {
+		Tooltip: ""
+		DisplayName: 稀有陨石矿
+	}
+
+	LingoteMeteoritoJojo: {
+		Tooltip: ""
+		DisplayName: 奇异陨石锭
+	}
+
+	GreenBaby: {
+		Tooltip: 一个散发着奇特能量的神秘绿色婴儿。也许会与某种替身产生反应...
+		DisplayName: 绿色婴儿
+	}
+
+	FundaAnubis: {
+		Tooltip: 增加阿努比斯 10% 的体积
+		DisplayName: 阿努比斯刀鞘
+	}
+
+	FlechaStandMejorada: {
+		Tooltip: "[c/EDE49D:在被选中者心中唤醒强大替身之力]"
+		DisplayName: 强化替身之箭
+	}
+
+	Flecha_Stand_Fragmento: {
+		Tooltip: 从中散发出一股奇异的力量
+		DisplayName: 箭的碎片
+	}
+
+	Flecha_Stand: {
+		Tooltip: "[c/EDE49D:在被选中者心中唤醒替身之力]"
+		DisplayName: 神秘箭矢
+	}
+
+	Flecha_Requiem: {
+		Tooltip:
+			'''
+			[c/2ABF59:如果拥有足够的信念，它将实现使用者的意志。]
+			可能会对以下对象产生反应：
+			[c/9EBFEC:银色战车] Tier 3 或 Tier 4
+			[c/EDB845:黄金体验] Tier 3 或 Tier 4
+			'''
+		DisplayName: 镇魂曲之箭
+	}
+
+	DiarioDIO: {
+		Tooltip:
+			'''
+			包含通往[c/FADE41:“天堂”]的指引。
+			[c/0FDBFA:«超越苍穹与云端，唤醒天国之力。»]
+			也许能与完全发育的替身发生反应...
+			'''
+		DisplayName: 神秘日记
+	}
+
+	DetonadorMejorado: {
+		Tooltip: ""
+		DisplayName: 强化引爆器
+	}
+
+	CuchilloItem: {
+		Tooltip: 抹果酱的绝佳选择
+		DisplayName: 飞刀
+	}
+
+	TheWorld_Red: {
+		Tooltip: 获得暗影世界的外观
+		DisplayName: 暗影世界染料
+	}
+
+	TheWorld_Green: {
+		Tooltip: "[c/8EE6A3:获得绿色世界的外观]"
+		DisplayName: "[c/3FAF5A:世界 绿色染料]"
+	}
+
+	TheWorld_Blue: {
+		Tooltip: "[c/8EC9FF:获得蓝色世界的外观]"
+		DisplayName: "[c/4A90E2:世界 蓝色染料]"
+	}
+
+	StarPlatinum_Red: {
+		Tooltip: 获得红色白金之星的外观
+		DisplayName: 白金之星 红色染料
+	}
+
+	StarPlatinum_Green: {
+		Tooltip: 获得第4部白金之星的外观
+		DisplayName: 白金之星第4部染料
+	}
+
+	StarPlatinum_Blue: {
+		Tooltip: 获得第6部白金之星的外观
+		DisplayName: 白金之星第6部染料
+	}
+
+	RedSkin: {
+		Tooltip: 这是彩蛋梗吗？？
+		DisplayName: 阿努比斯 红色染料
+	}
+
+	OVASkin: {
+		Tooltip: 获得白金之星 OVA 的外观
+		DisplayName: 白金之星 OVA 染料
+	}
+
+	MeguminSkin: {
+		Tooltip: 获得惠惠的外观
+		DisplayName: 杀手皇后 惠惠染料
+	}
+
+	MagiciansRed_Pink: {
+		Tooltip: "[c/FFB6D9:获得具有粉焰的魔术师之红外观]"
+		DisplayName: 魔术师之红 粉焰染料
+	}
+
+	MagiciansRed_Green: {
+		Tooltip: "[c/8EE6A3:获得具有绿焰的魔术师之红外观]"
+		DisplayName: 魔术师之红 绿焰染料
+	}
+
+	MagiciansRed_Blue: {
+		Tooltip: "[c/8FD3FF:获得具有硫磺蓝焰的魔术师之红外观]"
+		DisplayName: 魔术师之红 蓝焰染料
+	}
+
+	KillerQueen_Red: {
+		Tooltip: "[c/F28B82:获得红色杀手皇后的外观]"
+		DisplayName: "[c/CB3A3A:杀手皇后 红色染料]"
+	}
+
+	KillerQueen_Green: {
+		Tooltip: "[c/8EE6A3:获得绿色杀手皇后的外观]"
+		DisplayName: "[c/3FAF5A:杀手皇后 绿色染料]"
+	}
+
+	KillerQueen_Blue: {
+		Tooltip: "[c/8EC9FF:获得蓝色杀手皇后的外观]"
+		DisplayName: "[c/4A90E2:杀手皇后 蓝色染料]"
+	}
+
+	GreenSkin: {
+		Tooltip: 阿努比斯的绿色版本
+		DisplayName: 阿努比斯 绿色染料
+	}
+
+	GoldenSkin: {
+		Tooltip: 获得银色战车 OVA 的外观
+		DisplayName: 银色战车 OVA 染料
+	}
+
+	BlueSkin: {
+		Tooltip: 阿努比斯的蓝色版本
+		DisplayName: 阿努比斯 蓝色染料
+	}
+
+	BlackCrimsonSkin: {
+		Tooltip: "[c/B084D6:获得腐化帝王的外观！]"
+		DisplayName: 绯红之王 腐化染料
+	}
+
+	Meteoro_Peto: {
+		Tooltip: 增加 4% 替身伤害
+		DisplayName: 奇异陨石胸甲
+	}
+
+	Meteoro_Pantalones: {
+		Tooltip: 增加 3% 替身伤害
+		DisplayName: 奇异陨石护腿
+	}
+
+	Meteoro_Gorra: {
+		Tooltip: 增加 2% 替身伤害
+		DisplayName: 奇异陨石头盔
+	}
+
+	Jotaro_6_Peto: {
+		Tooltip:
+			'''
+			增加 2% 替身范围
+			增加 8% 替身伤害
+			'''
+		DisplayName: 老兵风衣
+	}
+
+	Jotaro_6_Pantalones: {
+		Tooltip:
+			'''
+			增加 2% 替身范围
+			增加 8% 替身伤害
+			'''
+		DisplayName: 老兵长裤
+	}
+
+	Jotaro_6_Gorra: {
+		Tooltip:
+			'''
+			增加 2% 替身范围
+			增加 9% 替身伤害
+			'''
+		DisplayName: 老兵帽
+	}
+
+	Jotaro_4_Peto: {
+		Tooltip:
+			'''
+			增加 1% 替身范围
+			增加 5% 替身伤害
+			'''
+		DisplayName: 生物学家大衣
+	}
+
+	Jotaro_4_Pantalones: {
+		Tooltip:
+			'''
+			增加 1% 替身范围
+			增加 5% 替身伤害
+			'''
+		DisplayName: 生物学家长裤
+	}
+
+	Jotaro_4_Gorra: {
+		Tooltip:
+			'''
+			增加 2% 替身范围
+			增加 5% 替身伤害
+			'''
+		DisplayName: 生物学家帽
+	}
+
+	Jotaro_3_Peto: {
+		Tooltip: 增加 2% 替身伤害
+		DisplayName: 学生制服
+	}
+
+	Jotaro_3_Pantalones: {
+		Tooltip: 增加 2% 替身伤害
+		DisplayName: 学生长裤
+	}
+
+	Jotaro_3_Gorra: {
+		Tooltip: 增加 2% 替身伤害
+		DisplayName: 学生帽
+	}
+
+	Chariot_Requiem_Peto: {
+		Tooltip:
+			'''
+			增加 6% 替身范围
+			增加 2% 替身伤害
+			'''
+		DisplayName: 镇魂曲胸甲
+	}
+
+	Chariot_Requiem_Pantalones: {
+		Tooltip:
+			'''
+			增加 6% 替身范围
+			增加 2% 替身伤害
+			'''
+		DisplayName: 镇魂曲护腿
+	}
+
+	Chariot_Requiem_Gorra: {
+		Tooltip:
+			'''
+			增加 8% 替身范围
+			增加 2% 替身伤害
+			'''
+		DisplayName: 战车镇魂曲帽子
+	}
+
+	Alma_Npc: {
+		Tooltip: 人类的本质
+		DisplayName: 灵魂
+	}
+
+	CinderellaItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/F389B2:被动]): 对命中的敌人施加 ''毁容 III'' 减益效果（-20% 防御 / 15% 减速）
+			​​
+			[c/F389B2:1]) [c/F389B2:治疗]: 在范围内恢复法力和生命值，同时也影响其他玩家
+			​​
+			[c/F389B2:2]) [c/F389B2:衣柜]: 允许玩家随时改变自己的外观
+			​​
+			[c/F389B2:3]) [c/F389B2:面部替换]: 短时间内改变你的外观。对附近敌人施加毁容和混乱效果
+			'''
+		DisplayName: 灰姑娘 Tier 3
+	}
+
+	CinderellaItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/F389B2:被动]): 对命中的敌人施加 ''毁容 II'' 减益效果（-15% 防御 / 10% 减速）
+			​​
+			[c/F389B2:1]) [c/F389B2:治疗]: 在范围内恢复法力和生命值，同时也影响其他玩家
+			​​
+			[c/F389B2:2]) [c/F389B2:衣柜]: 允许玩家随时改变自己的外观
+			​​
+			[c/F389B2:3]) [c/F389B2:面部替换]: 短时间内改变你的外观。对附近敌人施加毁容和混乱效果
+			'''
+		DisplayName: 灰姑娘 Tier 2
+	}
+
+	CinderellaItem_Tier_1: {
+		DisplayName: 灰姑娘 Tier 1
+		Tooltip:
+			'''
+			([c/F389B2:被动]): 对命中的敌人施加 ''毁容 I'' 减益效果（-10% 防御 / 5% 减速）
+			​​
+			[c/F389B2:1]) [c/F389B2:治疗]: 在范围内恢复法力和生命值，同时也影响其他玩家
+			​​
+			[c/F389B2:2]) [c/F389B2:衣柜]: 允许玩家随时改变自己的外观
+			​​
+			[c/000000:3) ???]
+			'''
+	}
+
+	CrazyDiamondItem_Tier_4: {
+		DisplayName: 疯狂钻石 Tier 4
+		Tooltip:
+			'''
+			[c/77CCF1:1]) [c/77CCF1:变身模式]: 如果你攻击敌人足够长的时间，你会将其与一块石头融合，并对其造成 [c/77CCF1:6x] 伤害
+			​​
+			([c/77CCF1:被动]): [c/77CCF1:恢复]: 可以治疗其他玩家和生物
+			​​
+			([c/77CCF1:被动]): [c/77CCF1:解构]: 如果你攻击地上的物品，它将恢复为原始的制作材料
+			​​​​
+			[c/77CCF1:2]) [c/77CCF1:石盾]: 形成一个由 [c/77CCF1:18] 块石头组成的护盾，保护使用者免受投射物和物理攻击
+			'''
+	}
+
+	CrazyDiamondItem_Tier_1: {
+		DisplayName: 疯狂钻石 Tier 1
+		Tooltip:
+			'''
+			[c/77CCF1:1]) [c/77CCF1:变身模式]:如果你攻击敌人足够长的时间，你会将其与一块石头融合，并对其造成[c/77CCF1:x3]伤害
+			​​
+			[c/77CCF1:被动]) [c/77CCF1:恢复]:可以治疗其他玩家和生物。
+			​​
+			[c/77CCF1:被动]) [c/77CCF1:解构]:如果你攻击地上的物品，它将恢复为原始的制作材料
+			​​
+			[c/000000:2) ???]
+			'''
+	}
+
+	CrazyDiamondItem_Tier_2: {
+		DisplayName: 疯狂钻石 Tier 2
+		Tooltip:
+			'''
+			[c/77CCF1:1]) [c/77CCF1:变身模式]:如果你攻击敌人足够长的时间，你会将其与一块石头融合，并对其造成[c/77CCF1:x4]伤害
+			​​
+			[c/77CCF1:被动]) [c/77CCF1:恢复]:可以治疗其他玩家和生物。
+			​​
+			[c/77CCF1:被动]) [c/77CCF1:解构]:如果你攻击地上的物品，它将恢复为原始的制作材料
+			​​
+			[c/77CCF1:2]) [c/77CCF1:石盾]:形成一个由[c/77CCF1:10]块石头组成的护盾，保护使用者免受投射物和物理攻击
+			'''
+	}
+
+	CrazyDiamondItem_Tier_3: {
+		DisplayName: 疯狂钻石 Tier 3
+		Tooltip:
+			'''
+			[c/77CCF1:1]) [c/77CCF1:变身模式]:如果你攻击敌人足够长的时间，你会将其与一块石头融合，并对其造成[c/77CCF1:x5]伤害
+			​​
+			[c/77CCF1:被动]) [c/77CCF1:恢复]:可以治疗其他玩家和生物。
+			​​
+			[c/77CCF1:被动]) [c/77CCF1:解构]:如果你攻击地上的物品，它将恢复为原始的制作材料
+			​​
+			[c/77CCF1:2]) [c/77CCF1:石盾]:形成一个由[c/77CCF1:15]块石头组成的护盾，保护使用者免受投射物和物理攻击
+			'''
+	}
+
+	ScaryMonstersItem_Tier_4: {
+		DisplayName: 骇人恶兽 Tier 4
+		Tooltip:
+			'''
+			[c/00A5FF:被动]) [c/00A5FF:暴虐病毒]: 抓伤会使敌人感染暴虐病毒。经过 [c/00A5FF:7] 秒后，敌人会变成一只恐龙，为你效力并传播感染
+			变身后的恐龙拥有 [c/00A5FF:20] 点替身伤害，其生命值计算方式为：
+			[c/00A5FF:210] + 被变身敌人的生命值。
+			​​
+			[c/00A5FF:被动]) [c/00A5FF:鳞甲]: 你的变身身体使你获得 [c/00A5FF:10%] 额外伤害和 [c/00A5FF:25%] 额外速度
+			​​
+			[c/00A5FF:1]) [c/00A5FF:恐虐危机]: 召唤 [c/00A5FF:4] 只恐龙保护你，并造成 [c/00A5FF:35] 点替身伤害
+			​​
+			[c/00A5FF:2]) [c/00A5FF:觉醒]: 你将完全变身并获得更远的攻击范围。此外，如果你使用「恐虐危机」技能，将召唤 [c/00A5FF:5] 只恐龙
+			'''
+	}
+
+	ScaryMonstersItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/00A5FF:被动]) [c/00A5FF:暴虐病毒]: 抓伤会使敌人感染暴虐病毒。经过 [c/00A5FF:8] 秒后，敌人会变成一只恐龙，为你效力并传播感染
+			变身后的恐龙拥有 [c/00A5FF:15] 点替身伤害，其生命值计算方式为：
+			[c/00A5FF:160] + 被变身敌人的生命值。
+			​​
+			[c/00A5FF:被动]) [c/00A5FF:鳞甲]: 你的变身身体使你获得 [c/00A5FF:9%] 额外伤害和 [c/00A5FF:20%] 额外速度
+			​​
+			[c/00A5FF:1]) [c/00A5FF:恐虐危机]: 召唤 [c/00A5FF:3] 只恐龙保护你，并造成 [c/00A5FF:25] 点替身伤害
+			​​
+			[c/00A5FF:2]) [c/00A5FF:觉醒]: 你将完全变身并获得更远的攻击范围。此外，如果你使用「恐虐危机」技能，将召唤 [c/00A5FF:4] 只恐龙
+			'''
+		DisplayName: 骇人恶兽 Tier 3
+	}
+
+	ScaryMonstersItem_Tier_2: {
+		DisplayName: 骇人恶兽 Tier 2
+		Tooltip:
+			'''
+			[c/00A5FF:被动]) [c/00A5FF:暴虐病毒]: 抓伤会使敌人感染暴虐病毒。经过 [c/00A5FF:9] 秒后，敌人会变成一只恐龙，为你效力并传播感染
+			变身后的恐龙拥有 [c/00A5FF:10] 点替身伤害，其生命值计算方式为：
+			[c/00A5FF:120] + 被变身敌人的生命值。
+			​​
+			[c/00A5FF:被动]) [c/00A5FF:鳞甲]: 你的变身身体使你获得 [c/00A5FF:7%] 额外伤害和 [c/00A5FF:15%] 额外速度
+			​​
+			[c/00A5FF:1]) [c/00A5FF:恐虐危机]: 召唤 [c/00A5FF:2] 只恐龙保护你，并造成 [c/00A5FF:15] 点替身伤害
+			[c/000000:2) ???]
+			'''
+	}
+
+	ScaryMonstersItem_Tier_1: {
+		DisplayName: 骇人恶兽 Tier 1
+		Tooltip:
+			'''
+			[c/00A5FF:被动]) [c/00A5FF:暴虐病毒]: 抓伤会使敌人感染暴虐病毒。经过 [c/00A5FF:10] 秒后，敌人会变成一只恐龙，为你效力并传播感染
+			变身后的恐龙拥有 [c/00A5FF:5] 点替身伤害，其生命值计算方式为：
+			[c/00A5FF:60] + 被变身敌人的生命值。
+			​​
+			[c/00A5FF:被动]) [c/00A5FF:鳞甲]: 你的变身身体使你获得 [c/00A5FF:5%] 额外伤害和 [c/00A5FF:10%] 额外速度
+			​​
+			[c/000000:1) ???]
+			​​
+			[c/000000:2) ???]
+			'''
+	}
+
+	TuskItem_Tier_1: {
+		DisplayName: Tusk Tier 1 (仅限第1幕)
+		Tooltip:
+			'''
+			[c/EE79D1:1]) [c/EE79D1:爪击]: (鼠标右键) 以极高的速度发射一枚爪子
+			​​
+			[c/EE79D1:1.1]) [c/EE79D1:蓄力爪击]: (按住鼠标右键) 发射一枚威力更强且能够穿透敌人的爪子
+			​​
+			[c/EE79D1:1.2]) [c/EE79D1:霰弹枪]: (鼠标左键) 一次性将整个弹匣以低精度的连发方式射出
+			'''
+	}
+
+	SacoDeBalas: {
+		// DisplayName: Saco De Balas
+		// Tooltip: ""
+	}
+}
+
+Buffs: {
+	AmnesiaDebuff: {
+		Description: 在何处？在何时？
+		DisplayName: 失忆减益
+	}
+
+	AmnesiaCooldownDebuff: {
+		Description: 在何处？在何时？
+		DisplayName: 失忆减益
+	}
+
+	AmnesiaCooldown: {
+		Description: 在何处？在何时？
+		DisplayName: 失忆减益
+	}
+
+	AcidoBlancoDebuff_Tier_4: {
+		Description: 消化性强酸
+		DisplayName: 白色胃酸
+	}
+
+	AcidoBlancoDebuff_Tier_3: {
+		Description: 消化性强酸
+		DisplayName: 白色胃酸
+	}
+
+	AcidoBlancoDebuff_Tier_2: {
+		Description: 消化性强酸
+		DisplayName: 白色胃酸
+	}
+
+	Veneno_Tier_4: {
+		Description: 毒素 Tier 4
+		DisplayName: 毒素 Tier 4
+	}
+
+	Veneno_Tier_3: {
+		Description: 毒素 Tier 3
+		DisplayName: 毒素 Tier 3
+	}
+
+	DuracionLluvia: {
+		Description: 气候变化？
+		DisplayName: 毒蛙雨
+	}
+
+	DuracionArcoiris: {
+		Description: 彩虹时长
+		DisplayName: 绚丽多彩的力量！
+	}
+
+	TimeStoped: {
+		Description: 除了你以外，没有人能够移动。
+		DisplayName: 时间停止
+	}
+
+	PlatinumRage_Tier_4: {
+		Description: 提升 20% 替身伤害
+		DisplayName: 真是够了...
+	}
+
+	PlatinumRage_Tier_3: {
+		Description: 提升 15% 替身伤害
+		DisplayName: 真是够了...
+	}
+
+	PlatinumRage_Tier_2: {
+		Description: 提升 10% 替身伤害
+		DisplayName: 真是够了...
+	}
+
+	SuenoProfundoDebuff: {
+		Description: Zzz... Zzz...
+		DisplayName: 沉睡
+	}
+
+	SuenoProfundo: {
+		Description: Zzz... Zzz...
+		DisplayName: 沉睡
+	}
+
+	RequiemSangradoDebuff: {
+		Description: 流血
+		DisplayName: 流血
+	}
+
+	RequiemLentitudDebuff: {
+		Description: 减速
+		DisplayName: 减速
+	}
+
+	RequiemDebilidadDebuff: {
+		Description: 虚弱
+		DisplayName: 虚弱
+	}
+
+	ReflejoOscuroBuff: {
+		Description: 反射伤害
+		DisplayName: 我自己的影子
+	}
+
+	AuraCaoticaBuff: {
+		Description: 灵魂异变
+		DisplayName: 灵魂异变
+	}
+
+	SilverDefensa: {
+		Description: 准备格挡！
+		DisplayName: 铁壁防御
+	}
+
+	SilverClones: {
+		Description: 我这是重影了吗？不... 怎么有三个？不...
+		DisplayName: 银色分身
+	}
+
+	MagiciansFire2: {
+		Description: 熔化挡在前方的一切。
+		DisplayName: 安卡之火
+	}
+
+	MagiciansFire_Tier_4: {
+		Description: 熔化挡在前方的一切。
+		DisplayName: 安卡之火
+	}
+
+	MagiciansFire_Tier_3: {
+		Description: 熔化挡在前方的一切。
+		DisplayName: 安卡之火
+	}
+
+	MagiciansFire_Tier_2: {
+		Description: 熔化挡在前方的一切。
+		DisplayName: 安卡之火
+	}
+
+	MagiciansFire_Tier_1: {
+		Description: 熔化挡在前方的一切。
+		DisplayName: 安卡之火
+	}
+
+	ResetUniversal: {
+		Description: 更快，再更快！
+		DisplayName: 时间加速
+	}
+
+	TimeErased: {
+		Description: 你们皆是我沉睡的奴隶
+		DisplayName: 时间删除
+	}
+
+	PrediccionKingCrimson: {
+		Description: 我已经预见到了命运！
+		DisplayName: 绯红之王预判
+	}
+
+	EpitaphVision: {
+		Description: 我已经预见到了命运！
+		DisplayName: 墓志铭
+	}
+
+	Donut2: {
+		Description: ""
+		DisplayName: 穿胸重击 II
+	}
+
+	Donut1: {
+		Description: 大幅提升伤害
+		DisplayName: 穿胸重击
+	}
+
+	SHA_Buff_Tier_4: {
+		Description: 召唤枯萎穿心攻击
+		DisplayName: 第二炸弹
+	}
+
+	SHA_Buff_Tier_3: {
+		Description: 召唤枯萎穿心攻击
+		DisplayName: 第二炸弹
+	}
+
+	SHA_Buff_Tier_2: {
+		Description: 召唤枯萎穿心攻击
+		DisplayName: 第二炸弹
+	}
+
+	KQ_BitesTheDust_Buff_Tier4: {
+		Description: 0 目击者...
+		DisplayName: 败者食尘！
+	}
+
+	BitesTheDustBuff: {
+		Description: 0 目击者...
+		DisplayName: 败者食尘！
+	}
+
+	ControlMental1: {
+		Description: ...
+		DisplayName: ...
+	}
+
+	ReturnToZero: {
+		Description: 归零
+		DisplayName: 无人能够触及你...
+	}
+
+	Curacion: {
+		Description: 治疗冷却
+		DisplayName: 赋予生命
+	}
+
+	DespertandoStandMejorado: {
+		Description: 一股强大的能量从你体内涌出...
+		DisplayName: 强化替身觉醒
+	}
+
+	DespertandoStand: {
+		Description: 一股奇特的力量从你体内涌出...
+		DisplayName: 觉醒替身
+	}
+
+	D4CGhostMode: {
+		Description: 前往专属的维度空间
+		DisplayName: 口袋维度
+	}
+
+	Cooldown3: {
+		Description: 无法使用技能 III...
+		DisplayName: 冷却时间 III
+	}
+
+	Cooldown2: {
+		Description: 无法使用技能 II...
+		DisplayName: 冷却时间 II
+	}
+
+	Cooldown1: {
+		Description: 无法使用技能 I...
+		DisplayName: 冷却时间 I
+	}
+
+	GravedadDesactivada: {
+		Description: 禁用重力
+		DisplayName: 失重状态
+	}
+
+	DesfiguradoDebuff: {
+		Description: 防御力与移动速度降低。
+		DisplayName: 毁容减益
+	}
+
+	CD: {
+		Description: 无法使用任何技能...
+		DisplayName: 全局冷却
+	}
+
+	BleedingCustom: {
+		Description: 飞刀造成的伤口
+		DisplayName: 飞刀流血
+	}
+
+	Desorientado: {
+		// DisplayName: Desorientado
+		// Description: Mods.Jojo.Buffs.Desorientado.Description
+	}
+
+	CinderellaArmaduraOcultaBuff: {
+		// DisplayName: Cinderella Armadura Oculta Buff
+		// Description: Mods.Jojo.Buffs.CinderellaArmaduraOcultaBuff.Description
+	}
+
+	RevitalizanteBuff: {
+		// DisplayName: Revitalizante Buff
+		// Description: Mods.Jojo.Buffs.RevitalizanteBuff.Description
+	}
+
+	FromaDinoBuff: {
+		// DisplayName: Froma Dino Buff
+		// Description: Mods.Jojo.Buffs.FromaDinoBuff.Description
+	}
+
+	Fosilizacion: {
+		DisplayName: 石化
+		Description: 骇人恶兽的最大潜能
+	}
+
+	DinoVirus: {
+		DisplayName: 暴虐病毒
+		Description: 感染中，倒计时结束后将变成恐龙并为你效力
+	}
+}
+
+Tiles.MineralMeteoritoJojoTile.MapEntry: 奇异陨石矿
+DamageClasses.ClaseStand.DisplayName: 替身伤害
+
+Keybinds: {
+	"Stand Skill F.DisplayName": 替身技能 F (1)
+	"Stand Skill G.DisplayName": 替身技能 G (2)
+	"Stand Skill H.DisplayName": 替身技能 H (3)
+	"Toggle Auto Mode.DisplayName": 切换自动模式
+	"Summon Stand.DisplayName": 召唤替身
+}
+
+Configs: {
+	JojoConfig: {
+		// DisplayName: Jojo Config
+
+		VolumenSonidos: {
+			// Label: Volumen de Sonidos del Mod
+			// Tooltip: Ajusta el volumen de todos los sonidos de Jojo. 50 es el volumen normal, 0 es silenciado.
+		}
+
+		MultiplicadorVolumen: {
+			// Label: Multiplicador Volumen
+			// Tooltip: ""
+		}
+
+		UITransparencia: {
+			// Label: UI Transparency
+			// Tooltip: Transparency of the mod's UI elements (such as Tusk's ammo bar). 50 = normal, higher = more transparent, lower = more opaque. Only affects you.
+		}
+	}
+}

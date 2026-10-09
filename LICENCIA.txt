@@ -1,0 +1,74 @@
+LICENCIA PERSONALIZADA DE USO — [NOMBRE DEL MOD]
+
+Versión 1.0
+
+Titular de los derechos: DarthHarlock
+Proyecto: Jojoria
+Fecha: 09-10-2026
+1. Titularidad y derechos de autor
+
+El código fuente original, la estructura del proyecto y los demás elementos originales de [NOMBRE DEL MOD] pertenecen a sus respectivos titulares de derechos.
+Salvo que se indique expresamente lo contrario, el autor original conserva todos los derechos sobre sus propias creaciones.
+Esta licencia no concede la propiedad del proyecto ni transfiere los derechos de autor a sus usuarios.
+Los elementos de terceros, incluidas las marcas, los recursos y los componentes sujetos a licencias independientes, permanecen sujetos a sus propias condiciones.
+
+2. Usos permitidos
+
+Siempre que se respeten las condiciones de esta licencia, se permite:
+Descargar y consultar el código fuente del proyecto.
+Estudiar su funcionamiento y aprender de su implementación.
+Modificar el código para uso personal y privado.
+Crear y probar nuevos Stands, habilidades, animaciones y otras modificaciones en un entorno privado.
+Preparar contribuciones y enviarlas al autor original para que sean revisadas y, si se aceptan, incorporadas a la versión oficial.
+Informar de errores, sugerir mejoras y participar en el desarrollo del proyecto.
+Los permisos anteriores no incluyen automáticamente el derecho a publicar, distribuir o explotar comercialmente el código o las modificaciones.
+
+3. Usos prohibidos sin autorización previa por escrito
+
+Queda prohibido:
+Vender el mod, su código fuente, sus versiones modificadas o copias de sus componentes protegidos por esta licencia.
+Cobrar por descargar, acceder o utilizar el mod, o incluirlo en un producto o servicio de pago, sin autorización expresa del titular.
+Redistribuir o publicar copias del código fuente o versiones compiladas del mod, originales o modificadas, fuera de los usos expresamente autorizados.
+Publicar un mod derivado que incorpore código protegido del proyecto, total o parcialmente, sin autorización previa por escrito.
+Utilizar el código del proyecto como base para desarrollar y publicar otro mod sin autorización previa por escrito.
+Presentar el proyecto original como una creación propia o atribuirse falsamente la autoría del trabajo realizado por otras personas.
+Eliminar, ocultar o alterar los avisos de autoría, copyright o licencia que deban conservarse.
+Hacer creer a los usuarios que una versión no oficial es la versión oficial del proyecto o que está respaldada por su autor cuando no sea así.
+Utilizar el nombre, la identidad visual o las marcas del proyecto para sugerir una afiliación oficial inexistente.
+Estas restricciones se aplican únicamente en la medida en que el titular tenga derechos sobre los materiales correspondientes y la legislación aplicable permita imponerlas.
+
+4. Forks y versiones modificadas
+
+La creación de una copia técnica del repositorio mediante las funciones de GitHub no constituye, por sí sola, una autorización general para publicar, distribuir, vender o explotar el mod o sus derivados fuera de los permisos concedidos por esta licencia.
+Cualquier distribución pública de una versión original o modificada requiere autorización previa por escrito del titular, salvo que exista otro permiso legal aplicable.
+
+5. Contribuciones de la comunidad
+
+Los usuarios pueden preparar nuevos Stands y otras modificaciones para enviarlos al autor original con el fin de que sean evaluados para su posible incorporación a la versión oficial.
+El envío de una contribución no garantiza su aceptación ni su incorporación al proyecto.
+Salvo que se acuerde otra cosa por escrito, el colaborador conserva los derechos que le correspondan sobre su aportación original. Al enviar una contribución, el colaborador deberá confirmar por escrito que autoriza al titular del proyecto a utilizarla, modificarla, integrarla y distribuirla como parte de la versión oficial, en los términos acordados.
+El colaborador no debe enviar materiales de terceros sin contar con los permisos necesarios.
+Esta cláusula no transfiere automáticamente la propiedad de las aportaciones al titular del proyecto.
+
+6. Autorizaciones excepcionales
+
+El titular puede conceder permisos adicionales o excepciones a esta licencia mediante autorización expresa y por escrito.
+Toda autorización deberá identificar, de forma razonablemente clara, el uso permitido y sus condiciones.
+La ausencia de respuesta del titular no constituye una autorización.
+
+7. Incumplimiento
+
+Los usos que excedan los permisos concedidos por esta licencia no están autorizados.
+Cuando un uso infrinja derechos protegidos por la legislación aplicable, el titular podrá ejercer los recursos legales que correspondan.
+
+8. Ausencia de garantías
+
+El proyecto se proporciona «tal cual», sin garantías expresas ni implícitas en la medida permitida por la legislación aplicable.
+El titular no garantiza que el proyecto funcione sin errores, sea compatible con todas las versiones del juego o resulte adecuado para un propósito particular.
+
+9. Legislación aplicable
+
+La interpretación y aplicación de esta licencia estarán sujetas a la legislación que resulte aplicable.
+Si alguna disposición se considera inválida o inaplicable, las demás disposiciones continuarán vigentes en la medida permitida por la ley.
+
+Todos los derechos reservados, en la medida permitida por la legislación aplicable.

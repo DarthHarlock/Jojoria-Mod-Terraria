@@ -1,0 +1,3 @@
+displayName = [c/DEA64A:Jojoria]      
+author = DarthHarlock
+version = 0.7.11

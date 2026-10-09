@@ -1,0 +1,2288 @@
+Projectiles: {
+	// WHITESNAKESTAND_Tier_4.DisplayName: W H I T E S N A K E S T A N D_ Tier_4
+	// WhiteSnake_BarragePunch_Tier_4.DisplayName: White Snake_ Barrage Punch_ Tier_4
+	// Whitesnake_RastroSuelo_Tier_4.DisplayName: Whitesnake_ Rastro Suelo_ Tier_4
+	// Whitesnake_RastroPared_Tier_4.DisplayName: Whitesnake_ Rastro Pared_ Tier_4
+	// Whitesnake_GotaVomito_Tier_4.DisplayName: Whitesnake_ Gota Vomito_ Tier_4
+	// WHITESNAKESTAND_Tier_3.DisplayName: W H I T E S N A K E S T A N D_ Tier_3
+	// WhiteSnake_BarragePunch_Tier_3.DisplayName: White Snake_ Barrage Punch_ Tier_3
+	// Whitesnake_RastroSuelo_Tier_3.DisplayName: Whitesnake_ Rastro Suelo_ Tier_3
+	// Whitesnake_RastroPared_Tier_3.DisplayName: Whitesnake_ Rastro Pared_ Tier_3
+	// Whitesnake_GotaVomito_Tier_3.DisplayName: Whitesnake_ Gota Vomito_ Tier_3
+	// WHITESNAKESTAND_Tier_2.DisplayName: W H I T E S N A K E S T A N D_ Tier_2
+	// WhiteSnake_BarragePunch_Tier_2.DisplayName: White Snake_ Barrage Punch_ Tier_2
+	// Whitesnake_RastroSuelo_Tier_2.DisplayName: Whitesnake_ Rastro Suelo_ Tier_2
+	// Whitesnake_RastroPared_Tier_2.DisplayName: Whitesnake_ Rastro Pared_ Tier_2
+	// Whitesnake_GotaVomito_Tier_2.DisplayName: Whitesnake_ Gota Vomito_ Tier_2
+	// WHITESNAKESTAND_Tier_1.DisplayName: W H I T E S N A K E S T A N D_ Tier_1
+	// WhiteSnake_BarragePunch_Tier_1.DisplayName: White Snake_ Barrage Punch_ Tier_1
+	// WEATHERSTAND_Tier_4.DisplayName: W E A T H E R S T A N D_ Tier_4
+	// Weather_BarragePunch_Tier_4.DisplayName: Weather_ Barrage Punch_ Tier_4
+	// TornadoWeather_Tier_4.DisplayName: Tornado Weather_ Tier_4
+	// Nube2_Tier_4.DisplayName: Nube2_ Tier_4
+	// Nube_1_Tier_4.DisplayName: Nube_1_ Tier_4
+	// Gota_Tier_4.DisplayName: Gota_ Tier_4
+	// NubeCielo_Tier_4.DisplayName: Nube Cielo_ Tier_4
+	// NubeCielo_Arcoiris_Tier_4.DisplayName: Nube Cielo_ Arcoiris_ Tier_4
+	// WEATHERSTAND_Tier_3.DisplayName: W E A T H E R S T A N D_ Tier_3
+	// Weather_BarragePunch_Tier_3.DisplayName: Weather_ Barrage Punch_ Tier_3
+	// TornadoWeather_Tier_3.DisplayName: Tornado Weather_ Tier_3
+	// Nube2_Tier_3.DisplayName: Nube2_ Tier_3
+	// Nube_1_Tier_3.DisplayName: Nube_1_ Tier_3
+	// Gota_Tier_3.DisplayName: Gota_ Tier_3
+	// NubeCielo_Tier_3.DisplayName: Nube Cielo_ Tier_3
+	// WEATHERSTAND_Tier_2.DisplayName: W E A T H E R S T A N D_ Tier_2
+	// Weather_BarragePunch_Tier_2.DisplayName: Weather_ Barrage Punch_ Tier_2
+	// TornadoWeather_Tier_2.DisplayName: Tornado Weather_ Tier_2
+	// Nube2_Tier_2.DisplayName: Nube2_ Tier_2
+	// Nube_1_Tier_2.DisplayName: Nube_1_ Tier_2
+	// Gota_Tier_2.DisplayName: Gota_ Tier_2
+	// WEATHERSTAND_Tier_1.DisplayName: W E A T H E R S T A N D_ Tier_1
+	// Weather_BarragePunch_Tier_1.DisplayName: Weather_ Barrage Punch_ Tier_1
+	// Nube2_Tier_1.DisplayName: Nube2_ Tier_1
+	// Nube_1_Tier_1.DisplayName: Nube_1_ Tier_1
+	// Gota_Tier_1.DisplayName: Gota_ Tier_1
+	TW_BarragePunch_Tier_4.DisplayName: T W_ Barrage Punch_ Tier_4
+	THEWORLDSTAND_Tier_4.DisplayName: T H E W O R L D S T A N D_ Tier_4
+	// Cuchillo_Tier_4.DisplayName: Cuchillo_ Tier_4
+	// TW_BarragePunch_Tier_3.DisplayName: T W_ Barrage Punch_ Tier_3
+	// THEWORLDSTAND_Tier_3.DisplayName: T H E W O R L D S T A N D_ Tier_3
+	// Cuchillo_Tier_3.DisplayName: Cuchillo_ Tier_3
+	// TW_BarragePunch_Tier_2.DisplayName: T W_ Barrage Punch_ Tier_2
+	// THEWORLDSTAND_Tier_2.DisplayName: T H E W O R L D S T A N D_ Tier_2
+	// Cuchillo_Tier_2.DisplayName: Cuchillo_ Tier_2
+	TW_BarragePunch_Tier_1.DisplayName: T W_ Barrage Punch_ Tier_1
+	THEWORLDSTAND_Tier_1.DisplayName: T H E W O R L D S T A N D_ Tier_1
+	STARPLATINUMSTAND_Tier_4.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_4
+	// SP_BarragePunch_Tier_4.DisplayName: S P_ Barrage Punch_ Tier_4
+	// STARPLATINUMSTAND_Tier_3.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_3
+	// SP_BarragePunch_Tier_3.DisplayName: S P_ Barrage Punch_ Tier_3
+	// STARPLATINUMSTAND_Tier_2.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_2
+	// SP_BarragePunch_Tier_2.DisplayName: S P_ Barrage Punch_ Tier_2
+	// STARPLATINUMSTAND_Tier_1.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_1
+	// SP_BarragePunch_Tier_1.DisplayName: S P_ Barrage Punch_ Tier_1
+	// SLIVERCHARIOTSTAND_Tier_4.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_4
+	// ShotChariot_Tier_4.DisplayName: Shot Chariot_ Tier_4
+	// Estocada_Tier_4.DisplayName: Estocada_ Tier_4
+	// ChariotClon_Tier_4.DisplayName: Chariot Clon_ Tier_4
+	// SLIVERCHARIOTSTAND_Tier_3.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_3
+	// ShotChariot_Tier_3.DisplayName: Shot Chariot_ Tier_3
+	// Estocada_Tier_3.DisplayName: Estocada_ Tier_3
+	// ChariotClon_Tier_3.DisplayName: Chariot Clon_ Tier_3
+	// SLIVERCHARIOTSTAND_Tier_2.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_2
+	// ShotChariot_Tier_2.DisplayName: Shot Chariot_ Tier_2
+	// Estocada_Tier_2.DisplayName: Estocada_ Tier_2
+	// SLIVERCHARIOTSTAND_Tier_1.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_1
+	// ShotChariot_Tier_1.DisplayName: Shot Chariot_ Tier_1
+	// Estocada_Tier_1.DisplayName: Estocada_ Tier_1
+	// ZZZ_Visual.DisplayName: Z Z Z_ Visual
+	// SILVERCHARIOTSTAND_Requiem.DisplayName: S I L V E R C H A R I O T S T A N D_ Requiem
+	// SCR_BarragePunch_Requiem.DisplayName: S C R_ Barrage Punch_ Requiem
+	// SCR_AuraPasiva.DisplayName: S C R_ Aura Pasiva
+	// SCR_Aura2.DisplayName: S C R_ Aura2
+	// SCR_Aura.DisplayName: S C R_ Aura
+	RIKASTAND.DisplayName: R I K A S T A N D
+	RIKA_BarragePunch.DisplayName: R I K A_ Barrage Punch
+	SHA_Minion_Tier_4.DisplayName: S H A_ Minion_ Tier_4
+	// SHA_Minion_Tier_3.DisplayName: S H A_ Minion_ Tier_3
+	// SHA_Minion_Tier_2.DisplayName: S H A_ Minion_ Tier_2
+	// Tornado_Tier_4.DisplayName: Tornado_ Tier_4
+	// MAGICIANSREDSTAND_Tier_4.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_4
+	// FuegoLanzallamas_Tier_4.DisplayName: Fuego Lanzallamas_ Tier_4
+	// Fuego2_Tier_4.DisplayName: Fuego2_ Tier_4
+	// Fuego1_Tier_4.DisplayName: Fuego1_ Tier_4
+	// Tornado_Tier_3.DisplayName: Tornado_ Tier_3
+	// MAGICIANSREDSTAND_Tier_3.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_3
+	// FuegoLanzallamas_Tier_3.DisplayName: Fuego Lanzallamas_ Tier_3
+	// Fuego2_Tier_3.DisplayName: Fuego2_ Tier_3
+	// Fuego1_Tier_3.DisplayName: Fuego1_ Tier_3
+	// MAGICIANSREDSTAND_Tier_2.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_2
+	// FuegoLanzallamas_Tier_2.DisplayName: Fuego Lanzallamas_ Tier_2
+	// Fuego2_Tier_2.DisplayName: Fuego2_ Tier_2
+	// Fuego1_Tier_2.DisplayName: Fuego1_ Tier_2
+	// MAGICIANSREDSTAND_Tier_1.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_1
+	// FuegoLanzallamas_Tier_1.DisplayName: Fuego Lanzallamas_ Tier_1
+	// Fuego1_Tier_1.DisplayName: Fuego1_ Tier_1
+	// MIHDashSkill.DisplayName: M I H Dash Skill
+	// MIH_OmnidirectionalDash.DisplayName: M I H_ Omnidirectional Dash
+	// MIH_BarragePunch.DisplayName: M I H_ Barrage Punch
+	// MADEINHEAVENSTAND.DisplayName: M A D E I N H E A V E N S T A N D
+	// MadeInHeaven_UltimateField.DisplayName: Made In Heaven_ Ultimate Field
+	// TimeErasedEffect_Tier_4.DisplayName: Time Erased Effect_ Tier_4
+	// KingCrimsonTeleport_Tier_4.DisplayName: King Crimson Teleport_ Tier_4
+	// KINGCRIMSONSTAND_Tier_4.DisplayName: K I N G C R I M S O N S T A N D_ Tier_4
+	// KingCrimsonShadow_Tier_4.DisplayName: King Crimson Shadow_ Tier_4
+	// KingCrimsonHeavyTrail_Tier_4.DisplayName: King Crimson Heavy Trail_ Tier_4
+	// KingCrimsonHeavyAttack_Tier_4.DisplayName: King Crimson Heavy Attack_ Tier_4
+	// KingCrimsonBackgroundDrawer_Tier_4.DisplayName: King Crimson Background Drawer_ Tier_4
+	// KC_BarragePunch_Tier_4.DisplayName: K C_ Barrage Punch_ Tier_4
+	// TimeErasedEffect_Tier_3.DisplayName: Time Erased Effect_ Tier_3
+	// KingCrimsonTeleport_Tier_3.DisplayName: King Crimson Teleport_ Tier_3
+	// KINGCRIMSONSTAND_Tier_3.DisplayName: K I N G C R I M S O N S T A N D_ Tier_3
+	// KingCrimsonShadow_Tier_3.DisplayName: King Crimson Shadow_ Tier_3
+	// KingCrimsonHeavyTrail_Tier_3.DisplayName: King Crimson Heavy Trail_ Tier_3
+	// KingCrimsonHeavyAttack_Tier_3.DisplayName: King Crimson Heavy Attack_ Tier_3
+	// KingCrimsonBackgroundDrawer_Tier_3.DisplayName: King Crimson Background Drawer_ Tier_3
+	// KC_BarragePunch_Tier_3.DisplayName: K C_ Barrage Punch_ Tier_3
+	// TimeErasedEffect_Tier_2.DisplayName: Time Erased Effect_ Tier_2
+	// KINGCRIMSONSTAND_Tier_2.DisplayName: K I N G C R I M S O N S T A N D_ Tier_2
+	// KingCrimsonShadow_Tier_2.DisplayName: King Crimson Shadow_ Tier_2
+	// KingCrimsonHeavyTrail_Tier_2.DisplayName: King Crimson Heavy Trail_ Tier_2
+	// KingCrimsonHeavyAttack_Tier_2.DisplayName: King Crimson Heavy Attack_ Tier_2
+	// KingCrimsonBackgroundDrawer_Tier_2.DisplayName: King Crimson Background Drawer_ Tier_2
+	// KC_BarragePunch_Tier_2.DisplayName: K C_ Barrage Punch_ Tier_2
+	// KINGCRIMSONSTAND_Tier_1.DisplayName: K I N G C R I M S O N S T A N D_ Tier_1
+	// KingCrimsonHeavyTrail_Tier_1.DisplayName: King Crimson Heavy Trail_ Tier_1
+	// KingCrimsonHeavyAttack_Tier_1.DisplayName: King Crimson Heavy Attack_ Tier_1
+	// KingCrimsonBackgroundDrawer_Tier_1.DisplayName: King Crimson Background Drawer_ Tier_1
+	// KC_BarragePunch_Tier_1.DisplayName: K C_ Barrage Punch_ Tier_1
+	// StrayCat_BOMBA_Tier_4.DisplayName: Stray Cat_ B O M B A_ Tier_4
+	// KQ_BarragePunch_Tier_4.DisplayName: K Q_ Barrage Punch_ Tier_4
+	KILLERQUEENSTAND_Tier_4.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_4
+	// BOMBA1_Tier_4.DisplayName: B O M B A1_ Tier_4
+	// BitesTheDust_Explosion.DisplayName: Bites The Dust_ Explosion
+	// StrayCat_BOMBA_Tier_3.DisplayName: Stray Cat_ B O M B A_ Tier_3
+	// KQ_BarragePunch_Tier_3.DisplayName: K Q_ Barrage Punch_ Tier_3
+	// KILLERQUEENSTAND_Tier_3.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_3
+	// BOMBA1_Tier_3.DisplayName: B O M B A1_ Tier_3
+	// KQ_BarragePunch_Tier_2.DisplayName: K Q_ Barrage Punch_ Tier_2
+	// KILLERQUEENSTAND_Tier_2.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_2
+	// BOMBA1_Tier_2.DisplayName: B O M B A1_ Tier_2
+	// KQ_BarragePunch_Tier_1.DisplayName: K Q_ Barrage Punch_ Tier_1
+	// KILLERQUEENSTAND_Tier_1.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_1
+	// BOMBA1_Tier_1.DisplayName: B O M B A1_ Tier_1
+	// JUSTICESTAND_Tier_4.DisplayName: J U S T I C E S T A N D_ Tier_4
+	// Justice_Niebla.DisplayName: Justice_ Niebla
+	// Justice_HealingAura.DisplayName: Justice_ Healing Aura
+	// HGreen_Aura_Tier_4.DisplayName: H Green_ Aura_ Tier_4
+	// Esmeralda_2_Tier_4.DisplayName: Esmeralda_2_ Tier_4
+	// Cadena_Tier_4.DisplayName: Cadena_ Tier_4
+	// HGREENSTAND_Tier_4.DisplayName: H G R E E N S T A N D_ Tier_4
+	// Gancho_Tier_4_Cabeza.DisplayName: Gancho_ Tier_4_ Cabeza
+	// Esmeralda_Tier_4.DisplayName: Esmeralda_ Tier_4
+	// Esmeralda_3_Tier_4.DisplayName: Esmeralda_3_ Tier_4
+	// Control_Cadena_Tier_4.DisplayName: Control_ Cadena_ Tier_4
+	// Esmeralda_4_Tier_4.DisplayName: Esmeralda_4_ Tier_4
+	// HGreen_Aura_Tier_3.DisplayName: H Green_ Aura_ Tier_3
+	// Esmeralda_2_Tier_3.DisplayName: Esmeralda_2_ Tier_3
+	// Cadena_Tier_3.DisplayName: Cadena_ Tier_3
+	// HGREENSTAND_Tier_3.DisplayName: H G R E E N S T A N D_ Tier_3
+	// Gancho_Tier_3_Cabeza.DisplayName: Gancho_ Tier_3_ Cabeza
+	// Esmeralda_Tier_3.DisplayName: Esmeralda_ Tier_3
+	// Esmeralda_3_Tier_3.DisplayName: Esmeralda_3_ Tier_3
+	// Control_Cadena_Tier_3.DisplayName: Control_ Cadena_ Tier_3
+	// Esmeralda_4_Tier_3.DisplayName: Esmeralda_4_ Tier_3
+	// HGREENSTAND_Tier_2.DisplayName: H G R E E N S T A N D_ Tier_2
+	// Gancho_Tier_2_Cabeza.DisplayName: Gancho_ Tier_2_ Cabeza
+	// Esmeralda_Tier_2.DisplayName: Esmeralda_ Tier_2
+	// Esmeralda_3_Tier_2.DisplayName: Esmeralda_3_ Tier_2
+	// Control_Cadena_Tier_2.DisplayName: Control_ Cadena_ Tier_2
+	// Esmeralda_4_Tier_2.DisplayName: Esmeralda_4_ Tier_2
+	// HGREENSTAND_Tier_1.DisplayName: H G R E E N S T A N D_ Tier_1
+	// Gancho_Tier_1_Cabeza.DisplayName: Gancho_ Tier_1_ Cabeza
+	// Esmeralda_Tier_1.DisplayName: Esmeralda_ Tier_1
+	// Esmeralda_3_Tier_1.DisplayName: Esmeralda_3_ Tier_1
+	// Control_Cadena_Tier_1.DisplayName: Control_ Cadena_ Tier_1
+	// RanaGolpeProjectile_Tier_4.DisplayName: Rana Golpe Projectile_ Tier_4
+	// MariposaGolpeProjectile_Tier_4.DisplayName: Mariposa Golpe Projectile_ Tier_4
+	// GOLDENSTAND_Tier_4.DisplayName: G O L D E N S T A N D_ Tier_4
+	// Golden_BarragePunch_Tier_4.DisplayName: Golden_ Barrage Punch_ Tier_4
+	// Arbol_Torre_Controller_Tier_4.DisplayName: Arbol_ Torre_ Controller_ Tier_4
+	// Arbol_Pieza_Tier_4.DisplayName: Arbol_ Pieza_ Tier_4
+	// RanaGolpeProjectile_Tier_3.DisplayName: Rana Golpe Projectile_ Tier_3
+	// MariposaGolpeProjectile_Tier_3.DisplayName: Mariposa Golpe Projectile_ Tier_3
+	// GOLDENSTAND_Tier_3.DisplayName: G O L D E N S T A N D_ Tier_3
+	// Golden_BarragePunch_Tier_3.DisplayName: Golden_ Barrage Punch_ Tier_3
+	// Arbol_Torre_Controller_Tier_3.DisplayName: Arbol_ Torre_ Controller_ Tier_3
+	// Arbol_Pieza_Tier_3.DisplayName: Arbol_ Pieza_ Tier_3
+	// RanaGolpeProjectile_Tier_2.DisplayName: Rana Golpe Projectile_ Tier_2
+	// GOLDENSTAND_Tier_2.DisplayName: G O L D E N S T A N D_ Tier_2
+	// Golden_BarragePunch_Tier_2.DisplayName: Golden_ Barrage Punch_ Tier_2
+	// Arbol_Torre_Controller_Tier_2.DisplayName: Arbol_ Torre_ Controller_ Tier_2
+	// Arbol_Pieza_Tier_2.DisplayName: Arbol_ Pieza_ Tier_2
+	// Arbol_Pieza.DisplayName: Arbol_ Pieza
+	// GOLDENSTAND_Tier_1.DisplayName: G O L D E N S T A N D_ Tier_1
+	// Golden_BarragePunch_Tier_1.DisplayName: Golden_ Barrage Punch_ Tier_1
+	// Arbol_Torre_Controller_Tier_1.DisplayName: Arbol_ Torre_ Controller_ Tier_1
+	// ReturnZeroAfterimage.DisplayName: Return Zero Afterimage
+	// GoldenRequiem_Laser.DisplayName: Golden Requiem_ Laser
+	// GOLDENSTAND_Requiem.DisplayName: G O L D E N S T A N D_ Requiem
+	// Golden_BarragePunch_Requiem.DisplayName: Golden_ Barrage Punch_ Requiem
+	// AnimalGolpeProjectile_Requiem.DisplayName: Animal Golpe Projectile_ Requiem
+	// D4CSTAND_Tier_4.DisplayName: D4 C S T A N D_ Tier_4
+	// D4CRedBridgeProjectile_Tier_4.DisplayName: D4 C Red Bridge Projectile_ Tier_4
+	// D4CMarcaBridgeProjectile_Tier_4.DisplayName: D4 C Marca Bridge Projectile_ Tier_4
+	// D4CClonExplosionProjectile_Tier_4.DisplayName: D4 C Clon Explosion Projectile_ Tier_4
+	// D4CAliadosBridgeProjectile_Tier_4.DisplayName: D4 C Aliados Bridge Projectile_ Tier_4
+	// D4CAliadoMeleeGolpeProjectile_Tier_4.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_4
+	// D4C_BarragePunch_Tier_4.DisplayName: D4 C_ Barrage Punch_ Tier_4
+	// D4CSTAND_Tier_3.DisplayName: D4 C S T A N D_ Tier_3
+	// D4CRedBridgeProjectile_Tier_3.DisplayName: D4 C Red Bridge Projectile_ Tier_3
+	// D4CMarcaBridgeProjectile_Tier_3.DisplayName: D4 C Marca Bridge Projectile_ Tier_3
+	// D4CClonExplosionProjectile_Tier_3.DisplayName: D4 C Clon Explosion Projectile_ Tier_3
+	// D4CAliadosBridgeProjectile_Tier_3.DisplayName: D4 C Aliados Bridge Projectile_ Tier_3
+	// D4CAliadoMeleeGolpeProjectile_Tier_3.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_3
+	// D4C_BarragePunch_Tier_3.DisplayName: D4 C_ Barrage Punch_ Tier_3
+	// D4CSTAND_Tier_2.DisplayName: D4 C S T A N D_ Tier_2
+	// D4CRedBridgeProjectile_Tier_2.DisplayName: D4 C Red Bridge Projectile_ Tier_2
+	// D4CMarcaBridgeProjectile_Tier_2.DisplayName: D4 C Marca Bridge Projectile_ Tier_2
+	// D4CClonExplosionProjectile_Tier_2.DisplayName: D4 C Clon Explosion Projectile_ Tier_2
+	// D4CAliadosBridgeProjectile_Tier_2.DisplayName: D4 C Aliados Bridge Projectile_ Tier_2
+	// D4CAliadoMeleeGolpeProjectile_Tier_2.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_2
+	// D4C_BarragePunch_Tier_2.DisplayName: D4 C_ Barrage Punch_ Tier_2
+	// D4CSTAND_Tier_1.DisplayName: D4 C S T A N D_ Tier_1
+	// D4CRedBridgeProjectile_Tier_1.DisplayName: D4 C Red Bridge Projectile_ Tier_1
+	// D4CMarcaBridgeProjectile_Tier_1.DisplayName: D4 C Marca Bridge Projectile_ Tier_1
+	// D4CAliadosBridgeProjectile_Tier_1.DisplayName: D4 C Aliados Bridge Projectile_ Tier_1
+	// D4CAliadoMeleeGolpeProjectile_Tier_1.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_1
+	// D4C_BarragePunch_Tier_1.DisplayName: D4 C_ Barrage Punch_ Tier_1
+	// CMOONSTAND_Tier_3.DisplayName: C M O O N S T A N D_ Tier_3
+	// CMoon_UltimateField_Tier_3.DisplayName: C Moon_ Ultimate Field_ Tier_3
+	// CMoon_ShockwaveAura_Tier_3.DisplayName: C Moon_ Shockwave Aura_ Tier_3
+	// CMoon_GravityAura_Tier_3.DisplayName: C Moon_ Gravity Aura_ Tier_3
+	// CMOON_BarragePunch.DisplayName: C M O O N_ Barrage Punch
+	// CMOONSTAND_Tier_2.DisplayName: C M O O N S T A N D_ Tier_2
+	// CMoon_ShockwaveAura_Tier_2.DisplayName: C Moon_ Shockwave Aura_ Tier_2
+	// CMoon_GravityAura_Tier_2.DisplayName: C Moon_ Gravity Aura_ Tier_2
+	// CMOON_BarragePunch_Tier_2.DisplayName: C M O O N_ Barrage Punch_ Tier_2
+	// CMOONSTAND_Tier_1.DisplayName: C M O O N S T A N D_ Tier_1
+	// CMoon_GravityAura_Tier_1.DisplayName: C Moon_ Gravity Aura_ Tier_1
+	// CMOON_BarragePunch_Tier_1.DisplayName: C M O O N_ Barrage Punch_ Tier_1
+	// CINDERELLASTAND_Tier_4.DisplayName: C I N D E R E L L A S T A N D_ Tier_4
+	// Cinderella_BarragePunch_Tier_4.DisplayName: Cinderella_ Barrage Punch_ Tier_4
+	// KatanaSlash_Tier_4.DisplayName: Katana Slash_ Tier_4
+	ANUBISSTAND_Tier_4.DisplayName: A N U B I S S T A N D_ Tier_4
+	// KatanaSlash_Tier_3.DisplayName: Katana Slash_ Tier_3
+	// ANUBISSTAND_Tier_3.DisplayName: A N U B I S S T A N D_ Tier_3
+	// KatanaSlash_Tier_2.DisplayName: Katana Slash_ Tier_2
+	// ANUBISSTAND_Tier_2.DisplayName: A N U B I S S T A N D_ Tier_2
+	// KatanaSlash_Tier_1.DisplayName: Katana Slash_ Tier_1
+	// ANUBISSTAND_Tier_1.DisplayName: A N U B I S S T A N D_ Tier_1
+	// TimeStopAreaProj.DisplayName: Time Stop Area Proj
+	TheWorldNpcProj.DisplayName: The World
+	StarPlatinumNpcProj.DisplayName: Star Platinum
+	// HirofantGreenNpcProj.DisplayName: Hirofant Green Npc Proj
+	// EsmeraldaNpc_Tier_1.DisplayName: Esmeralda Npc_ Tier_1
+	// ProyectilCuchilloItem.DisplayName: Proyectil Cuchillo Item
+	FlechaStandProj.DisplayName: Flecha Stand
+	// WHITESNAKESTAND_Tier_4.DisplayName: W H I T E S N A K E S T A N D_ Tier_4
+	// WhiteSnake_BarragePunch_Tier_4.DisplayName: White Snake_ Barrage Punch_ Tier_4
+	// Whitesnake_RastroSuelo_Tier_4.DisplayName: Whitesnake_ Rastro Suelo_ Tier_4
+	// Whitesnake_RastroPared_Tier_4.DisplayName: Whitesnake_ Rastro Pared_ Tier_4
+	// Whitesnake_GotaVomito_Tier_4.DisplayName: Whitesnake_ Gota Vomito_ Tier_4
+	// WHITESNAKESTAND_Tier_3.DisplayName: W H I T E S N A K E S T A N D_ Tier_3
+	// WhiteSnake_BarragePunch_Tier_3.DisplayName: White Snake_ Barrage Punch_ Tier_3
+	// Whitesnake_RastroSuelo_Tier_3.DisplayName: Whitesnake_ Rastro Suelo_ Tier_3
+	// Whitesnake_RastroPared_Tier_3.DisplayName: Whitesnake_ Rastro Pared_ Tier_3
+	// Whitesnake_GotaVomito_Tier_3.DisplayName: Whitesnake_ Gota Vomito_ Tier_3
+	// WHITESNAKESTAND_Tier_2.DisplayName: W H I T E S N A K E S T A N D_ Tier_2
+	// WhiteSnake_BarragePunch_Tier_2.DisplayName: White Snake_ Barrage Punch_ Tier_2
+	// Whitesnake_RastroSuelo_Tier_2.DisplayName: Whitesnake_ Rastro Suelo_ Tier_2
+	// Whitesnake_RastroPared_Tier_2.DisplayName: Whitesnake_ Rastro Pared_ Tier_2
+	// Whitesnake_GotaVomito_Tier_2.DisplayName: Whitesnake_ Gota Vomito_ Tier_2
+	// WHITESNAKESTAND_Tier_1.DisplayName: W H I T E S N A K E S T A N D_ Tier_1
+	// WhiteSnake_BarragePunch_Tier_1.DisplayName: White Snake_ Barrage Punch_ Tier_1
+	// WEATHERSTAND_Tier_4.DisplayName: W E A T H E R S T A N D_ Tier_4
+	// Weather_BarragePunch_Tier_4.DisplayName: Weather_ Barrage Punch_ Tier_4
+	// TornadoWeather_Tier_4.DisplayName: Tornado Weather_ Tier_4
+	// Nube2_Tier_4.DisplayName: Nube2_ Tier_4
+	// Nube_1_Tier_4.DisplayName: Nube_1_ Tier_4
+	// Gota_Tier_4.DisplayName: Gota_ Tier_4
+	// NubeCielo_Tier_4.DisplayName: Nube Cielo_ Tier_4
+	// NubeCielo_Arcoiris_Tier_4.DisplayName: Nube Cielo_ Arcoiris_ Tier_4
+	// WEATHERSTAND_Tier_3.DisplayName: W E A T H E R S T A N D_ Tier_3
+	// Weather_BarragePunch_Tier_3.DisplayName: Weather_ Barrage Punch_ Tier_3
+	// TornadoWeather_Tier_3.DisplayName: Tornado Weather_ Tier_3
+	// Nube2_Tier_3.DisplayName: Nube2_ Tier_3
+	// Nube_1_Tier_3.DisplayName: Nube_1_ Tier_3
+	// Gota_Tier_3.DisplayName: Gota_ Tier_3
+	// NubeCielo_Tier_3.DisplayName: Nube Cielo_ Tier_3
+	// WEATHERSTAND_Tier_2.DisplayName: W E A T H E R S T A N D_ Tier_2
+	// Weather_BarragePunch_Tier_2.DisplayName: Weather_ Barrage Punch_ Tier_2
+	// TornadoWeather_Tier_2.DisplayName: Tornado Weather_ Tier_2
+	// Nube2_Tier_2.DisplayName: Nube2_ Tier_2
+	// Nube_1_Tier_2.DisplayName: Nube_1_ Tier_2
+	// Gota_Tier_2.DisplayName: Gota_ Tier_2
+	// WEATHERSTAND_Tier_1.DisplayName: W E A T H E R S T A N D_ Tier_1
+	// Weather_BarragePunch_Tier_1.DisplayName: Weather_ Barrage Punch_ Tier_1
+	// Nube2_Tier_1.DisplayName: Nube2_ Tier_1
+	// Nube_1_Tier_1.DisplayName: Nube_1_ Tier_1
+	// Gota_Tier_1.DisplayName: Gota_ Tier_1
+	// Cuchillo_Tier_4.DisplayName: Cuchillo_ Tier_4
+	// TW_BarragePunch_Tier_3.DisplayName: T W_ Barrage Punch_ Tier_3
+	// THEWORLDSTAND_Tier_3.DisplayName: T H E W O R L D S T A N D_ Tier_3
+	// Cuchillo_Tier_3.DisplayName: Cuchillo_ Tier_3
+	// TW_BarragePunch_Tier_2.DisplayName: T W_ Barrage Punch_ Tier_2
+	// THEWORLDSTAND_Tier_2.DisplayName: T H E W O R L D S T A N D_ Tier_2
+	// Cuchillo_Tier_2.DisplayName: Cuchillo_ Tier_2
+	// SP_BarragePunch_Tier_4.DisplayName: S P_ Barrage Punch_ Tier_4
+	// STARPLATINUMSTAND_Tier_3.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_3
+	// SP_BarragePunch_Tier_3.DisplayName: S P_ Barrage Punch_ Tier_3
+	// STARPLATINUMSTAND_Tier_2.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_2
+	// SP_BarragePunch_Tier_2.DisplayName: S P_ Barrage Punch_ Tier_2
+	// STARPLATINUMSTAND_Tier_1.DisplayName: S T A R P L A T I N U M S T A N D_ Tier_1
+	// SP_BarragePunch_Tier_1.DisplayName: S P_ Barrage Punch_ Tier_1
+	// SLIVERCHARIOTSTAND_Tier_4.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_4
+	// ShotChariot_Tier_4.DisplayName: Shot Chariot_ Tier_4
+	// Estocada_Tier_4.DisplayName: Estocada_ Tier_4
+	// ChariotClon_Tier_4.DisplayName: Chariot Clon_ Tier_4
+	// SLIVERCHARIOTSTAND_Tier_3.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_3
+	// ShotChariot_Tier_3.DisplayName: Shot Chariot_ Tier_3
+	// Estocada_Tier_3.DisplayName: Estocada_ Tier_3
+	// ChariotClon_Tier_3.DisplayName: Chariot Clon_ Tier_3
+	// SLIVERCHARIOTSTAND_Tier_2.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_2
+	// ShotChariot_Tier_2.DisplayName: Shot Chariot_ Tier_2
+	// Estocada_Tier_2.DisplayName: Estocada_ Tier_2
+	// SLIVERCHARIOTSTAND_Tier_1.DisplayName: S L I V E R C H A R I O T S T A N D_ Tier_1
+	// ShotChariot_Tier_1.DisplayName: Shot Chariot_ Tier_1
+	// Estocada_Tier_1.DisplayName: Estocada_ Tier_1
+	// ZZZ_Visual.DisplayName: Z Z Z_ Visual
+	// SILVERCHARIOTSTAND_Requiem.DisplayName: S I L V E R C H A R I O T S T A N D_ Requiem
+	// SCR_BarragePunch_Requiem.DisplayName: S C R_ Barrage Punch_ Requiem
+	// SCR_AuraPasiva.DisplayName: S C R_ Aura Pasiva
+	// SCR_Aura2.DisplayName: S C R_ Aura2
+	// SCR_Aura.DisplayName: S C R_ Aura
+	// SHA_Minion_Tier_3.DisplayName: S H A_ Minion_ Tier_3
+	// SHA_Minion_Tier_2.DisplayName: S H A_ Minion_ Tier_2
+	// Tornado_Tier_4.DisplayName: Tornado_ Tier_4
+	// MAGICIANSREDSTAND_Tier_4.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_4
+	// FuegoLanzallamas_Tier_4.DisplayName: Fuego Lanzallamas_ Tier_4
+	// Fuego2_Tier_4.DisplayName: Fuego2_ Tier_4
+	// Fuego1_Tier_4.DisplayName: Fuego1_ Tier_4
+	// Tornado_Tier_3.DisplayName: Tornado_ Tier_3
+	// MAGICIANSREDSTAND_Tier_3.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_3
+	// FuegoLanzallamas_Tier_3.DisplayName: Fuego Lanzallamas_ Tier_3
+	// Fuego2_Tier_3.DisplayName: Fuego2_ Tier_3
+	// Fuego1_Tier_3.DisplayName: Fuego1_ Tier_3
+	// MAGICIANSREDSTAND_Tier_2.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_2
+	// FuegoLanzallamas_Tier_2.DisplayName: Fuego Lanzallamas_ Tier_2
+	// Fuego2_Tier_2.DisplayName: Fuego2_ Tier_2
+	// Fuego1_Tier_2.DisplayName: Fuego1_ Tier_2
+	// MAGICIANSREDSTAND_Tier_1.DisplayName: M A G I C I A N S R E D S T A N D_ Tier_1
+	// FuegoLanzallamas_Tier_1.DisplayName: Fuego Lanzallamas_ Tier_1
+	// Fuego1_Tier_1.DisplayName: Fuego1_ Tier_1
+	// MIHDashSkill.DisplayName: M I H Dash Skill
+	// MIH_OmnidirectionalDash.DisplayName: M I H_ Omnidirectional Dash
+	// MIH_BarragePunch.DisplayName: M I H_ Barrage Punch
+	// MADEINHEAVENSTAND.DisplayName: M A D E I N H E A V E N S T A N D
+	// MadeInHeaven_UltimateField.DisplayName: Made In Heaven_ Ultimate Field
+	// TimeErasedEffect_Tier_4.DisplayName: Time Erased Effect_ Tier_4
+	// KingCrimsonTeleport_Tier_4.DisplayName: King Crimson Teleport_ Tier_4
+	// KINGCRIMSONSTAND_Tier_4.DisplayName: K I N G C R I M S O N S T A N D_ Tier_4
+	// KingCrimsonShadow_Tier_4.DisplayName: King Crimson Shadow_ Tier_4
+	// KingCrimsonHeavyTrail_Tier_4.DisplayName: King Crimson Heavy Trail_ Tier_4
+	// KingCrimsonHeavyAttack_Tier_4.DisplayName: King Crimson Heavy Attack_ Tier_4
+	// KingCrimsonBackgroundDrawer_Tier_4.DisplayName: King Crimson Background Drawer_ Tier_4
+	// KC_BarragePunch_Tier_4.DisplayName: K C_ Barrage Punch_ Tier_4
+	// TimeErasedEffect_Tier_3.DisplayName: Time Erased Effect_ Tier_3
+	// KingCrimsonTeleport_Tier_3.DisplayName: King Crimson Teleport_ Tier_3
+	// KINGCRIMSONSTAND_Tier_3.DisplayName: K I N G C R I M S O N S T A N D_ Tier_3
+	// KingCrimsonShadow_Tier_3.DisplayName: King Crimson Shadow_ Tier_3
+	// KingCrimsonHeavyTrail_Tier_3.DisplayName: King Crimson Heavy Trail_ Tier_3
+	// KingCrimsonHeavyAttack_Tier_3.DisplayName: King Crimson Heavy Attack_ Tier_3
+	// KingCrimsonBackgroundDrawer_Tier_3.DisplayName: King Crimson Background Drawer_ Tier_3
+	// KC_BarragePunch_Tier_3.DisplayName: K C_ Barrage Punch_ Tier_3
+	// TimeErasedEffect_Tier_2.DisplayName: Time Erased Effect_ Tier_2
+	// KINGCRIMSONSTAND_Tier_2.DisplayName: K I N G C R I M S O N S T A N D_ Tier_2
+	// KingCrimsonShadow_Tier_2.DisplayName: King Crimson Shadow_ Tier_2
+	// KingCrimsonHeavyTrail_Tier_2.DisplayName: King Crimson Heavy Trail_ Tier_2
+	// KingCrimsonHeavyAttack_Tier_2.DisplayName: King Crimson Heavy Attack_ Tier_2
+	// KingCrimsonBackgroundDrawer_Tier_2.DisplayName: King Crimson Background Drawer_ Tier_2
+	// KC_BarragePunch_Tier_2.DisplayName: K C_ Barrage Punch_ Tier_2
+	// KINGCRIMSONSTAND_Tier_1.DisplayName: K I N G C R I M S O N S T A N D_ Tier_1
+	// KingCrimsonHeavyTrail_Tier_1.DisplayName: King Crimson Heavy Trail_ Tier_1
+	// KingCrimsonHeavyAttack_Tier_1.DisplayName: King Crimson Heavy Attack_ Tier_1
+	// KingCrimsonBackgroundDrawer_Tier_1.DisplayName: King Crimson Background Drawer_ Tier_1
+	// KC_BarragePunch_Tier_1.DisplayName: K C_ Barrage Punch_ Tier_1
+	// StrayCat_BOMBA_Tier_4.DisplayName: Stray Cat_ B O M B A_ Tier_4
+	// KQ_BarragePunch_Tier_4.DisplayName: K Q_ Barrage Punch_ Tier_4
+	// BOMBA1_Tier_4.DisplayName: B O M B A1_ Tier_4
+	// BitesTheDust_Explosion.DisplayName: Bites The Dust_ Explosion
+	// StrayCat_BOMBA_Tier_3.DisplayName: Stray Cat_ B O M B A_ Tier_3
+	// KQ_BarragePunch_Tier_3.DisplayName: K Q_ Barrage Punch_ Tier_3
+	// KILLERQUEENSTAND_Tier_3.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_3
+	// BOMBA1_Tier_3.DisplayName: B O M B A1_ Tier_3
+	// KQ_BarragePunch_Tier_2.DisplayName: K Q_ Barrage Punch_ Tier_2
+	// KILLERQUEENSTAND_Tier_2.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_2
+	// BOMBA1_Tier_2.DisplayName: B O M B A1_ Tier_2
+	// KQ_BarragePunch_Tier_1.DisplayName: K Q_ Barrage Punch_ Tier_1
+	// KILLERQUEENSTAND_Tier_1.DisplayName: K I L L E R Q U E E N S T A N D_ Tier_1
+	// BOMBA1_Tier_1.DisplayName: B O M B A1_ Tier_1
+	// JUSTICESTAND_Tier_4.DisplayName: J U S T I C E S T A N D_ Tier_4
+	// Justice_Niebla.DisplayName: Justice_ Niebla
+	// Justice_HealingAura.DisplayName: Justice_ Healing Aura
+	// HGreen_Aura_Tier_4.DisplayName: H Green_ Aura_ Tier_4
+	// Esmeralda_2_Tier_4.DisplayName: Esmeralda_2_ Tier_4
+	// Cadena_Tier_4.DisplayName: Cadena_ Tier_4
+	// HGREENSTAND_Tier_4.DisplayName: H G R E E N S T A N D_ Tier_4
+	// Gancho_Tier_4_Cabeza.DisplayName: Gancho_ Tier_4_ Cabeza
+	// Esmeralda_Tier_4.DisplayName: Esmeralda_ Tier_4
+	// Esmeralda_3_Tier_4.DisplayName: Esmeralda_3_ Tier_4
+	// Control_Cadena_Tier_4.DisplayName: Control_ Cadena_ Tier_4
+	// Esmeralda_4_Tier_4.DisplayName: Esmeralda_4_ Tier_4
+	// HGreen_Aura_Tier_3.DisplayName: H Green_ Aura_ Tier_3
+	// Esmeralda_2_Tier_3.DisplayName: Esmeralda_2_ Tier_3
+	// Cadena_Tier_3.DisplayName: Cadena_ Tier_3
+	// HGREENSTAND_Tier_3.DisplayName: H G R E E N S T A N D_ Tier_3
+	// Gancho_Tier_3_Cabeza.DisplayName: Gancho_ Tier_3_ Cabeza
+	// Esmeralda_Tier_3.DisplayName: Esmeralda_ Tier_3
+	// Esmeralda_3_Tier_3.DisplayName: Esmeralda_3_ Tier_3
+	// Control_Cadena_Tier_3.DisplayName: Control_ Cadena_ Tier_3
+	// Esmeralda_4_Tier_3.DisplayName: Esmeralda_4_ Tier_3
+	// HGREENSTAND_Tier_2.DisplayName: H G R E E N S T A N D_ Tier_2
+	// Gancho_Tier_2_Cabeza.DisplayName: Gancho_ Tier_2_ Cabeza
+	// Esmeralda_Tier_2.DisplayName: Esmeralda_ Tier_2
+	// Esmeralda_3_Tier_2.DisplayName: Esmeralda_3_ Tier_2
+	// Control_Cadena_Tier_2.DisplayName: Control_ Cadena_ Tier_2
+	// Esmeralda_4_Tier_2.DisplayName: Esmeralda_4_ Tier_2
+	// HGREENSTAND_Tier_1.DisplayName: H G R E E N S T A N D_ Tier_1
+	// Gancho_Tier_1_Cabeza.DisplayName: Gancho_ Tier_1_ Cabeza
+	// Esmeralda_Tier_1.DisplayName: Esmeralda_ Tier_1
+	// Esmeralda_3_Tier_1.DisplayName: Esmeralda_3_ Tier_1
+	// Control_Cadena_Tier_1.DisplayName: Control_ Cadena_ Tier_1
+	// RanaGolpeProjectile_Tier_4.DisplayName: Rana Golpe Projectile_ Tier_4
+	// MariposaGolpeProjectile_Tier_4.DisplayName: Mariposa Golpe Projectile_ Tier_4
+	// GOLDENSTAND_Tier_4.DisplayName: G O L D E N S T A N D_ Tier_4
+	// Golden_BarragePunch_Tier_4.DisplayName: Golden_ Barrage Punch_ Tier_4
+	// Arbol_Torre_Controller_Tier_4.DisplayName: Arbol_ Torre_ Controller_ Tier_4
+	// Arbol_Pieza_Tier_4.DisplayName: Arbol_ Pieza_ Tier_4
+	// RanaGolpeProjectile_Tier_3.DisplayName: Rana Golpe Projectile_ Tier_3
+	// MariposaGolpeProjectile_Tier_3.DisplayName: Mariposa Golpe Projectile_ Tier_3
+	// GOLDENSTAND_Tier_3.DisplayName: G O L D E N S T A N D_ Tier_3
+	// Golden_BarragePunch_Tier_3.DisplayName: Golden_ Barrage Punch_ Tier_3
+	// Arbol_Torre_Controller_Tier_3.DisplayName: Arbol_ Torre_ Controller_ Tier_3
+	// Arbol_Pieza_Tier_3.DisplayName: Arbol_ Pieza_ Tier_3
+	// RanaGolpeProjectile_Tier_2.DisplayName: Rana Golpe Projectile_ Tier_2
+	// GOLDENSTAND_Tier_2.DisplayName: G O L D E N S T A N D_ Tier_2
+	// Golden_BarragePunch_Tier_2.DisplayName: Golden_ Barrage Punch_ Tier_2
+	// Arbol_Torre_Controller_Tier_2.DisplayName: Arbol_ Torre_ Controller_ Tier_2
+	// Arbol_Pieza_Tier_2.DisplayName: Arbol_ Pieza_ Tier_2
+	// Arbol_Pieza.DisplayName: Arbol_ Pieza
+	// GOLDENSTAND_Tier_1.DisplayName: G O L D E N S T A N D_ Tier_1
+	// Golden_BarragePunch_Tier_1.DisplayName: Golden_ Barrage Punch_ Tier_1
+	// Arbol_Torre_Controller_Tier_1.DisplayName: Arbol_ Torre_ Controller_ Tier_1
+	// ReturnZeroAfterimage.DisplayName: Return Zero Afterimage
+	// GoldenRequiem_Laser.DisplayName: Golden Requiem_ Laser
+	// GOLDENSTAND_Requiem.DisplayName: G O L D E N S T A N D_ Requiem
+	// Golden_BarragePunch_Requiem.DisplayName: Golden_ Barrage Punch_ Requiem
+	// AnimalGolpeProjectile_Requiem.DisplayName: Animal Golpe Projectile_ Requiem
+	// D4CSTAND_Tier_4.DisplayName: D4 C S T A N D_ Tier_4
+	// D4CRedBridgeProjectile_Tier_4.DisplayName: D4 C Red Bridge Projectile_ Tier_4
+	// D4CMarcaBridgeProjectile_Tier_4.DisplayName: D4 C Marca Bridge Projectile_ Tier_4
+	// D4CClonExplosionProjectile_Tier_4.DisplayName: D4 C Clon Explosion Projectile_ Tier_4
+	// D4CAliadosBridgeProjectile_Tier_4.DisplayName: D4 C Aliados Bridge Projectile_ Tier_4
+	// D4CAliadoMeleeGolpeProjectile_Tier_4.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_4
+	// D4C_BarragePunch_Tier_4.DisplayName: D4 C_ Barrage Punch_ Tier_4
+	// D4CSTAND_Tier_3.DisplayName: D4 C S T A N D_ Tier_3
+	// D4CRedBridgeProjectile_Tier_3.DisplayName: D4 C Red Bridge Projectile_ Tier_3
+	// D4CMarcaBridgeProjectile_Tier_3.DisplayName: D4 C Marca Bridge Projectile_ Tier_3
+	// D4CClonExplosionProjectile_Tier_3.DisplayName: D4 C Clon Explosion Projectile_ Tier_3
+	// D4CAliadosBridgeProjectile_Tier_3.DisplayName: D4 C Aliados Bridge Projectile_ Tier_3
+	// D4CAliadoMeleeGolpeProjectile_Tier_3.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_3
+	// D4C_BarragePunch_Tier_3.DisplayName: D4 C_ Barrage Punch_ Tier_3
+	// D4CSTAND_Tier_2.DisplayName: D4 C S T A N D_ Tier_2
+	// D4CRedBridgeProjectile_Tier_2.DisplayName: D4 C Red Bridge Projectile_ Tier_2
+	// D4CMarcaBridgeProjectile_Tier_2.DisplayName: D4 C Marca Bridge Projectile_ Tier_2
+	// D4CClonExplosionProjectile_Tier_2.DisplayName: D4 C Clon Explosion Projectile_ Tier_2
+	// D4CAliadosBridgeProjectile_Tier_2.DisplayName: D4 C Aliados Bridge Projectile_ Tier_2
+	// D4CAliadoMeleeGolpeProjectile_Tier_2.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_2
+	// D4C_BarragePunch_Tier_2.DisplayName: D4 C_ Barrage Punch_ Tier_2
+	// D4CSTAND_Tier_1.DisplayName: D4 C S T A N D_ Tier_1
+	// D4CRedBridgeProjectile_Tier_1.DisplayName: D4 C Red Bridge Projectile_ Tier_1
+	// D4CMarcaBridgeProjectile_Tier_1.DisplayName: D4 C Marca Bridge Projectile_ Tier_1
+	// D4CAliadosBridgeProjectile_Tier_1.DisplayName: D4 C Aliados Bridge Projectile_ Tier_1
+	// D4CAliadoMeleeGolpeProjectile_Tier_1.DisplayName: D4 C Aliado Melee Golpe Projectile_ Tier_1
+	// D4C_BarragePunch_Tier_1.DisplayName: D4 C_ Barrage Punch_ Tier_1
+	// CMOONSTAND_Tier_3.DisplayName: C M O O N S T A N D_ Tier_3
+	// CMoon_UltimateField_Tier_3.DisplayName: C Moon_ Ultimate Field_ Tier_3
+	// CMoon_ShockwaveAura_Tier_3.DisplayName: C Moon_ Shockwave Aura_ Tier_3
+	// CMoon_GravityAura_Tier_3.DisplayName: C Moon_ Gravity Aura_ Tier_3
+	// CMOON_BarragePunch.DisplayName: C M O O N_ Barrage Punch
+	// CMOONSTAND_Tier_2.DisplayName: C M O O N S T A N D_ Tier_2
+	// CMoon_ShockwaveAura_Tier_2.DisplayName: C Moon_ Shockwave Aura_ Tier_2
+	// CMoon_GravityAura_Tier_2.DisplayName: C Moon_ Gravity Aura_ Tier_2
+	// CMOON_BarragePunch_Tier_2.DisplayName: C M O O N_ Barrage Punch_ Tier_2
+	// CMOONSTAND_Tier_1.DisplayName: C M O O N S T A N D_ Tier_1
+	// CMoon_GravityAura_Tier_1.DisplayName: C Moon_ Gravity Aura_ Tier_1
+	// CMOON_BarragePunch_Tier_1.DisplayName: C M O O N_ Barrage Punch_ Tier_1
+	// CINDERELLASTAND_Tier_4.DisplayName: C I N D E R E L L A S T A N D_ Tier_4
+	// Cinderella_BarragePunch_Tier_4.DisplayName: Cinderella_ Barrage Punch_ Tier_4
+	// KatanaSlash_Tier_4.DisplayName: Katana Slash_ Tier_4
+	// KatanaSlash_Tier_3.DisplayName: Katana Slash_ Tier_3
+	// ANUBISSTAND_Tier_3.DisplayName: A N U B I S S T A N D_ Tier_3
+	// KatanaSlash_Tier_2.DisplayName: Katana Slash_ Tier_2
+	// ANUBISSTAND_Tier_2.DisplayName: A N U B I S S T A N D_ Tier_2
+	// KatanaSlash_Tier_1.DisplayName: Katana Slash_ Tier_1
+	// ANUBISSTAND_Tier_1.DisplayName: A N U B I S S T A N D_ Tier_1
+	// TimeStopAreaProj.DisplayName: Time Stop Area Proj
+	// HirofantGreenNpcProj.DisplayName: Hirofant Green Npc Proj
+	// EsmeraldaNpc_Tier_1.DisplayName: Esmeralda Npc_ Tier_1
+	// ProyectilCuchilloItem.DisplayName: Proyectil Cuchillo Item
+	// BalasStand_Trayectoria.DisplayName: Balas Stand_ Trayectoria
+	// DiarioExplosionProjectile.DisplayName: Diario Explosion Projectile
+	// CinderellaArmaduraProj.DisplayName: Cinderella Armadura Proj
+	// CinderellaGHabilidadProj.DisplayName: Cinderella G Habilidad Proj
+	// Cinderella_BarragePunch_Tier_3.DisplayName: Cinderella_ Barrage Punch_ Tier_3
+	// CINDERELLASTAND_Tier_3.DisplayName: C I N D E R E L L A S T A N D_ Tier_3
+	// Cinderella_BarragePunch_Tier_2.DisplayName: Cinderella_ Barrage Punch_ Tier_2
+	// CINDERELLASTAND_Tier_2.DisplayName: C I N D E R E L L A S T A N D_ Tier_2
+	// Cinderella_BarragePunch_Tier_1.DisplayName: Cinderella_ Barrage Punch_ Tier_1
+	// CINDERELLASTAND_Tier_1.DisplayName: C I N D E R E L L A S T A N D_ Tier_1
+	// CinderellaCuracionParticulasProj.DisplayName: Cinderella Curacion Particulas Proj
+	// CinderellaCuracionAreaProj.DisplayName: Cinderella Curacion Area Proj
+	// CinderellaNpcProj.DisplayName: Cinderella Npc Proj
+	// CrazyDiamond_BarragePunch_Tier_4.DisplayName: Crazy Diamond_ Barrage Punch_ Tier_4
+	// CRAZYDIAMONDSTAND_Tier_4.DisplayName: C R A Z Y D I A M O N D S T A N D_ Tier_4
+	// RocaProyectil.DisplayName: Roca Proyectil
+	// EscudoRocaProyectil.DisplayName: Escudo Roca Proyectil
+	// CrazyDiamond_BarragePunch_Tier_1.DisplayName: Crazy Diamond_ Barrage Punch_ Tier_1
+	// CRAZYDIAMONDSTAND_Tier_1.DisplayName: C R A Z Y D I A M O N D S T A N D_ Tier_1
+	// CrazyDiamond_BarragePunch_Tier_2.DisplayName: Crazy Diamond_ Barrage Punch_ Tier_2
+	// CRAZYDIAMONDSTAND_Tier_2.DisplayName: C R A Z Y D I A M O N D S T A N D_ Tier_2
+	// CrazyDiamond_BarragePunch_Tier_3.DisplayName: Crazy Diamond_ Barrage Punch_ Tier_3
+	// CRAZYDIAMONDSTAND_Tier_3.DisplayName: C R A Z Y D I A M O N D S T A N D_ Tier_3
+	// SilverChariotNpcProj.DisplayName: Silver Chariot Npc Proj
+	// ShotNpc.DisplayName: Shot Npc
+	// GarraSlash_Tier_4.DisplayName: Garra Slash_ Tier_4
+	// MONSTERSTAND_Tier_4.DisplayName: M O N S T E R S T A N D_ Tier_4
+	// MONSTERCLAW_Tier_4.DisplayName: M O N S T E R C L A W_ Tier_4
+	// MiniDino.DisplayName: Mini Dino
+	// TransformedDino.DisplayName: Transformed Dino
+	// DinoInfectado.DisplayName: Dino Infectado
+	// MONSTERSTAND_Tier_3.DisplayName: M O N S T E R S T A N D_ Tier_3
+	// GarraSlash_Tier_3.DisplayName: Garra Slash_ Tier_3
+	// GarraSlash_Tier_2.DisplayName: Garra Slash_ Tier_2
+	// MONSTERSTAND_Tier_2.DisplayName: M O N S T E R S T A N D_ Tier_2
+	// GarraSlash_Tier_1.DisplayName: Garra Slash_ Tier_1
+	// MONSTERSTAND_Tier_1.DisplayName: M O N S T E R S T A N D_ Tier_1
+	// TUSKSTAND_Tier_1.DisplayName: T U S K S T A N D_ Tier_1
+	// TuskBala.DisplayName: Tusk Bala
+	// TuskEstela.DisplayName: Tusk Estela
+}
+
+NPCs: {
+	RanaVenenosa_Tier_4.DisplayName: Giftfrosch Tier 4
+	RanaVenenosa_Tier_3.DisplayName: Giftfrosch Tier 3
+	Rana_Refleja_Tier_4.DisplayName: Reflektierender Frosch Tier 4
+	Mariposa_Refleja_Tier_4.DisplayName: Reflektierender Schmetterling Tier 4
+	Rana_Refleja_Tier_3.DisplayName: Reflektierender Frosch Tier 3
+	Mariposa_Refleja_Tier_3.DisplayName: Reflektierender Schmetterling Tier3
+	Rana_Refleja_Tier_2.DisplayName: Reflektierender Frosch Tier 2
+	RanaRequiem.DisplayName: Requiem-Frosch
+	PajaroRequiem.DisplayName: Requiem-Vogel
+	MariposaRequiem.DisplayName: Requiem-Schmetterling
+	ClonJugadorNPC_Tier_4.DisplayName: Explosiver Klon Tier 4
+	AliadoRangedNPC_Tier_4.DisplayName: Ranger-Klon Tier 4
+	AliadoMeleeNPC_Tier_4.DisplayName: Nahkampf-Klon Tier 4
+	ClonJugadorNPC_Tier_3.DisplayName: Explosiver Klon Tier 3
+	AliadoRangedNPC_Tier_3.DisplayName: Fernkampf-Klon Tier 3
+	AliadoMeleeNPC_Tier_3.DisplayName: Nahkampf-Klon Tier 3
+	ClonJugadorNPC_Tier_2.DisplayName: Explosiver Klon Tier 2
+	AliadoRangedNPC_Tier_2.DisplayName: Fernkampf-Klon Tier 2
+	AliadoMeleeNPC_Tier_2.DisplayName: Nahkampf-Klon Tier 2
+	AliadoRangedNPC_Tier_1.DisplayName: Fernkampf-Klon Tier 1
+	AliadoMeleeNPC_Tier_1.DisplayName: Nahkampf-Klon Tier 1
+
+	Jotaro: {
+		TownNPCMood: {
+			Princess_LovesNPC: Ich mag {NPCName}.
+			LikeNPC_Princess: Ich mag {NPCName}.
+			HateBiome: Ich hasse das Biom {BiomeName}.
+			LoveBiome: Ich liebe das Biom {BiomeName}.
+			HateCrowded: Ich hasse es, so wenig Platz zu haben.
+			DislikeCrowded: Ich mag es nicht, so wenig Platz zu haben.
+			LoveSpace: Ich liebe es, so viel Platz zu haben.
+			FarFromHome: Ich bin zu weit von zu Hause entfernt.
+			NoHome: Ich hasse es, kein Zuhause zu haben.
+			Content: Ich bin glücklich.
+		}
+
+		// DisplayName: Jotaro
+	}
+
+	// Roca.DisplayName: Roca
+	// TransformedDinoNPC.DisplayName: Transformed Dino N P C
+}
+
+Items: {
+	WhiteSnakeItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/2B4EAD:Rechtsklick]) [c/2B4EAD:Gedächtnisraub]: Platziert den Stand auf dem Gegner, der nach kurzer Zeit die Fähigkeit zu Bewegung und Angriff verliert
+			Normale Gegner werden für [c/2B4EAD:20] Sekunden außer Gefecht gesetzt, Bosse für [c/2B4EAD:6] Sekunden
+			​​
+			([c/2B4EAD:1]) [c/2B4EAD:Verdauungsnebel]: Erzeugt eine Flüssigkeit, die an Oberflächen haftet und dauerhaften Schaden sowie eine Verlangsamung verursacht.
+			(Die Verlangsamung nimmt mit den Tiers zu)
+			​​
+			([c/2B4EAD:2]) [c/2B4EAD:Fernkampfmodus]: Wechselt in einen Modus, in dem mit einer Waffe geschossen wird. 
+			(Diese Waffe skaliert sowohl mit dem Ranger-Schaden als auch mit dem Stand-Schaden).
+			'''
+		DisplayName: WhiteSnake Tier 4
+	}
+
+	WhiteSnakeItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/2B4EAD:Rechtsklick]) [c/2B4EAD:Gedächtnisraub]: Platziert den Stand auf dem Gegner, der nach kurzer Zeit die Fähigkeit zu Bewegung und Angriff verliert
+			Normale Gegner werden für [c/2B4EAD:20] Sekunden außer Gefecht gesetzt, Bosse für [c/2B4EAD:6] Sekunden
+			​​
+			([c/2B4EAD:1]) [c/2B4EAD:Verdauungsnebel]: Erzeugt eine Flüssigkeit, die an Oberflächen haftet und dauerhaften Schaden sowie eine Verlangsamung verursacht.
+			(Die Verlangsamung nimmt mit den Tiers zu)
+			​​
+			([c/2B4EAD:2]) [c/2B4EAD:Fernkampfmodus]: Wechselt in einen Modus, in dem mit einer Waffe geschossen wird. 
+			(Diese Waffe skaliert sowohl mit dem Ranger-Schaden als auch mit dem Stand-Schaden).
+			'''
+		DisplayName: WhiteSnake Tier 3
+	}
+
+	WhiteSnakeItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/2B4EAD:Rechtsklick]) [c/2B4EAD:Gedächtnisraub]: Platziert den Stand auf dem Gegner, der nach kurzer Zeit die Fähigkeit zu Bewegung und Angriff verliert
+			Normale Gegner werden für [c/2B4EAD:20] Sekunden außer Gefecht gesetzt, Bosse für [c/2B4EAD:6] Sekunden
+			​​
+			([c/2B4EAD:1]) [c/2B4EAD:Verdauungsnebel]: Erzeugt eine Flüssigkeit, die an Oberflächen haftet und dauerhaften Schaden sowie eine Verlangsamung verursacht.
+			(Die Verlangsamung nimmt mit den Tiers zu)
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: WhiteSnake Tier 2
+	}
+
+	WhiteSnakeItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/2B4EAD:Rechtsklick]) [c/2B4EAD:Gedächtnisraub]: Platziert den Stand auf dem Gegner, der nach kurzer Zeit die Fähigkeit zu Bewegung und Angriff verliert
+			Normale Gegner werden für [c/2B4EAD:20] Sekunden außer Gefecht gesetzt, Bosse für [c/2B4EAD:6] Sekunden
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: WhiteSnake Tier 1
+	}
+
+	WeatherReportItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/FA4f80:Rechtsklick]) [c/FA4f80:Nieselregen]: Beschwört [c/FA4f80:5] Wolken, die kräftige Wassertropfen abfeuern
+			​​
+			[c/FA4f80:2]) [c/FA4f80:Tornado]: Eine kräftige Windböe, die einige Gegner mitreißen kann
+			​​
+			[c/FA4f80:3]) [c/FA4f80:Froschregen]: Löst einen Regen aus Fröschen aus, die bei Kontakt hochgiftig sind      
+			​​
+			[c/FA4f80:4]) [c/FA4f80:Heavy Weather]: Wenn der Gegner bei 40% Leben ist, stirbt er automatisch und verwandelt sich in eine Schnecke. (Bei Bossen sind es 5%)
+			'''
+		DisplayName: Weather Report Tier 4
+	}
+
+	WeatherReportItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/FA4f80:Rechtsklick]) [c/FA4f80:Nieselregen]: Beschwört [c/FA4f80:4] Wolken, die kräftige Wassertropfen abfeuern
+			​​
+			[c/FA4f80:2]) [c/FA4f80:Tornado]: Eine kräftige Windböe, die einige Gegner mitreißen kann
+			​​
+			[c/FA4f80:3]) [c/FA4f80:Froschregen]: Löst einen Regen aus Fröschen aus, die bei Kontakt hochgiftig sind      
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Weather Report Tier 3
+	}
+
+	WeatherReportItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/FA4f80:Rechtsklick]) [c/FA4f80:Nieselregen]: Beschwört [c/FA4f80:3] Wolken, die kräftige Wassertropfen abfeuern
+			​​
+			[c/FA4f80:2]) [c/FA4f80:Tornado]: Eine kräftige Windböe, die einige Gegner mitreißen kann
+			​​
+			[c/000000:3) ???]      
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Weather Report Tier 2
+	}
+
+	WeatherReportItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/FA4f80:Rechtsklick]) [c/FA4f80:Nieselregen]: Beschwört [c/FA4f80:2] Wolken, die kräftige Wassertropfen abfeuern
+			​​
+			[c/000000:3) ???]
+			​​
+			[c/000000:3) ???]    
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Weather Report Tier 1
+	}
+
+	TheWorldItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/FFD700:1]) [c/FFD700:Zeitstopp]: Hält die Zeit für 9 Sekunden an.
+			​​
+			[c/FFD700:2]) [c/FFD700:Messerwurf]:  Feuert nacheinander 3 Salven mit je 3 Messern ab.
+			​​
+			[c/FFD700:3]) [c/FFD700:Zeitsprung]: Teleportiert an die Mausposition.  
+			'''
+		DisplayName: The World Tier 4
+	}
+
+	TheWorldItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/FFD700:1]) [c/FFD700:Zeitstopp]: Hält die Zeit für 7 Sekunden an.
+			​​
+			[c/FFD700:2]) [c/FFD700:Messerwurf]:  Feuert nacheinander 3 Salven mit je 3 Messern ab.
+			​​
+			[c/FFD700:3]) [c/FFD700:Zeitsprung]: Teleportiert an die Mausposition.  
+			'''
+		DisplayName: The World Tier 3
+	}
+
+	TheWorldItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/FFD700:1]) [c/FFD700:Zeitstopp]: Hält die Zeit für 5 Sekunden an.
+			​​
+			[c/FFD700:2]) [c/FFD700:Messerwurf]:  Feuert nacheinander 3 Salven mit je 3 Messern ab.
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: The World Tier 2
+	}
+
+	TheWorldItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/FFD700:1]) [c/FFD700:Zeitstopp]: Hält die Zeit für 2 Sekunden an.
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: The World Tier 1
+	}
+
+	StarPlatinumItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/9F39C9:1]) [c/9F39C9:Star Finger]: Verlängert den Finger von Star Platinum, um die Reichweite zu erhöhen.
+			​​
+			[c/9F39C9:2]) [c/9F39C9:Yare Yare...]: Erhöht den Schaden für 14 Sekunden um 50%.
+			​​
+			[c/9F39C9:3]) [c/9F39C9:Zeitstopp]: Hält die Zeit für [c/9F39C9:5] Sekunden an.              
+			'''
+		DisplayName: Star Platinum Tier 4
+	}
+
+	StarPlatinumItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/9F39C9:1]) [c/9F39C9:Star Finger]: Verlängert den Finger von Star Platinum, um die Reichweite zu erhöhen.
+			​​
+			[c/9F39C9:2]) [c/9F39C9:Yare Yare...]: Erhöht den Schaden für 14 Sekunden um 50%.
+			​​
+			[c/9F39C9:3]) [c/9F39C9:Zeitstopp]: Hält die Zeit für [c/9F39C9:3] Sekunden an.              
+			'''
+		DisplayName: Star Platinum Tier 3
+	}
+
+	StarPlatinumItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/9F39C9:1]) [c/9F39C9:Star Finger]: Verlängert den Finger von Star Platinum, um die Reichweite zu erhöhen.
+			​​
+			[c/9F39C9:2]) [c/9F39C9:Yare Yare...]: Erhöht den Schaden für 14 Sekunden um 50%.
+			​​
+			[c/000000:2) ???]              
+			'''
+		DisplayName: Star Platinum Tier 2
+	}
+
+	StarPlatinumItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/9F39C9:1]) [c/9F39C9:Star Finger]: Verlängert den Finger von Star Platinum, um die Reichweite zu erhöhen.
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:2) ???]          
+			'''
+		DisplayName: Star Platinum Tier 1
+	}
+
+	SilverChariotItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/9EBFEC:1]) [c/9EBFEC:Degenschuss]: Feuert den Degen mit hoher Geschwindigkeit ab, prallt 3-mal ab und durchbohrt Gegner.
+			​​
+			[c/9EBFEC:2]) [c/9EBFEC:Wache]: Nimmt eine Verteidigungshaltung ein. In dieser Haltung zerstört er jedes feindliche Projektil, das sich nähert.
+			​​
+			[c/9EBFEC:3]) [c/9EBFEC:Schnelle Rüstung]: Erzeugt 7 Illusionen von Silver Chariot, die mit hoher Geschwindigkeit angreifen. (Du kannst nicht gleichzeitig Fähigkeiten einsetzen)
+			'''
+		DisplayName: Silver Chariot Tier 4
+	}
+
+	SilverChariotItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/9EBFEC:1]) [c/9EBFEC:Degenschuss]: Feuert den Degen mit hoher Geschwindigkeit ab, prallt 3-mal ab und durchbohrt Gegner.
+			​​
+			[c/9EBFEC:2]) [c/9EBFEC:Wache]: Nimmt eine Verteidigungshaltung ein. In dieser Haltung zerstört er jedes feindliche Projektil, das sich nähert.
+			​​
+			[c/9EBFEC:3]) [c/9EBFEC:Schnelle Rüstung]: Erzeugt 7 Illusionen von Silver Chariot, die mit hoher Geschwindigkeit angreifen. (Du kannst nicht gleichzeitig Fähigkeiten einsetzen)
+			'''
+		DisplayName: Silver Chariot Tier 3
+	}
+
+	SilverChariotItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/9EBFEC:1]) [c/9EBFEC:Degenschuss]: Feuert den Degen mit hoher Geschwindigkeit ab, prallt 3-mal ab und durchbohrt Gegner.
+			​​
+			[c/9EBFEC:2]) [c/9EBFEC:Wache]: Nimmt eine Verteidigungshaltung ein. In dieser Haltung zerstört er jedes feindliche Projektil, das sich nähert.
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Silver Chariot Tier 2
+	}
+
+	SilverChariotItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/9EBFEC:1]) [c/9EBFEC:Degenschuss]: Feuert den Degen mit hoher Geschwindigkeit ab, prallt 3-mal ab und durchbohrt Gegner.
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: Silver Chariot Tier 1
+	}
+
+	SilverChariotRequiemItem_Requiem: {
+		Tooltip:
+			'''
+			([c/5913D5:Passive Fähigkeit]) [c/5913D5:Dunkle Atmosphäre]: Wendet alle 20 Sekunden die Debuffs von Chariot Requiem auf alle Kreaturen in der Nähe an.
+			​​
+			[c/5913D5:1]) [c/5913D5:Requiems Wille]: Lässt alle Wesen in einem Bereich in einen tiefen Schlaf fallen. Sie können durch erlittenen Schaden aufwachen.
+			​​
+			[c/5913D5:2]) [c/5913D5:Seelenmutation]: Wendet in einem beträchtlichen Bereich dauerhafte Debuffs an, darunter:
+			Verlangsamung des Gegners um 50%, Senkung der Verteidigung um 50%, Mutierte Blutung.
+			​​
+			[c/5913D5:3]) [c/5913D5:Dunkle Spiegelung]: Jeder Angriff auf Chariot Requiem wird automatisch auf den Angreifer zurückgeworfen.
+			'''
+		DisplayName: Silver Chariot Requiem Tier Requiem
+	}
+
+	RikaItem: {
+		Tooltip:
+			'''
+			[c/C493C7:1]) Alle stehen bleiben.
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Rika Finaler Tier
+	}
+
+	MRedItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/F14F14:Rechtsklick]) [c/F14F14:Brennender Atem]: Ein ununterbrochener Flammenstrahl, der alles versengt, was er berührt.
+			​​
+			[c/F14F14:1]) [c/F14F14:Flammenmanipulation]: Erzeugt um den Benutzer einen Bereich aus Ankh-Kreuzen. Am Ende werden die Kreuze auf den Gegner geschossen.
+			​​
+			[c/F14F14:2]) [c/F14F14:Feuerorkan]: Erzeugt einen mächtigen Flammenorkan, der großen Schaden verursacht.
+			'''
+		DisplayName: Magician's Red Tier 4
+	}
+
+	MRedItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/F14F14:Rechtsklick]) [c/F14F14:Brennender Atem]: Ein ununterbrochener Flammenstrahl, der alles versengt, was er berührt.
+			​​
+			[c/F14F14:1]) [c/F14F14:Flammenmanipulation]: Erzeugt um den Benutzer einen Bereich aus Ankh-Kreuzen. Am Ende werden die Kreuze auf den Gegner geschossen.
+			​​
+			[c/F14F14:2]) [c/F14F14:Feuerorkan]: Erzeugt einen mächtigen Flammenorkan, der großen Schaden verursacht.
+			'''
+		DisplayName: Magician's Red Tier 4
+	}
+
+	MRedItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/F14F14:Rechtsklick]) [c/F14F14:Brennender Atem]: Ein ununterbrochener Flammenstrahl, der alles versengt, was er berührt.
+			​​
+			[c/F14F14:1]) [c/F14F14:Flammenmanipulation]: Erzeugt um den Benutzer einen Bereich aus Ankh-Kreuzen. Am Ende werden die Kreuze auf den Gegner geschossen.
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: Magician's Red Tier 4
+	}
+
+	MRedItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/F14F14:Rechtsklick]) [c/F14F14:Brennender Atem]: Ein ununterbrochener Flammenstrahl, der alles versengt, was er berührt.
+			​​
+			[c/000000:1) ???]
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: Magician's Red Tier 1
+	}
+
+	MadeInHeavenItem: {
+		Tooltip:
+			'''
+			[c/74FCFC:1]) [c/74FCFC:Superschnelligkeit]: Beschleunigt rasch und durchdringt und verletzt alles, was ihm im Weg steht
+			​​
+			[c/74FCFC:2]) [c/74FCFC:Blitzschritt]: Bildet einen Bereich, in dem es sich mit hoher Geschwindigkeit bewegt und dabei schnell mehrere Gegner durchdringt
+			​​
+			[c/74FCFC:3]) [c/74FCFC:Zeitbeschleunigung]: Je schneller die Zeit vergeht, desto stärker sinkt die Abklingzeit der Fähigkeit ''Superschnelligkeit''         
+			'''
+		DisplayName: Made In Heaven Finaler Tier
+	}
+
+	KingCrimsonItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/FB2E74:Rechtsklick]) [c/FB2E74:Donut]: Kraftvoller Schlag, der den Gegner durchbohrt.
+			​​
+			[c/FB2E74:1]) [c/FB2E74:Epitaph]: Sagt die mögliche Position der Gegner voraus und gewährt dem Benutzer 1 garantiertes Ausweichen.
+			​​
+			[c/FB2E74:2]) [c/FB2E74:Zeitlöschung]: Der Benutzer wird immateriell, während sich die Wesen frei bewegen und Schatten auf ihrem Weg hinterlassen.
+			Wenn die Fähigkeit endet oder abgebrochen wird, kehren die Wesen zu ihrem Ausgangspunkt zurück und legen den Weg, den sie einst zurückgelegt haben, erneut zurück.
+			Nach dem Ende der Zeitlöschung erhält [c/FB2E74:Donut] für 1 Sekunde [c/FB2E74:x10 Schaden].          
+			​​
+			[c/FB2E74:3]) [c/FB2E74:Zeitsprung]: Teleportiert sich und verwirrt Kreaturen in der Nähe.
+			'''
+		DisplayName: King Crimson Tier 4
+	}
+
+	KingCrimsonItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/FB2E74:Rechtsklick]) [c/FB2E74:Donut]: Kraftvoller Schlag, der den Gegner durchbohrt.
+			​​
+			[c/FB2E74:1]) [c/FB2E74:Epitaph]: Sagt die mögliche Position der Gegner voraus und gewährt dem Benutzer 1 garantiertes Ausweichen.
+			​​
+			[c/FB2E74:2]) [c/FB2E74:Zeitlöschung]: Der Benutzer wird immateriell, während sich die Wesen frei bewegen und Schatten auf ihrem Weg hinterlassen.
+			Wenn die Fähigkeit endet oder abgebrochen wird, kehren die Wesen zu ihrem Ausgangspunkt zurück und legen den Weg, den sie einst zurückgelegt haben, erneut zurück.
+			Nach dem Ende der Zeitlöschung erhält [c/FB2E74:Donut] für 1 Sekunde [c/FB2E74:x8 Schaden].          
+			​​
+			[c/FB2E74:3]) [c/FB2E74:Zeitsprung]: Teleportiert sich und verwirrt Kreaturen in der Nähe.
+			'''
+		DisplayName: King Crimson Tier 3
+	}
+
+	KingCrimsonItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/FB2E74:Rechtsklick]) [c/FB2E74:Donut]: Kraftvoller Schlag, der den Gegner durchbohrt.
+			​​
+			[c/FB2E74:1]) [c/FB2E74:Epitaph]: Sagt die mögliche Position der Gegner voraus und gewährt dem Benutzer 1 garantiertes Ausweichen.
+			​​
+			[c/FB2E74:2]) [c/FB2E74:Zeitlöschung]: Der Benutzer wird immateriell, während sich die Wesen frei bewegen und Schatten auf ihrem Weg hinterlassen.
+			Wenn die Fähigkeit endet oder abgebrochen wird, kehren die Wesen zu ihrem Ausgangspunkt zurück und legen den Weg, den sie einst zurückgelegt haben, erneut zurück.
+			Nach dem Ende der Zeitlöschung erhält [c/FB2E74:Donut] für 1 Sekunde [c/FB2E74:x6 Schaden].          
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: King Crimson Tier 2
+	}
+
+	KingCrimsonItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/FB2E74:(Rechtsklick]) Donut: Kraftvoller Schlag, der den Gegner durchbohrt.
+			​​
+			[c/FB2E74:1]) [c/FB2E74:Epitaph]: Sagt die mögliche Position der Gegner voraus und gewährt dem Benutzer 1 garantiertes Ausweichen.
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: King Crimson Tier 1
+	}
+
+	KillerQueenItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/EB87D4:Rechtsklick]) [c/EB87D4:Explosive Transmutation]: "Rechtsklick", um eine Bombe auf Blöcken oder Wesen zu platzieren, erneut klicken zum Zünden.
+			​​
+			[c/EB87D4:1]) [c/EB87D4:Zweite Bombe]: Beschwört Sheer Heart Attack für 15 Sekunden.
+			​​
+			[c/EB87D4:2]) [c/EB87D4:Explosive Blase]: Erzeugt eine explosive Blase mit hohem Schaden und großer Fläche, die jederzeit mit derselben Taste gezündet werden kann.
+			​​
+			[c/EB87D4:3]) [c/EB87D4:Bites The Dust!]: Platziert eine verkleinerte Kopie von Killer Queen auf einem Wesen. Die Fähigkeit wird aktiviert, wenn:
+			Du kurz vor dem Tod stehst und sie sich automatisch aktiviert, wobei dein Leben auf den Wert vor der Aktivierung zurückgesetzt wird, nach Ablauf des Countdowns erhält sie oder
+			Manuell aktiviert. Dadurch kehren die Wesen und du an eure alten Positionen zurück, und es werden 13 Sekunden lang Explosionen abgespielt.
+			'''
+		DisplayName: Killer Queen Tier 4
+	}
+
+	KillerQueenItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/EB87D4:Rechtsklick]) [c/EB87D4:Explosive Transmutation]: "Rechtsklick", um eine Bombe auf Blöcken oder Wesen zu platzieren, erneut klicken zum Zünden.
+			​​
+			[c/EB87D4:1]) [c/EB87D4:Zweite Bombe]: Beschwört Sheer Heart Attack für 15 Sekunden.
+			​​
+			[c/EB87D4:2]) [c/EB87D4:Explosive Blase]: Erzeugt eine explosive Blase mit hohem Schaden und großer Fläche, die jederzeit mit derselben Taste gezündet werden kann.
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Killer Queen Tier 3
+	}
+
+	KillerQueenItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/EB87D4:Rechtsklick]) [c/EB87D4:Explosive Transmutation]: "Rechtsklick", um eine Bombe auf Blöcken oder Wesen zu platzieren, erneut klicken zum Zünden.
+			​​
+			[c/EB87D4:1]) [c/EB87D4:Zweite Bombe]: Beschwört Sheer Heart Attack für 15 Sekunden.
+			​​
+			[c/000000:3) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Killer Queen Tier 2
+	}
+
+	KillerQueenItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/EB87D4:Rechtsklick]) [c/EB87D4:Explosive Transmutation]: "Rechtsklick", um eine Bombe auf Blöcken oder Wesen zu platzieren, erneut klicken zum Zünden.
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: Killer Queen Tier 1
+	}
+
+	JusticeItem_Tier_4: {
+		// Tooltip: ""
+		// DisplayName: Justice Item_ Tier_4
+	}
+
+	HGreenItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/2DCE22:Greifhaken]: (Greifhaken-Taste) Nur wenn du keinen Haken und keine Ausrüstung im Inventar hast  
+			​​
+			[c/2DCE22:1]) [c/2DCE22:Marionette]: Feuert mehrere Ketten auf einen Gegner ab, die ihn festhalten und das Ziehen ermöglichen
+			​​
+			[c/2DCE22:2]) [c/2DCE22:Spritzer]: Verspritzt rund um dich abprallende Smaragde
+			​​
+			[c/2DCE22:3]) [c/2DCE22:Emerald Splash!]: Bildet Smaragdfäden, die Gegner bei Kontakt verletzen
+			'''
+		DisplayName: Hierophant Green  Tier 4
+	}
+
+	HGreenItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/2DCE22:Greifhaken]: (Greifhaken-Taste) Nur wenn du keinen Haken und keine Ausrüstung im Inventar hast  
+			​​
+			[c/2DCE22:1]) [c/2DCE22:Marionette]: Feuert mehrere Ketten auf einen Gegner ab, die ihn festhalten und das Ziehen ermöglichen
+			​​
+			[c/2DCE22:2]) [c/2DCE22:Spritzer]: Verspritzt rund um dich abprallende Smaragde
+			​​
+			[c/2DCE22:3]) [c/2DCE22:Emerald Splash!]: Bildet Smaragdfäden, die Gegner bei Kontakt verletzen
+			'''
+		DisplayName: Hierophant Green  Tier 3
+	}
+
+	HGreenItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/2DCE22:Greifhaken]: (Greifhaken-Taste) Nur wenn du keinen Haken und keine Ausrüstung im Inventar hast  
+			​​
+			[c/2DCE22:1]) [c/2DCE22:Marionette]: Feuert mehrere Ketten auf einen Gegner ab, die ihn festhalten und das Ziehen ermöglichen
+			​​
+			[c/2DCE22:2]) [c/2DCE22:Spritzer]: Verspritzt rund um dich abprallende Smaragde
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Hierophant Green  Tier 2
+	}
+
+	HGreenItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/2DCE22:Greifhaken]: (Greifhaken-Taste) Nur wenn du keinen Haken und keine Ausrüstung im Inventar hast  
+			​​
+			[c/2DCE22:1]) [c/2DCE22:Marionette]: Feuert mehrere Ketten auf einen Gegner ab, die ihn festhalten und das Ziehen ermöglichen
+			​​
+			[c/000000:3) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Hierophant Green  Tier 1
+	}
+
+	GoldenItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/FBD45F:Rechtsklick]) [c/FBD45F:Wiederbelebung]: Erfüllt den Benutzer mit Lebensenergie und heilt [c/FBD45F:150] Lebenspunkte                 
+			​​
+			[c/FBD45F:1]) [c/FBD45F:Lebensschöpfung]: Beschleunigt das Wachstum der Vegetation, um Gegnern Schaden zuzufügen
+			​​
+			[c/FBD45F:2]) [c/FBD45F:Reflexion]: Beschwört einen Frosch, der neben [c/FBD45F:80] Kontaktschaden zusätzlich [c/FBD45F:100%] des erlittenen Schadens reflektiert
+			​​
+			[c/FBD45F:3]) [c/FBD45F:Schmetterlingsarmee]: Beschwört eine große Gruppe von Schmetterlingen, die eigenen Kontaktschaden verursachen und [c/FBD45F:40%] des Schadens reflektieren
+			'''
+		DisplayName: Golden Experience Tier 4
+	}
+
+	GoldenItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/FBD45F:Rechtsklick]) [c/FBD45F:Wiederbelebung]: Erfüllt den Benutzer mit Lebensenergie und heilt [c/FBD45F:120] Lebenspunkte                 
+			​​
+			[c/FBD45F:1]) [c/FBD45F:Lebensschöpfung]: Beschleunigt das Wachstum der Vegetation, um Gegnern Schaden zuzufügen
+			​​
+			[c/FBD45F:2]) [c/FBD45F:Reflexion]: Beschwört einen Frosch, der neben [c/FBD45F:65] Kontaktschaden zusätzlich [c/FBD45F:70%] des erlittenen Schadens reflektiert
+			​​
+			[c/FBD45F:3]) [c/FBD45F:Schmetterlingsarmee]: Beschwört eine große Gruppe von Schmetterlingen, die eigenen Kontaktschaden verursachen und [c/FBD45F:30%] des Schadens reflektieren
+			'''
+		DisplayName: Golden Experience Tier 3
+	}
+
+	GoldenItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/FBD45F:Rechtsklick]) [c/FBD45F:Wiederbelebung]: Erfüllt den Benutzer mit Lebensenergie und heilt [c/FBD45F:90] Lebenspunkte                 
+			​​
+			[c/FBD45F:1]) [c/FBD45F:Lebensschöpfung]: Beschleunigt das Wachstum der Vegetation, um Gegnern Schaden zuzufügen
+			​​
+			[c/FBD45F:2]) [c/FBD45F:Reflexion]: Beschwört einen Frosch, der neben [c/FBD45F:50] Kontaktschaden zusätzlich [c/FBD45F:50%] des erlittenen Schadens reflektiert
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Golden Experience Tier 2
+	}
+
+	GoldenItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/FBD45F:Rechtsklick]) [c/FBD45F:Wiederbelebung]: Erfüllt den Benutzer mit Lebensenergie und heilt [c/FBD45F:50] Lebenspunkte                 
+			​​
+			[c/FBD45F:1]) [c/FBD45F:Lebensschöpfung]: Beschleunigt das Wachstum der Vegetation, um Gegnern Schaden zuzufügen
+			​​
+			[c/000000:3) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: Golden Experience Tier 1
+	}
+
+	GoldenItem_Requiem: {
+		Tooltip: Noch nicht fertig, also... Vielleicht funktionieren die Fähigkeiten 1 und 3, aber mit einigen Bugs.
+		DisplayName: Golden Experience Requiem
+	}
+
+	D4CItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/EB4196:Rechtsklick]) [c/EB4196:Markierung]: Markiert einen Gegner, damit deine Klone ihn angreifen.
+			​​
+			[c/EB4196:1]) [c/EB4196:Anderes Ich]: Beschwört [c/EB4196:4] Nahkampf-Klone und [c/EB4196:4] Ranger-Klone.
+			​​
+			[c/EB4196:2]) [c/EB4196:Opfer]: Beschwört [c/EB4196:3] Klone, die auf den Gegner zulaufen und explodieren.
+			​​
+			[c/EB4196:3]) [c/EB4196:Taschendimension]: Du betrittst eine Taschendimension, in der dich niemand angreifen kann
+			'''
+		DisplayName: D4C Tier 4
+	}
+
+	D4CItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/EB4196:Rechtsklick]) [c/EB4196:Markierung]: Markiert einen Gegner, damit deine Klone ihn angreifen.
+			​​
+			[c/EB4196:1]) [c/EB4196:Anderes Ich]: Beschwört [c/EB4196:3] Nahkampf-Klone und [c/EB4196:3] Ranger-Klone.
+			​​
+			[c/EB4196:2]) [c/EB4196:Opfer]: Beschwört [c/EB4196:2] Klone, die auf den Gegner zulaufen und explodieren.
+			​​
+			[c/EB4196:3]) [c/EB4196:Taschendimension]: Du betrittst eine Taschendimension, in der dich niemand angreifen kann
+			'''
+		DisplayName: D4C Tier 3
+	}
+
+	D4CItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/EB4196:Rechtsklick]) [c/EB4196:Markierung]: Markiert einen Gegner, damit deine Klone ihn angreifen.
+			​​
+			[c/EB4196:1]) [c/EB4196:Anderes Ich]: Beschwört [c/EB4196:2] Nahkampf-Klone und [c/EB4196:2] Ranger-Klone.
+			​​
+			[c/EB4196:2]) [c/EB4196:Opfer]: Beschwört [c/EB4196:1] Klon, der auf den Gegner zuläuft und explodiert.
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: D4C Tier 2
+	}
+
+	D4CItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/EB4196:Rechtsklick]) [c/EB4196:Markierung]: Markiert einen Gegner, damit deine Klone ihn angreifen.
+			​​
+			[c/EB4196:1]) [c/EB4196:Anderes Ich]: Beschwört [c/EB4196:1] Nahkampf-Klon und [c/EB4196:1] Ranger-Klon.
+			​​
+			[c/000000:2) ???]
+			​​
+			[c/000000:3) ???]
+			'''
+		DisplayName: D4C Tier 1
+	}
+
+	CMoonItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/2ABF59:W-Taste]) [c/2ABF59:Umgekehrte Schwerkraft]: Hält den Buff der umgekehrten Schwerkraft dauerhaft aufrecht.
+			​​
+			[c/2ABF59:1]) [c/2ABF59:Oberflächeninversion]: Hebt Gegner an und schmettert sie dann auf den Boden.
+			​​
+			[c/2ABF59:2]) [c/2ABF59:Stoß]: Sendet eine Kraftwelle aus, die Gegner wegstößt. 
+
+			​​
+			[c/2ABF59:3]) [c/2ABF59:Mangelhafte Schwerkraft]: Hebt die Schwerkraft der Gegner in einem großen Bereich auf.
+			'''
+		DisplayName: CMoon Tier 3
+	}
+
+	CMoonItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/2ABF59:W-Taste]) [c/2ABF59:Umgekehrte Schwerkraft]: Hält den Buff der umgekehrten Schwerkraft dauerhaft aufrecht.
+			​​
+			[c/2ABF59:1]) [c/2ABF59:Oberflächeninversion]: Hebt Gegner an und schmettert sie dann auf den Boden.
+			​​
+			[c/2ABF59:2]) [c/2ABF59:Stoß]: Sendet eine Kraftwelle aus, die Gegner wegstößt. 
+
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: CMoon Tier 2
+	}
+
+	CMoonItem_Tier_1: {
+		Tooltip:
+			'''
+			([c/2ABF59:W-Taste]) [c/2ABF59:Umgekehrte Schwerkraft]: Hält den Buff der umgekehrten Schwerkraft dauerhaft aufrecht.
+			​​
+			[c/2ABF59:1]) [c/2ABF59:Oberflächeninversion]: Hebt Gegner an und schmettert sie dann auf den Boden.
+			​​
+			[c/000000:2) ???] 
+
+			​​
+			[c/000000:2) ???]
+			'''
+		DisplayName: CMoon Tier 1
+	}
+
+	CinderellaItem_Tier_4: {
+		Tooltip:
+			'''
+			([c/F389B2:Passiv]): Belegt getroffene Gegner mit dem Debuff ''Entstellt IV'' (-30% Verteidigung / 18% Verlangsamung)
+			​​
+			[c/F389B2:1]) [c/F389B2:Heilung]: Stellt in einem Bereich Mana und Leben wieder her und wirkt sich auch auf andere Spieler aus
+			​​
+			[c/F389B2:Garderobe]: Ermöglicht es dir, das Aussehen des Spielers jederzeit zu ändern
+			​​
+			[c/F389B2:Gesichtsaustausch]: Ändert für kurze Zeit dein Aussehen. Nahe Gegner werden mit Entstellung und Verwirrung belegt
+			'''
+		DisplayName: Cinderella Tier 4
+	}
+
+	AnubisItem_Tier_4: {
+		Tooltip:
+			'''
+			[c/BA55D3:1]) Anubis erinnert sich... ([c/BA55D3:Passive Fähigkeit])
+			[c/BA55D3:Jeder besiegte feindliche Gegner erhöht deinen Schaden halbpermanent]
+			[c/BA55D3:• (Gegner):] [c/BA55D3:+0.2% Schaden]
+			[c/BA55D3:• (<200 LP):] [c/1E90FF:+0.4% Schaden]                                                         
+			[c/BA55D3:• (<500 LP):] [c/FF69B4:+0.6% Schaden]                                                   
+			[c/BA55D3:• Bosse:] [c/FFD700:+1.4% Schaden] 
+			[c/F75973:Der Fortschritt geht beim Tod oder Ablegen vollständig verloren]
+			[c/F75973:Das Ersetzen durch einen höheren Tier BEHÄLT die Siege.]
+			'''
+		DisplayName: Anubis Tier 4
+	}
+
+	AnubisItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/BA55D3:1]) Anubis erinnert sich... ([c/BA55D3:Passive Fähigkeit])
+			[c/BA55D3:Jeder besiegte feindliche Gegner erhöht deinen Schaden halbpermanent]
+			[c/BA55D3:• (Gegner):] [c/BA55D3:+0.2% Schaden]
+			[c/BA55D3:• (<200 LP):] [c/1E90FF:+0.4% Schaden]                                                         
+			[c/BA55D3:• (<500 LP):] [c/FF69B4:+0.6% Schaden]                                                   
+			[c/BA55D3:• Bosse:] [c/FFD700:+1.4% Schaden] 
+			[c/F75973:Der Fortschritt geht beim Tod oder Ablegen vollständig verloren]
+			[c/F75973:Das Ersetzen durch einen höheren Tier BEHÄLT die Siege.]
+			'''
+		DisplayName: Anubis Tier 3
+	}
+
+	AnubisItem_Tier_2: {
+		Tooltip:
+			'''
+			[c/BA55D3:1]) Anubis erinnert sich... ([c/BA55D3:Passive Fähigkeit])
+			[c/BA55D3:Jeder besiegte feindliche Gegner erhöht deinen Schaden halbpermanent]
+			[c/BA55D3:• (Gegner):] [c/BA55D3:+0.2% Schaden]
+			[c/BA55D3:• (<200 LP):] [c/1E90FF:+0.4% Schaden]                                                         
+			[c/000000:3) ???]                                                
+			[c/BA55D3:• Bosse:] [c/FFD700:+1.4% Schaden] 
+			[c/F75973:Der Fortschritt geht beim Tod oder Ablegen vollständig verloren]
+			[c/F75973:Das Ersetzen durch einen höheren Tier BEHÄLT die Siege.]
+			'''
+		DisplayName: Anubis Tier 2
+	}
+
+	AnubisItem_Tier_1: {
+		Tooltip:
+			'''
+			[c/BA55D3:1]) Anubis erinnert sich... ([c/BA55D3:Passive Fähigkeit])
+			[c/BA55D3:Jeder besiegte feindliche Gegner erhöht deinen Schaden halbpermanent]
+			[c/BA55D3:• (Gegner):] [c/BA55D3:+0.2% Schaden]
+			[c/000000:•) ???]                                                          
+			[c/000000:•) ???]                                                     
+			[c/BA55D3:• Bosse:] [c/FFD700:+1.4% Schaden] 
+			[c/F75973:Der Fortschritt geht beim Tod oder Ablegen vollständig verloren]
+			[c/F75973:Das Ersetzen durch einen höheren Tier BEHÄLT die Siege.]
+			'''
+		DisplayName: Anubis Tier 1
+	}
+
+	Voluntad_Tenebrosa: {
+		Tooltip: Gegenstand zum Verbessern von Stands
+		DisplayName: Düsterer Wille
+	}
+
+	Voluntad_Soberano: {
+		Tooltip: Gegenstand zum Verbessern von Stands
+		DisplayName: Wille des Herrschers
+	}
+
+	Voluntad_Siniestra: {
+		Tooltip: Gegenstand zum Verbessern von Stands
+		DisplayName: Unheilvoller Wille
+	}
+
+	Voluntad_Malvada: {
+		Tooltip: Gegenstand zum Verbessern von Stands
+		DisplayName: Böser Wille
+	}
+
+	Voluntad_Justa: {
+		Tooltip: Gegenstand zum Verbessern von Stands
+		DisplayName: Gerechter Wille
+	}
+
+	Voluntad_Conquistador: {
+		Tooltip: Gegenstand zum Verbessern von Stands
+		DisplayName: Wille des Eroberers
+	}
+
+	Voluntad_Bondadosa: {
+		Tooltip: Gegenstand zum Verbessern von Stands
+		DisplayName: Gütiger Wille
+	}
+
+	Voluntad_Basica: {
+		Tooltip: Gegenstand zum Verbessern von Stands
+		DisplayName: Wille
+	}
+
+	Voluntad_Ardiente: {
+		Tooltip: Gegenstand zum Verbessern von Stands
+		DisplayName: Brennender Wille
+	}
+
+	UniversalCritAmulet: {
+		Tooltip: DEBUG DEBUG DEBUG
+		DisplayName: Universal Crit Amulet
+	}
+
+	SuperPotenciador: {
+		Tooltip: ""
+		DisplayName: Superverstärker
+	}
+
+	ItemVelocidad2: {
+		Tooltip: Erhöht die Angriffsgeschwindigkeit des Stands um II (stapelbar).
+		DisplayName: Star Platinums Handschuhe
+	}
+
+	ItemVelocidad1: {
+		Tooltip: Erhöht die Angriffsgeschwindigkeit des Stands um I (stapelbar).
+		DisplayName: Boxhandschuhe
+	}
+
+	ItemMovilidad2: {
+		Tooltip: Erhöht die Bewegungsreichweite um 20% (stapelbar)
+		DisplayName: Reichweitenring II
+	}
+
+	ItemMovilidad1: {
+		Tooltip: Erhöht die Bewegungsreichweite um 10% (stapelbar)
+		DisplayName: Reichweitenring I
+	}
+
+	ItemCooldown3_Debug: {
+		// Tooltip: ""
+		// DisplayName: Item Cooldown3_ Debug
+	}
+
+	ItemCooldown3_2: {
+		Tooltip: Verringert die Abklingzeit von Fähigkeit 3 um 20 % (stapelbar)
+		DisplayName: Kühlring III Tier II
+	}
+
+	ItemCooldown3_1: {
+		Tooltip: Verringert die Abklingzeit von Fähigkeit 3 um 10 % (stapelbar)
+		DisplayName: Kühlring III Tier I
+	}
+
+	ItemCooldown2_Debug: {
+		// Tooltip: ""
+		// DisplayName: Item Cooldown2_ Debug
+	}
+
+	ItemCooldown2_2: {
+		Tooltip: Verringert die Abklingzeit von Fähigkeit 2 um 20 % (stapelbar)
+		DisplayName: Kühlring II Tier II
+	}
+
+	ItemCooldown2_1: {
+		Tooltip: Verringert die Abklingzeit von Fähigkeit 2 um 10 % (stapelbar)
+		DisplayName: Kühlring II Tier I
+	}
+
+	ItemCooldown1_Debug: {
+		// Tooltip: ""
+		// DisplayName: Item Cooldown1_ Debug
+	}
+
+	ItemCooldown1_2: {
+		Tooltip: Verringert die Abklingzeit von Fähigkeit 1 um 20 % (stapelbar)
+		DisplayName: Kühlring I Tier II
+	}
+
+	ItemCooldown1_1: {
+		Tooltip: Verringert die Abklingzeit von Fähigkeit 1 um 10 % (stapelbar)
+		DisplayName: Kühlring I Tier I
+	}
+
+	EmblemaDeStand: {
+		Tooltip: Erhöht den Stand-Schaden um 15%
+		DisplayName: Stand-Emblem
+	}
+
+	Npc_Killer: {
+		Tooltip: Der beste Weg, um Dorfbewohnerseelen zu erhalten
+		DisplayName: Opferklinge
+	}
+
+	FlechaStand: {
+		Tooltip: Wenn er ein lebendes Wesen trifft, verleiht er ihm die Kraft des Pfeils
+		DisplayName: Stand-Pfeil
+	}
+
+	BalasStand: {
+		Tooltip: Jede Kugel hat eine Chance von 0,5 %, dem Getroffenen einen Stand zu verleihen... Bist du sicher, dass du sie benutzen willst?
+		DisplayName: Bizarre Meteoritenkugeln
+	}
+
+	MineralMeteoritoJojo: {
+		Tooltip: ""
+		DisplayName: Seltenes Meteoritenerz
+	}
+
+	LingoteMeteoritoJojo: {
+		Tooltip: ""
+		DisplayName: Bizarrer Meteoritenbarren
+	}
+
+	GreenBaby: {
+		Tooltip: Ein geheimnisvolles grünes Baby, das eine seltsame Energie ausstrahlt. Vielleicht reagiert es mit einem Stand...
+		DisplayName: Grünes Baby
+	}
+
+	FundaAnubis: {
+		Tooltip: Erhöht die Größe von Anubis um 20%
+		DisplayName: Anubis-Scheide
+	}
+
+	FlechaStandMejorada: {
+		Tooltip: "[c/EDE49D:Erweckt in den Auserwählten die Kraft eines mächtigen Stands]"
+		DisplayName: Verbesserter Stand-Pfeil
+	}
+
+	Flecha_Stand_Fragmento: {
+		Tooltip: Eine seltsame Kraft geht von ihm aus
+		DisplayName: Pfeilfragment
+	}
+
+	Flecha_Stand: {
+		Tooltip: "[c/EDE49D:Erweckt in den Auserwählten die Kraft eines Stands]"
+		DisplayName: Geheimnisvoller Pfeil
+	}
+
+	Flecha_Requiem: {
+		Tooltip:
+			'''
+			[c/2ABF59:Wenn du genügend Überzeugung besitzt, gewährt er den Willen des Benutzers.]
+			Könnte reagieren auf:
+			[c/9EBFEC:Silver Chariot] Tier III oder IV
+			[c/EDB845:Golden Experience] Tier III oder IV
+			'''
+		DisplayName: Requiem-Pfeil
+	}
+
+	DiarioDIO: {
+		Tooltip:
+			'''
+			Enthält Anweisungen, um den [c/FADE41:"Himmel"] zu erreichen.
+			[c/0FDBFA:«Steige über die Himmel und die Wolken empor, um die himmlische Kraft zu erwecken.»]
+			Vielleicht könnte es mit einem vollständig entwickelten Stand reagieren...
+			'''
+		DisplayName: Geheimnisvolles Tagebuch
+	}
+
+	DetonadorMejorado: {
+		// Tooltip: ""
+		// DisplayName: Improved Detonator
+	}
+
+	CuchilloItem: {
+		Tooltip: Perfekt zum Marmeladestreichen
+		DisplayName: Wurfmesser
+	}
+
+	TheWorld_Red: {
+		Tooltip: Nimmt das Aussehen von Shadow The World an
+		DisplayName: Shadow The World Tönung
+	}
+
+	TheWorld_Green: {
+		Tooltip: "[c/8EE6A3:Nimmt das Aussehen des grünen The World an]"
+		DisplayName: "[c/3FAF5A:The World Grüne Tönung]"
+	}
+
+	TheWorld_Blue: {
+		Tooltip: "[c/8EC9FF:Nimmt das Aussehen des blauen The World an]"
+		DisplayName: "[c/4A90E2:The World Blaue Tönung]"
+	}
+
+	StarPlatinum_Red: {
+		Tooltip: ???
+		DisplayName: ???
+	}
+
+	StarPlatinum_Green: {
+		Tooltip: Nimmt das Aussehen von Star Platinum Teil 4 an
+		DisplayName: Star Platinum Teil 4 Tönung
+	}
+
+	StarPlatinum_Blue: {
+		Tooltip: Nimmt das Aussehen von Star Platinum Teil 6 an
+		DisplayName: Star Platinum Teil 6 Tönung
+	}
+
+	RedSkin: {
+		Tooltip: Ist das eine Anspielung??
+		DisplayName: Rote Anubis-Tönung
+	}
+
+	OVASkin: {
+		Tooltip: Nimmt das Aussehen von Star Platinum OVA an
+		DisplayName: Star Platinum OVA Tönung
+	}
+
+	MeguminSkin: {
+		Tooltip: Nimmt das Aussehen von Megumin an
+		DisplayName: Killer Queen Megumin Tönung
+	}
+
+	MagiciansRed_Pink: {
+		Tooltip: "[c/FFB6D9:Nimmt das Aussehen von Magician's Red mit rosa Flammen an]"
+		DisplayName: Magician's Red Rosa Flamme]
+	}
+
+	MagiciansRed_Green: {
+		Tooltip: "[c/8EE6A3:Nimmt das Aussehen von Magician's Red mit grünen Flammen an]"
+		DisplayName: Magician's Red Grüne Flamme]
+	}
+
+	MagiciansRed_Blue: {
+		Tooltip: "[c/8FD3FF:Nimmt das Aussehen von Magician's Red mit blauen Schwefelflammen an]"
+		DisplayName: Magician's Red Blaue Flamme]
+	}
+
+	KillerQueen_Red: {
+		Tooltip: "[c/F28B82:Nimmt das Aussehen der roten Killer Queen an]"
+		DisplayName: "[c/CB3A3A:Killer Queen Rote Tönung]"
+	}
+
+	KillerQueen_Green: {
+		Tooltip: "[c/8EE6A3:Nimmt das Aussehen der grünen Killer Queen an]"
+		DisplayName: "[c/3FAF5A:Killer Queen Grüne Tönung]"
+	}
+
+	KillerQueen_Blue: {
+		Tooltip: "[c/8EC9FF:Nimmt das Aussehen der blauen Killer Queen an]"
+		DisplayName: "[c/4A90E2:Killer Queen Blaue Tönung]"
+	}
+
+	GreenSkin: {
+		Tooltip: Bläuliche Version von Grünlich
+		DisplayName: Grüne Anubis-Tönung
+	}
+
+	GoldenSkin: {
+		Tooltip: Nimmt das Aussehen von Silver Chariot OVA an]
+		DisplayName: Silver Chariot OVA Tönung
+	}
+
+	BlueSkin: {
+		Tooltip: Bläuliche Version von Anubis
+		DisplayName: Blaue Anubis-Tönung
+	}
+
+	BlackCrimsonSkin: {
+		Tooltip: "[c/B084D6:Nimmt das Aussehen des korrumpierten Kaisers an!]"
+		DisplayName: King Crimson Korruptions-Tönung
+	}
+
+	Meteoro_Peto: {
+		Tooltip: Erhöht den Stand-Schaden um 4%
+		DisplayName: Kürass aus bizarrem Meteorit
+	}
+
+	Meteoro_Pantalones: {
+		Tooltip: Erhöht den Stand-Schaden um 3%
+		DisplayName: Beinschienen aus bizarrem Meteorit
+	}
+
+	Meteoro_Gorra: {
+		Tooltip: Erhöht den Stand-Schaden um 2%
+		DisplayName: Helm aus bizarrem Meteorit
+	}
+
+	Jotaro_6_Peto: {
+		Tooltip:
+			'''
+			Erhöht die Stand-Reichweite um 2%
+			Erhöht den Stand-Schaden um 8%
+			'''
+		DisplayName: Veteranentunika
+	}
+
+	Jotaro_6_Pantalones: {
+		Tooltip:
+			'''
+			Erhöht die Stand-Reichweite um 2%
+			Erhöht den Stand-Schaden um 8%
+			'''
+		DisplayName: Veteranenhose
+	}
+
+	Jotaro_6_Gorra: {
+		Tooltip:
+			'''
+			Erhöht die Stand-Reichweite um 2%
+			Erhöht den Stand-Schaden um 9%
+			'''
+		DisplayName: Veteranenmütze
+	}
+
+	Jotaro_4_Peto: {
+		Tooltip:
+			'''
+			Erhöht die Stand-Reichweite um 1%
+			Erhöht den Stand-Schaden um 5%
+			'''
+		DisplayName: Biologentunika
+	}
+
+	Jotaro_4_Pantalones: {
+		Tooltip:
+			'''
+			Erhöht die Stand-Reichweite um 1%
+			Erhöht den Stand-Schaden um 5%
+			'''
+		DisplayName: Biologenhose
+	}
+
+	Jotaro_4_Gorra: {
+		Tooltip:
+			'''
+			Erhöht die Stand-Reichweite um 2%
+			Erhöht den Stand-Schaden um 5%
+			'''
+		DisplayName: Biologenmütze
+	}
+
+	Jotaro_3_Peto: {
+		Tooltip: Erhöht den Stand-Schaden um 2%
+		DisplayName: Studententunika
+	}
+
+	Jotaro_3_Pantalones: {
+		Tooltip: Erhöht den Stand-Schaden um 2%
+		DisplayName: Studentenhose
+	}
+
+	Jotaro_3_Gorra: {
+		Tooltip: Erhöht den Stand-Schaden um 2%
+		DisplayName: Studentenmütze
+	}
+
+	Chariot_Requiem_Peto: {
+		Tooltip:
+			'''
+			Erhöht die Stand-Reichweite um 6%
+			Erhöht den Stand-Schaden um 2%
+			'''
+		DisplayName: Requiem-Brustpanzer
+	}
+
+	Chariot_Requiem_Pantalones: {
+		Tooltip:
+			'''
+			Erhöht die Stand-Reichweite um 6%
+			Erhöht den Stand-Schaden um 2%
+			'''
+		DisplayName: Requiem-Beinschienen
+	}
+
+	Chariot_Requiem_Gorra: {
+		Tooltip:
+			'''
+			Erhöht die Stand-Reichweite um 8%
+			Erhöht den Stand-Schaden um 2%
+			'''
+		DisplayName: Chariot-Requiem-Mütze
+	}
+
+	Alma_Npc: {
+		Tooltip: Die menschliche Essenz
+		DisplayName: Seele
+	}
+
+	CinderellaItem_Tier_3: {
+		Tooltip:
+			'''
+			([c/F389B2:Passiv]): Belegt getroffene Gegner mit dem Debuff ''Entstellt IV'' (-20% Verteidigung / 15% Verlangsamung)
+			​​
+			[c/F389B2:1]) [c/F389B2:Heilung]: Stellt in einem Bereich Mana und Leben wieder her und wirkt sich auch auf andere Spieler aus
+			​​
+			[c/F389B2:Garderobe]: Ermöglicht es dir, das Aussehen des Spielers jederzeit zu ändern
+			​​
+			[c/F389B2:Gesichtsaustausch]: Ändert für kurze Zeit dein Aussehen. Nahe Gegner werden mit Entstellung und Verwirrung belegt
+			'''
+		DisplayName: Cinderella Tier 3
+	}
+
+	CinderellaItem_Tier_2: {
+		Tooltip:
+			'''
+			([c/F389B2:Passiv]): Belegt getroffene Gegner mit dem Debuff ''Entstellt IV'' (-15% Verteidigung / 10% Verlangsamung)
+			​​
+			[c/F389B2:1]) [c/F389B2:Heilung]: Stellt in einem Bereich Mana und Leben wieder her und wirkt sich auch auf andere Spieler aus
+			​​
+			[c/F389B2:Garderobe]: Ermöglicht es dir, das Aussehen des Spielers jederzeit zu ändern
+			​​
+			[c/F389B2:Gesichtsaustausch]: Ändert für kurze Zeit dein Aussehen. Nahe Gegner werden mit Entstellung und Verwirrung belegt
+			'''
+		DisplayName: Cinderella Tier 2
+	}
+
+	CinderellaItem_Tier_1: {
+		DisplayName: Cinderella Tier 1
+		Tooltip:
+			'''
+			([c/F389B2:Passiv]): Belegt getroffene Gegner mit dem Debuff ''Entstellt IV'' (-10% Verteidigung / 5% Verlangsamung)
+			​​
+			[c/F389B2:1]) [c/F389B2:Heilung]: Stellt in einem Bereich Mana und Leben wieder her und wirkt sich auch auf andere Spieler aus
+			​​
+			[c/F389B2:Garderobe]: Ermöglicht es dir, das Aussehen des Spielers jederzeit zu ändern
+			​​
+			[c/000000:3) ???]
+			'''
+	}
+
+	CrazyDiamondItem_Tier_4: {
+		DisplayName: Crazy Diamond Tier 4
+		Tooltip:
+			'''
+			[c/77CCF1:1]) [c/77CCF1:Transformationsmodus]: Wenn du einen Gegner lange genug triffst, verschmilzt du ihn mit einem Stein und er erleidet [c/77CCF1:x6] Schaden
+			​​
+			[c/77CCF1:Passiv]) [c/77CCF1:Wiederherstellung]: Ermöglicht es dir, andere Spieler und Kreaturen zu heilen.
+			​​
+			[c/77CCF1:Passiv]) [c/77CCF1:Zerlegen]: Wenn du ein Objekt auf dem Boden triffst, verwandelt es sich in seine ursprünglichen Herstellungsmaterialien zurück
+			​​
+			[c/77CCF1:2]) [c/77CCF1:Steinschild]: Bildet einen Schild aus [c/77CCF1:20] Steinen, der den Benutzer vor Projektilen und physischen Angriffen schützt
+			'''
+	}
+
+	CrazyDiamondItem_Tier_1: {
+		DisplayName: Crazy Diamond Tier 1
+		Tooltip:
+			'''
+			[c/77CCF1:1]) [c/77CCF1:Transformationsmodus]:Wenn du einen Gegner lange genug schlägst, verschmilzt du ihn mit einem Stein und ihm wird ein [c/77CCF1:x5] Schaden zugefügt
+			​​
+			[c/77CCF1:Passiva]) [c/77CCF1:Wiederherstellung]: Ermöglicht es, andere Spieler und Kreaturen zu heilen.
+			​​
+			[c/77CCF1:Passiva]) [c/77CCF1:Ent-crafting]: Wenn du einen Gegenstand auf dem Boden schlägst, wird er in seine ursprünglichen Herstellungsmaterialien zurückverwandelt
+			​​
+			[c/000000:2) ???]
+			'''
+	}
+
+	CrazyDiamondItem_Tier_2: {
+		DisplayName: Crazy Diamond Tier 2
+		Tooltip:
+			'''
+			[c/77CCF1:1]) [c/77CCF1:Transformationsmodus]:Wenn du einen Gegner lange genug schlägst, verschmilzt du ihn mit einem Stein und ihm wird ein [c/77CCF1:x4] Schaden zugefügt
+			​​
+			[c/77CCF1:Passiva]) [c/77CCF1:Wiederherstellung]: Ermöglicht es, andere Spieler und Kreaturen zu heilen.
+			​​
+			[c/77CCF1:Passiva]) [c/77CCF1:Ent-crafting]: Wenn du einen Gegenstand auf dem Boden schlägst, wird er in seine ursprünglichen Herstellungsmaterialien zurückverwandelt
+			​​
+			[c/77CCF1:2]) [c/77CCF1:Steinschild]: Erzeugt einen Schild aus [c/77CCF1:10] Steinen, der den Benutzer vor Projektilen und physischen Schlägen schützt
+			'''
+	}
+
+	CrazyDiamondItem_Tier_3: {
+		DisplayName: Crazy Diamond Tier 3
+		Tooltip:
+			'''
+			[c/77CCF1:1]) [c/77CCF1:Transformationsmodus]:Wenn du einen Gegner lange genug schlägst, verschmilzt du ihn mit einem Stein und ihm wird ein [c/77CCF1:x5] Schaden zugefügt
+			​​
+			[c/77CCF1:Passiva]) [c/77CCF1:Wiederherstellung]: Ermöglicht es, andere Spieler und Kreaturen zu heilen.
+			​​
+			[c/77CCF1:Passiva]) [c/77CCF1:Ent-crafting]: Wenn du einen Gegenstand auf dem Boden schlägst, wird er in seine ursprünglichen Herstellungsmaterialien zurückverwandelt
+			​​
+			[c/77CCF1:2]) [c/77CCF1:Steinschild]: Erzeugt einen Schild aus [c/77CCF1:15] Steinen, der den Benutzer vor Projektilen und physischen Schlägen schützt
+			'''
+	}
+
+	ScaryMonstersItem_Tier_4: {
+		DisplayName: Scary Monsters Tier 4
+		Tooltip:
+			'''
+			[c/00A5FF:Passiva]) [c/00A5FF:Dino Virus]: Die Kratzer verursachen die Dino-Virus-Infektion. Nach [c/00A5FF:7] Sekunden wird der Gegner zu einem Dinosaurier, der dir dienen und die Infektion verbreiten wird
+			Die verwandelten Dinosaurier haben [c/00A5FF:20] Schaden der Stand-Klasse und ihre Lebenspunkte werden berechnet, indem man:
+			[c/00A5FF:210] + die Lebenspunkte des verwandelten Gegners.
+			​​
+			[c/00A5FF:Passiva]) [c/00A5FF:Escamado]: Dein verwandelter Körper ermöglicht dir [c/00A5FF:10%] mehr Schaden und [c/00A5FF:25%] mehr Geschwindigkeit
+			​​
+			[c/00A5FF:1]) [c/00A5FF:Dino-Crisis]: Beschwört [c/00A5FF:4] Dinosaurier, die dich beschützen und dabei [c/00A5FF:35] Schaden der Stand-Klasse verursachen
+			​​
+			[c/00A5FF:2]) [c/00A5FF:Despertar]: Du verwandelst dich vollständig und erhältst eine größere Angriffsreichweite. Wenn du außerdem die Fähigkeit «Dino-Crisis» verwendest, beschwörst du [c/00A5FF:5] Dinosaurier
+			'''
+	}
+
+	ScaryMonstersItem_Tier_3: {
+		Tooltip:
+			'''
+			[c/00A5FF:Passiva]) [c/00A5FF:Dino Virus]: Die Kratzer verursachen die Dino-Virus-Infektion. Nach [c/00A5FF:8] Sekunden wird der Gegner zu einem Dinosaurier, der dir dienen und die Infektion verbreiten wird
+			Die verwandelten Dinosaurier haben [c/00A5FF:15] Schaden der Stand-Klasse und ihre Lebenspunkte werden berechnet, indem man:
+			[c/00A5FF:160] + die Lebenspunkte des verwandelten Gegners.
+			​​
+			[c/00A5FF:Passiva]) [c/00A5FF:Escamado]: Dein verwandelter Körper ermöglicht dir [c/00A5FF:9%] mehr Schaden und [c/00A5FF:20%] mehr Geschwindigkeit
+			​​
+			[c/00A5FF:1]) [c/00A5FF:Dino-Crisis]: Beschwört [c/00A5FF:3] Dinosaurier, die dich beschützen und dabei [c/00A5FF:25] Schaden der Stand-Klasse verursachen
+			​​
+			[c/00A5FF:2]) [c/00A5FF:Despertar]: Du verwandelst dich vollständig und erhältst eine größere Angriffsreichweite. Wenn du außerdem die Fähigkeit «Dino-Crisis» verwendest, beschwörst du [c/00A5FF:4] Dinosaurier
+			'''
+		DisplayName: Scary Monsters Tier 3
+	}
+
+	ScaryMonstersItem_Tier_2: {
+		DisplayName: Scary Monsters Tier 2
+		Tooltip:
+			'''
+			[c/00A5FF:Passiva]) [c/00A5FF:Dino Virus]: Die Kratzer verursachen die Dino-Virus-Infektion. Nach [c/00A5FF:9] Sekunden wird der Gegner zu einem Dinosaurier, der dir dienen und die Infektion verbreiten wird
+			Die verwandelten Dinosaurier haben [c/00A5FF:10] Schaden der Stand-Klasse und ihre Lebenspunkte werden berechnet, indem man:
+			[c/00A5FF:120] + die Lebenspunkte des verwandelten Gegners.
+			​​
+			[c/00A5FF:Passiva]) [c/00A5FF:Escamado]: Dein verwandelter Körper ermöglicht dir [c/00A5FF:7%] mehr Schaden und [c/00A5FF:15%] mehr Geschwindigkeit
+			​​
+			[c/00A5FF:1]) [c/00A5FF:Dino-Crisis]: Beschwört [c/00A5FF:2] Dinosaurier, die dich beschützen und dabei [c/00A5FF:15] Schaden der Stand-Klasse verursachen
+			​​
+			[c/000000:2) ???]
+			'''
+	}
+
+	ScaryMonstersItem_Tier_1: {
+		DisplayName: Scary Monsters Tier 1
+		Tooltip:
+			'''
+			[c/00A5FF:Passiva]) [c/00A5FF:Dino Virus]: Die Kratzer verursachen die Dino-Virus-Infektion. Nach [c/00A5FF:10] Sekunden wird der Gegner zu einem Dinosaurier, der dir dienen und die Infektion verbreiten wird
+			Die verwandelten Dinosaurier haben [c/00A5FF:5] Schaden der Stand-Klasse und ihre Lebenspunkte werden berechnet, indem man:
+			[c/00A5FF:60] + die Lebenspunkte des verwandelten Gegners.
+			​​
+			[c/00A5FF:Passiva]) [c/00A5FF:Escamado]: Dein verwandelter Körper ermöglicht dir [c/00A5FF:5%] mehr Schaden und [c/00A5FF:10%] mehr Geschwindigkeit
+			​​
+			[c/000000:1) ???]
+			​​
+			[c/000000:2) ???]
+			'''
+	}
+
+	TuskItem_Tier_1: {
+		DisplayName: Tusk Tier 1 (Nur Akt 1)
+		Tooltip:
+			'''
+			[c/EE79D1:1]) [c/EE79D1]: (Rechtsklick) Schießt einen Nagel mit hoher Geschwindigkeit ab
+			​​
+			[c/EE79D1:1.1]) [c/EE79D1 Nagel]: (Rechtsklick halten) Schießt einen stärkeren Nagel ab, der Gegner durchdringt
+			​​
+			[c/EE79D1:1.2]) [c/EE79D1]: (Linksklick) Verschießt dein gesamtes Magazin in ungenauen Salven
+			'''
+	}
+
+	SacoDeBalas: {
+		// DisplayName: Saco De Balas
+		// Tooltip: ""
+	}
+}
+
+Buffs: {
+	AmnesiaDebuff: {
+		Description: Wo? Wann?
+		DisplayName: Amnesie-Debuff
+	}
+
+	AmnesiaCooldownDebuff: {
+		Description: Wo? Wann?
+		DisplayName: Amnesie-Debuff
+	}
+
+	AmnesiaCooldown: {
+		Description: Wo? Wann?
+		DisplayName: Amnesie-Debuff
+	}
+
+	AcidoBlancoDebuff_Tier_4: {
+		Description: Verdauungssäure
+		DisplayName: Weiße Säure
+	}
+
+	AcidoBlancoDebuff_Tier_3: {
+		Description: Verdauungssäure
+		DisplayName: Weiße Säure
+	}
+
+	AcidoBlancoDebuff_Tier_2: {
+		Description: Verdauungssäure
+		DisplayName: Weiße Säure
+	}
+
+	Veneno_Tier_4: {
+		Description: Gift Tier 4
+		DisplayName: Gift Tier 4
+	}
+
+	Veneno_Tier_3: {
+		Description: Gift Tier 3
+		DisplayName: Gift Tier 3
+	}
+
+	DuracionLluvia: {
+		Description: Der Klimawandel?
+		DisplayName: Froschregen
+	}
+
+	DuracionArcoiris: {
+		Description: Regenbogendauer
+		DisplayName: Mehrfarbige Kraft!
+	}
+
+	TimeStoped: {
+		Description: Niemand außer dir kann sich bewegen.
+		DisplayName: Zeit gestoppt
+	}
+
+	PlatinumRage_Tier_4: {
+		Description: Erhöht den Stand-Schaden um 20%
+		DisplayName: Yare Yare...
+	}
+
+	PlatinumRage_Tier_3: {
+		Description: Erhöht den Stand-Schaden um 15%
+		DisplayName: Yare Yare...
+	}
+
+	PlatinumRage_Tier_2: {
+		Description: Erhöht den Stand-Schaden um 10%
+		DisplayName: Yare Yare...
+	}
+
+	SuenoProfundoDebuff: {
+		Description: Zzz... Zzz...
+		DisplayName: Tiefschlaf
+	}
+
+	SuenoProfundo: {
+		Description: Zzz... Zzz...
+		DisplayName: Tiefschlaf
+	}
+
+	RequiemSangradoDebuff: {
+		Description: Blutung
+		DisplayName: Blutung
+	}
+
+	RequiemLentitudDebuff: {
+		Description: Verlangsamung
+		DisplayName: Verlangsamung
+	}
+
+	RequiemDebilidadDebuff: {
+		Description: Schwäche
+		DisplayName: Schwäche
+	}
+
+	ReflejoOscuroBuff: {
+		Description: Reflektiert Schaden
+		DisplayName: Mein eigener Schatten
+	}
+
+	AuraCaoticaBuff: {
+		Description: Seelenmutation
+		DisplayName: Seelenmutation
+	}
+
+	SilverDefensa: {
+		Description: In Verteidigungsstellung!
+		DisplayName: Undurchdringliche Verteidigung
+	}
+
+	SilverClones: {
+		Description: Sehe ich doppelt? Nein... dreifach? Nein...
+		DisplayName: Silver Clones
+	}
+
+	MagiciansFire2: {
+		Description: Macht alles rückgängig, was ihm in den Weg kommt.
+		DisplayName: Ankh-Feuer
+	}
+
+	MagiciansFire_Tier_4: {
+		Description: Macht alles rückgängig, was ihm in den Weg kommt.
+		DisplayName: Ankh-Feuer
+	}
+
+	MagiciansFire_Tier_3: {
+		Description: Macht alles rückgängig, was ihm in den Weg kommt.
+		DisplayName: Ankh-Feuer
+	}
+
+	MagiciansFire_Tier_2: {
+		Description: Macht alles rückgängig, was ihm in den Weg kommt.
+		DisplayName: Ankh-Feuer
+	}
+
+	MagiciansFire_Tier_1: {
+		Description: Macht alles rückgängig, was ihm in den Weg kommt.
+		DisplayName: Ankh-Feuer
+	}
+
+	ResetUniversal: {
+		Description: Schneller, schneller!
+		DisplayName: Zeitbeschleunigung
+	}
+
+	TimeErased: {
+		Description: Ihr seid meine schlafenden Sklaven
+		DisplayName: Zeitlöschung
+	}
+
+	PrediccionKingCrimson: {
+		Description: Ich kenne das Schicksal!
+		DisplayName: King Crimsons Vorhersage
+	}
+
+	EpitaphVision: {
+		Description: Ich kenne das Schicksal!
+		DisplayName: Epitaph
+	}
+
+	Donut2: {
+		// Description: Mods.Jojo.Buffs.Donut2.Description
+		// DisplayName: Donut2
+	}
+
+	Donut1: {
+		Description: Erhöht den Schaden erheblich
+		DisplayName: Donut
+	}
+
+	SHA_Buff_Tier_4: {
+		Description: Beschwört Sheer Heart Attack
+		DisplayName: Zweite Bombe
+	}
+
+	SHA_Buff_Tier_3: {
+		Description: Beschwört Sheer Heart Attack
+		DisplayName: Zweite Bombe
+	}
+
+	SHA_Buff_Tier_2: {
+		Description: Beschwört Sheer Heart Attack
+		DisplayName: Zweite Bombe
+	}
+
+	KQ_BitesTheDust_Buff_Tier4: {
+		Description: 0 Zeugen...
+		DisplayName: Bites The Dust!
+	}
+
+	BitesTheDustBuff: {
+		Description: 0 Zeugen...
+		DisplayName: Bites The Dust!
+	}
+
+	ControlMental1: {
+		Description: ...
+		DisplayName: ...
+	}
+
+	ReturnToZero: {
+		Description: Zurück zu Zero
+		DisplayName: Niemand kann dich erreichen...
+	}
+
+	Curacion: {
+		Description: Abklingzeit der Heilung
+		DisplayName: Lebensschöpfung
+	}
+
+	DespertandoStandMejorado: {
+		Description: Eine mächtige Energie strömt aus dir hervor...
+		DisplayName: Verbessertes Stand-Erwachen
+	}
+
+	DespertandoStand: {
+		Description: Eine seltsame Energie strömt aus dir hervor...
+		DisplayName: Stand-Erwachen
+	}
+
+	D4CGhostMode: {
+		Description: Reise in eine eigene Dimension
+		DisplayName: Taschendimension
+	}
+
+	Cooldown3: {
+		Description: Du kannst Fähigkeit III nicht einsetzen...
+		DisplayName: Abklingzeit III
+	}
+
+	Cooldown2: {
+		Description: Du kannst Fähigkeit II nicht einsetzen...
+		DisplayName: Abklingzeit II
+	}
+
+	Cooldown1: {
+		Description: Du kannst Fähigkeit I nicht einsetzen...
+		DisplayName: Abklingzeit I
+	}
+
+	GravedadDesactivada: {
+		Description: Deaktiviert die Schwerkraft
+		DisplayName: Null-Schwerkraft
+	}
+
+	DesfiguradoDebuff: {
+		// Description: Mods.Jojo.Buffs.DesfiguradoDebuff.Description
+		// DisplayName: Disfigured Debuff
+	}
+
+	CD: {
+		Description: Es können keine Fähigkeiten eingesetzt werden...
+		DisplayName: Globale Abklingzeit
+	}
+
+	BleedingCustom: {
+		Description: Messerwunden
+		DisplayName: Messerblutung
+	}
+
+	Desorientado: {
+		// DisplayName: Desorientado
+		// Description: Mods.Jojo.Buffs.Desorientado.Description
+	}
+
+	CinderellaArmaduraOcultaBuff: {
+		// DisplayName: Cinderella Armadura Oculta Buff
+		// Description: Mods.Jojo.Buffs.CinderellaArmaduraOcultaBuff.Description
+	}
+
+	RevitalizanteBuff: {
+		// DisplayName: Revitalizante Buff
+		// Description: Mods.Jojo.Buffs.RevitalizanteBuff.Description
+	}
+
+	FromaDinoBuff: {
+		// DisplayName: Froma Dino Buff
+		// Description: Mods.Jojo.Buffs.FromaDinoBuff.Description
+	}
+
+	Fosilizacion: {
+		DisplayName: Versteinerung
+		Description: Scary Monsters auf seinem maximalen Potenzial
+	}
+
+	DinoVirus: {
+		// DisplayName: Dino Virus
+		// Description: Mods.Jojo.Buffs.DinoVirus.Description
+	}
+}
+
+Tiles.MineralMeteoritoJojoTile.MapEntry: Bizarres Meteoritenerz
+DamageClasses.ClaseStand.DisplayName: Stand-Klasse
+
+Keybinds: {
+	"Stand Skill F.DisplayName": Stand  Skill  F (1)
+	"Stand Skill G.DisplayName": Stand  Skill  G (2)
+	"Stand Skill H.DisplayName": Stand  Skill  H (3)
+	"Toggle Auto Mode.DisplayName": Toggle  Auto  Mode
+	"Summon Stand.DisplayName": Summon  Stand
+}
+
+Configs: {
+	JojoConfig: {
+		// DisplayName: Jojo Config
+
+		VolumenSonidos: {
+			// Label: Volumen de Sonidos del Mod
+			// Tooltip: Ajusta el volumen de todos los sonidos de Jojo. 50 es el volumen normal, 0 es silenciado.
+		}
+
+		MultiplicadorVolumen: {
+			// Label: Multiplicador Volumen
+			// Tooltip: ""
+		}
+
+		UITransparencia: {
+			// Label: UI Transparency
+			// Tooltip: Transparency of the mod's UI elements (such as Tusk's ammo bar). 50 = normal, higher = more transparent, lower = more opaque. Only affects you.
+		}
+	}
+}
