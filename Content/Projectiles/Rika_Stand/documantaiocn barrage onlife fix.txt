@@ -1,0 +1,112 @@
+# Guía: El bug del "giro" en los puñetazos al correr con el ratón en el borde
+
+## Síntoma
+
+Con el ratón cerca del borde de la pantalla:
+- Si mueves el ratón un poco, el stand y los golpes giran correctamente.
+- Si en cambio te pones a **correr** estando en ese borde, el cuerpo del stand
+  sigue mirando hacia donde apuntas, pero los **puñetazos** dan la sensación
+  de estar "atrasados" a la izquierda (o derecha) y empiezan a girar solos.
+
+Esto ocurría en **TheWorld** (`TW_BarragePunch_Tier_1` y `Tier_4`) pero no en
+**WhiteSnake**, a pesar de que ambos comparten el mismo sistema de barrage
+(`BarrageSystem.SpawnPunches`).
+
+## Causa raíz
+
+El Stand no sigue al jugador de forma instantánea: `ParticulasStands.FollowPlayer`
+usa un lerp (interpolación) con un factor `0.25f`. Eso significa que cuando
+corres, el Stand tarda varios frames en "alcanzarte" — se queda físicamente
+un poco atrás de tu posición real mientras te mueves.
+
+El `PreDraw` de cada puñetazo decide si voltear el sprite (`SpriteEffects.FlipHorizontally`)
+para que mire a izquierda o derecha. En **TheWorld** esa decisión se tomaba así:
+
+```csharp
+// TW_BarragePunch_Tier_4.cs (ANTES)
+Projectile stand = Main.projectile[(int)Projectile.ai[0]];
+bool flip = stand.active && stand.Center.X < player.Center.X;
+```
+
+Es decir: comparaba la **posición física en vivo** del Stand contra la del
+jugador, frame a frame, cada vez que se dibuja el puñetazo.
+
+El problema: como el Stand va rezagado por el lerp, durante varios frames
+seguidos su posición real puede seguir estando a un lado (por ejemplo, a la
+izquierda del jugador) **aunque ya estés corriendo y apuntando hacia la
+derecha**. El cuerpo del Stand gira bien porque su rotación se calcula con el
+vector `off` (dirección hacia el ratón), que es instantáneo. Pero el flip del
+puñetazo usa la posición, que va con retraso — resultado: cuerpo y puñetazo
+"desincronizados" visualmente, dando la sensación de que el golpe gira solo.
+
+**WhiteSnake nunca tuvo este problema** porque su puñetazo (`WhiteSnake_BarragePunch_Tier_4.cs`)
+ya decidía el flip con una señal fija, calculada una sola vez en el momento
+en que nace el puñetazo (`goRight`), en vez de mirar la posición del Stand
+en cada frame:
+
+```csharp
+// WhiteSnake_BarragePunch_Tier_4.cs (YA CORRECTO)
+bool flip = !goRight;
+```
+
+`goRight` sale de decodificar `ai[1]` (el mismo dato que ya usa el sistema de
+barrage para guardar el ángulo/variante del golpe), y una vez decodificado
+**no vuelve a cambiar** durante la vida del puñetazo. No depende de dónde
+esté físicamente el Stand en ese frame, así que el lerp no lo afecta.
+
+## La corrección aplicada
+
+Se llevó exactamente ese mismo patrón a `TW_BarragePunch_Tier_4.cs` y
+`TW_BarragePunch_Tier_1.cs`. Como parte del arreglo de multijugador que ya
+se había hecho antes en estos dos archivos, la variable `goRight` **ya
+existía y ya se sincronizaba por red** (`SendExtraAI` / `ReceiveExtraAI`),
+solo que todavía no se usaba para decidir el flip. El cambio fue mínimo:
+
+```csharp
+// TW_BarragePunch_Tier_4.cs / TW_BarragePunch_Tier_1.cs (AHORA)
+// FIX: antes se comparaba la posición real del stand (stand.Center.X < player.Center.X),
+// que se desincroniza cuando el stand se queda atrás por inercia al correr (el
+// FollowPlayer con lerp tarda en alcanzarte). Ahora usamos "goRight", la misma señal
+// congelada en el momento del golpe (igual que en WhiteSnake), que no depende de la
+// posición en vivo del stand.
+bool flip = !goRight;
+```
+
+Como ya no hace falta mirar la posición del Stand para el flip, también se
+eliminó la búsqueda de `stand` dentro de `PreDraw` (esa variable solo se
+usaba para esto). El resto del archivo — sincronización de red, sistema de
+skins, ángulo, offset — no se tocó.
+
+## Por qué esta solución es mejor que "arreglar" el lerp
+
+Podría pensarse en subir el factor del `FollowPlayer` (por ejemplo de
+`0.25f` a algo más alto) para que el Stand casi no se quede atrás. Pero eso
+no resuelve el problema de raíz, solo lo hace menos frecuente: seguiría
+pudiendo pasar en cualquier movimiento brusco, y además cambiaría el
+"feeling" de cómo se mueve el Stand en pantalla (dejaría de sentirse con
+inercia/peso).
+
+La solución correcta es que **cualquier decisión visual del puñetazo (flip,
+variante, ángulo) se calcule una sola vez cuando nace el golpe**, y no se
+recalcule cada frame en base a datos que pueden ir desfasados (posición del
+Stand) o corromperse en la red (`ai[]` sin pasar por `SendExtraAI`/`ReceiveExtraAI`).
+Es el mismo principio de la guía de sincronización de proyectiles que ya
+tenías para multijugador — aquí se aplica al eje visual en vez de al eje de
+red, pero es la misma idea: no confiar en un dato "en vivo" que puede
+desincronizarse, sino congelar el dato correcto en el momento del spawn.
+
+## Checklist para futuros puñetazos de Stand
+
+Al crear o revisar el `PreDraw` de un puñetazo de Stand, comprobar:
+
+- [ ] ¿El flip (`SpriteEffects.FlipHorizontally`) se decide con un dato
+      **congelado al nacer** (`goRight`, `punchVariant`, etc.), y no
+      comparando `stand.Center.X` vs `player.Center.X` en cada frame?
+- [ ] ¿Esa variable congelada está sincronizada por red vía `SendExtraAI` /
+      `ReceiveExtraAI`? (si no, un jugador que se une tarde la verá mal)
+- [ ] ¿La rotación (`Projectile.rotation`) también sale de datos ya
+      decodificados/sincronizados, y no de leer `ai[1]` directo?
+
+Si las tres respuestas son sí, el puñetazo se comporta igual de bien que el
+de WhiteSnake, sin importar cuánto se rezague el Stand por el lerp del
+`FollowPlayer`.

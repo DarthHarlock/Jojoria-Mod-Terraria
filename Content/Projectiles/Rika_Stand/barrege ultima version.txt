@@ -1,0 +1,193 @@
+# Guía: El bug del "giro" al correr con el ratón en el borde (puñetazo + Stand)
+
+> **Actualización:** este mismo bug tiene DOS focos independientes — el
+> puñetazo (`TW_BarragePunch_*`) y el propio Stand (`THEWORLDSTAND_*`).
+> Arreglar solo uno no es suficiente: hay que corregir los dos, en cada
+> tier, o el síntoma persiste aunque parezca "el mismo error".
+
+## Síntoma
+
+Con el ratón cerca del borde de la pantalla:
+- Si mueves el ratón un poco, el stand y los golpes giran correctamente.
+- Si en cambio te pones a **correr** estando en ese borde, el cuerpo del stand
+  sigue mirando hacia donde apuntas, pero los **puñetazos** dan la sensación
+  de estar "atrasados" a la izquierda (o derecha) y empiezan a girar solos.
+
+Esto ocurría en **TheWorld** (`TW_BarragePunch_Tier_1` y `Tier_4`) pero no en
+**WhiteSnake**, a pesar de que ambos comparten el mismo sistema de barrage
+(`BarrageSystem.SpawnPunches`).
+
+## Causa raíz
+
+El Stand no sigue al jugador de forma instantánea: `ParticulasStands.FollowPlayer`
+usa un lerp (interpolación) con un factor `0.25f`. Eso significa que cuando
+corres, el Stand tarda varios frames en "alcanzarte" — se queda físicamente
+un poco atrás de tu posición real mientras te mueves.
+
+El `PreDraw` de cada puñetazo decide si voltear el sprite (`SpriteEffects.FlipHorizontally`)
+para que mire a izquierda o derecha. En **TheWorld** esa decisión se tomaba así:
+
+```csharp
+// TW_BarragePunch_Tier_4.cs (ANTES)
+Projectile stand = Main.projectile[(int)Projectile.ai[0]];
+bool flip = stand.active && stand.Center.X < player.Center.X;
+```
+
+Es decir: comparaba la **posición física en vivo** del Stand contra la del
+jugador, frame a frame, cada vez que se dibuja el puñetazo.
+
+El problema: como el Stand va rezagado por el lerp, durante varios frames
+seguidos su posición real puede seguir estando a un lado (por ejemplo, a la
+izquierda del jugador) **aunque ya estés corriendo y apuntando hacia la
+derecha**. El cuerpo del Stand gira bien porque su rotación se calcula con el
+vector `off` (dirección hacia el ratón), que es instantáneo. Pero el flip del
+puñetazo usa la posición, que va con retraso — resultado: cuerpo y puñetazo
+"desincronizados" visualmente, dando la sensación de que el golpe gira solo.
+
+**WhiteSnake nunca tuvo este problema** porque su puñetazo (`WhiteSnake_BarragePunch_Tier_4.cs`)
+ya decidía el flip con una señal fija, calculada una sola vez en el momento
+en que nace el puñetazo (`goRight`), en vez de mirar la posición del Stand
+en cada frame:
+
+```csharp
+// WhiteSnake_BarragePunch_Tier_4.cs (YA CORRECTO)
+bool flip = !goRight;
+```
+
+`goRight` sale de decodificar `ai[1]` (el mismo dato que ya usa el sistema de
+barrage para guardar el ángulo/variante del golpe), y una vez decodificado
+**no vuelve a cambiar** durante la vida del puñetazo. No depende de dónde
+esté físicamente el Stand en ese frame, así que el lerp no lo afecta.
+
+## La corrección aplicada
+
+Se llevó exactamente ese mismo patrón a `TW_BarragePunch_Tier_4.cs` y
+`TW_BarragePunch_Tier_1.cs`. Como parte del arreglo de multijugador que ya
+se había hecho antes en estos dos archivos, la variable `goRight` **ya
+existía y ya se sincronizaba por red** (`SendExtraAI` / `ReceiveExtraAI`),
+solo que todavía no se usaba para decidir el flip. El cambio fue mínimo:
+
+```csharp
+// TW_BarragePunch_Tier_4.cs / TW_BarragePunch_Tier_1.cs (AHORA)
+// FIX: antes se comparaba la posición real del stand (stand.Center.X < player.Center.X),
+// que se desincroniza cuando el stand se queda atrás por inercia al correr (el
+// FollowPlayer con lerp tarda en alcanzarte). Ahora usamos "goRight", la misma señal
+// congelada en el momento del golpe (igual que en WhiteSnake), que no depende de la
+// posición en vivo del stand.
+bool flip = !goRight;
+```
+
+Como ya no hace falta mirar la posición del Stand para el flip, también se
+eliminó la búsqueda de `stand` dentro de `PreDraw` (esa variable solo se
+usaba para esto). El resto del archivo — sincronización de red, sistema de
+skins, ángulo, offset — no se tocó.
+
+## Por qué esta solución es mejor que "arreglar" el lerp
+
+Podría pensarse en subir el factor del `FollowPlayer` (por ejemplo de
+`0.25f` a algo más alto) para que el Stand casi no se quede atrás. Pero eso
+no resuelve el problema de raíz, solo lo hace menos frecuente: seguiría
+pudiendo pasar en cualquier movimiento brusco, y además cambiaría el
+"feeling" de cómo se mueve el Stand en pantalla (dejaría de sentirse con
+inercia/peso).
+
+La solución correcta es que **cualquier decisión visual del puñetazo (flip,
+variante, ángulo) se calcule una sola vez cuando nace el golpe**, y no se
+recalcule cada frame en base a datos que pueden ir desfasados (posición del
+Stand) o corromperse en la red (`ai[]` sin pasar por `SendExtraAI`/`ReceiveExtraAI`).
+Es el mismo principio de la guía de sincronización de proyectiles que ya
+tenías para multijugador — aquí se aplica al eje visual en vez de al eje de
+red, pero es la misma idea: no confiar en un dato "en vivo" que puede
+desincronizarse, sino congelar el dato correcto en el momento del spawn.
+
+## Segundo foco del mismo bug: el propio Stand
+
+Arreglar `TW_BarragePunch_Tier_4` hizo que el **puñetazo** dejara de girar
+mal. Pero el **cuerpo del Stand** (`THEWORLDSTAND_Tier_4` /
+`THEWORLDSTAND_Tier_1`) tiene su propio `PreDraw`, con su propio flip, y es
+un cálculo totalmente independiente del que usa el puñetazo. Son dos
+sprites distintos, dibujados por dos scripts distintos — arreglar uno no
+toca el otro.
+
+`THEWORLDSTAND_Tier_4` ya se corrigió en el paso anterior. El error que
+reportaste ahora ("copié el Tier 4 que funciona, cambié los nombres, y
+sigue igual") pasaba porque **`THEWORLDSTAND_Tier_1` nunca recibió ese
+mismo cambio** — solo se había tocado el puñetazo del Tier 1, no el Stand.
+Por eso el golpe ya salía bien pero el cuerpo seguía "mintiendo".
+
+El código de `THEWORLDSTAND_Tier_1.PreDraw` tenía exactamente el mismo
+patrón problemático que tenía Tier 4 antes de arreglarlo:
+
+```csharp
+// THEWORLDSTAND_Tier_1.cs (ANTES)
+Main.EntitySpriteDraw(
+    tex,
+    Projectile.Center - Main.screenPosition,
+    r,
+    lightColor * ((255 - Projectile.alpha) / 255f),
+    Projectile.rotation,
+    o,
+    Projectile.scale,
+    Projectile.Center.X < p.Center.X   // <- posición en vivo, con retraso
+        ? SpriteEffects.FlipHorizontally
+        : SpriteEffects.None,
+    0f
+);
+```
+
+Se cambió por lo mismo que ya usa Tier 4:
+
+```csharp
+// THEWORLDSTAND_Tier_1.cs (AHORA)
+bool goRight = syncOffX >= 0;
+SpriteEffects effects = !goRight
+    ? SpriteEffects.FlipHorizontally
+    : SpriteEffects.None;
+```
+
+`syncOffX` ya existía en este archivo (se sincroniza por red desde antes),
+así que no hizo falta añadir nada nuevo — solo usarlo también aquí para
+decidir el flip, en vez de la posición.
+
+## Por qué "copiar el Tier 4 que funciona" no bastaba
+
+Copiar el `.cs` del puñetazo de Tier 4 al Tier 1 (cambiando nombres) sí
+propaga el arreglo del puñetazo. Pero **el Stand es un archivo aparte**, y
+si no se copia/edita también, sigue teniendo el bug viejo. Regla general:
+
+> Cada tier tiene, como mínimo, dos scripts relevantes para este bug: el
+> del **Stand** (`*STAND_Tier_N`) y el del **puñetazo**
+> (`*_BarragePunch_Tier_N`). Ambos necesitan la corrección por separado.
+
+## Checklist para futuros puñetazos de Stand
+
+Al crear o revisar el `PreDraw` de un puñetazo de Stand, comprobar:
+
+- [ ] ¿El flip (`SpriteEffects.FlipHorizontally`) se decide con un dato
+      **congelado al nacer** (`goRight`, `punchVariant`, etc.), y no
+      comparando `stand.Center.X` vs `player.Center.X` en cada frame?
+- [ ] ¿Esa variable congelada está sincronizada por red vía `SendExtraAI` /
+      `ReceiveExtraAI`? (si no, un jugador que se une tarde la verá mal)
+- [ ] ¿La rotación (`Projectile.rotation`) también sale de datos ya
+      decodificados/sincronizados, y no de leer `ai[1]` directo?
+
+Si las tres respuestas son sí, el puñetazo se comporta igual de bien que el
+de WhiteSnake, sin importar cuánto se rezague el Stand por el lerp del
+`FollowPlayer`.
+
+## Checklist para el propio Stand (además del puñetazo)
+
+En el `PreDraw` del Stand (`*STAND_Tier_N.cs`), comprobar:
+
+- [ ] ¿El flip se decide con `syncOffX` (o el equivalente ya sincronizado
+      por red), y **no** comparando `Projectile.Center.X` vs
+      `p.Center.X` (o `stand.Center.X` vs `player.Center.X`)?
+- [ ] Si el Stand tiene animaciones especiales con dirección propia
+      (por ejemplo `knifeTargetDir` en TheWorld Tier 4, o `vomitAimDir` /
+      `shootAimDir` en WhiteSnake), ¿esas ramas usan su propia dirección
+      inmediata en vez de `syncOffX`? (eso está bien — cada habilidad
+      tiene su propio vector de apuntado, el problema es solo cuando se
+      usa **posición** en vez de **dirección**).
+- [ ] ¿Se revisó el Stand de **cada tier** por separado? Copiar el script
+      de un tier a otro no basta si el archivo de destino (Stand o
+      puñetazo) no se reemplaza también — son archivos independientes.
