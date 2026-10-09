@@ -1,0 +1,8 @@
+Basimanete le quitas 2% de vida a los enemigos cada vez que retrocedas
+El problema, corure que los bosses gusanos, creo que les aplica el 2% constante a CADA SEGMENTO lo que `provoca que BASICAMENTE MUERA INSTANTANEMANTE ya que cada segmento se quita vida y como el gusano dpor ejemplo desturctor, es enteralmente 1 solo gusano, 1 torozo = la vida del desturicto
+
+asi que los 20 torzos se van quitand o2% funde por completo la vida del boss
+
+
+
+hanra que testearlo con boses del calamity y el deboramundo
