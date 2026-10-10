@@ -147,6 +147,12 @@ namespace Jojo.Content.Rarities
         public override Color RarityColor => RarityHelper.HexToColor("#FFD800");
     }
 
+    // ====== RAREZA: AMARILLO JUSTICE ======
+    public class AmarilloJustice : ModRarity
+    {
+        public override Color RarityColor => RarityHelper.HexToColor("#EFCA00");
+    }
+
     // ====== RAREZA: VOLUNTAD BASICA ======
     public class ColorVoluntadBasica : ModRarity
     {
