@@ -4,14 +4,14 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using System.Collections.Generic;
-using Jojo.Content.Projectiles.Justice.Justice_Tier_4;
-using Jojo.Content.Projectiles.Justice.Justice_Tier_3; // Para la receta
-using Jojo.Content.Clases; // Arregla el error de ClaseStand
-using Jojo.Systems; // Arregla el error de StandCritSystem
+using Jojo.Content.Projectiles.Justice.Justice_Tier_2;
+using Jojo.Content.Projectiles.Justice.Justice_Tier_1; // Para referenciar la Tier 1
+using Jojo.Content.Clases;
+using Jojo.Content.Items; // Para referenciar Voluntad_Siniestra
 
-namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
+namespace Jojo.Content.Projectiles.Justice.Justice_Tier_2
 {
-    public class JusticeItem_Tier_4 : ModItem
+    public class JusticeItem_Tier_2 : ModItem
     {
         public int baseCrit = 1;
 
@@ -42,7 +42,7 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            int type = ModContent.ProjectileType<JUSTICESTAND_Tier_4>();
+            int type = ModContent.ProjectileType<JUSTICESTAND_Tier_2>();
 
             if (player.ownedProjectileCounts[type] == 0)
             {
@@ -63,7 +63,7 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
             // Obtenemos la textura del ítem
             Texture2D texture = Terraria.GameContent.TextureAssets.Item[Item.type].Value;
 
-            // Multiplicamos la escala por 1.5 para mantener el tamaño personalizado
+            // Multiplicamos la escala por 1.5 para mantener el tamaño personalizado sin encogerse
             float inventoryScale = scale * 1.5f;
 
             spriteBatch.Draw(
@@ -92,9 +92,9 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
             {
                 if (line.Mod == "Terraria" && line.Name == "ItemName")
                 {
-                    if (line.Text.Contains("Tier 4"))
+                    if (line.Text.Contains("Tier 2"))
                     {
-                        line.Text = line.Text.Replace("Tier 4", "[c/F2F2F2:Tier 4]");
+                        line.Text = line.Text.Replace("Tier 2", "[c/F2F2F2:Tier 2]");
                     }
                 }
 
@@ -109,9 +109,12 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient<JusticeItem_Tier_3>(1); // La Tier 3 anterior
-            recipe.AddIngredient(ItemID.Ectoplasm, 30);  // Ectoplasma
-            recipe.AddIngredient(ItemID.Bone, 20);       // Huesos
+            recipe.AddIngredient<JusticeItem_Tier_1>(1); // La Tier anterior
+            recipe.AddIngredient<Voluntad_Siniestra>(10);
+            recipe.AddIngredient(ItemID.Bone, 30);
+            recipe.AddRecipeGroup("Jojo:CobaltOrPalladium", 10);
+            recipe.AddIngredient(ItemID.ObsidianSkull, 1);
+            // Sin AddTile(...) para que no requiera mesa de crafteo
             recipe.Register();
         }
     }

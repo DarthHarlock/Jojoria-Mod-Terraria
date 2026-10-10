@@ -4,11 +4,11 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.Audio;
 using Terraria.ID;
+using Terraria.DataStructures;
 using System;
 using System.IO;
 using System.Collections.Generic;
 
-// REFERENCIAS RESTAURADAS
 using Jojo.Content.Buffs;
 using Jojo.Content.Buffs.Justice_Buffs;
 using Jojo.Content.Habilidades;
@@ -17,12 +17,61 @@ using Jojo.Content.Players;
 using Jojo.Content.Clases;
 using Jojo.Content.Systems;
 using Jojo.Content.Items;
+using Jojo.Content.Projectiles.Justice.Justice_Tier_4.Marca;
+using Jojo.Content.Projectiles.Justice.Justice_Tier_4.ControlMental;
 using Jojo.Content.Items.Potenciadores;
 
 namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
 {
     public class JUSTICESTAND_Tier_4 : ModProjectile
     {
+        // ====================================================================
+        // CONFIGURACIÓN (los tiers 1, 2 y 3 heredan de esta clase y sobrescriben
+        // solo los valores que quieran cambiar)
+        // ====================================================================
+        public virtual float MultVida => 1f;                    // vida del enemigo al ser minion (1 = sin boost)
+        public virtual float MultDano => 1f;                    // daño del minion (1 = daño base del enemigo, sin boost)
+        public virtual float MultDefensa => 1f;                 // defensa del minion (1 = defensa base)
+        public virtual int CooldownGolpe => 45;                 // ticks entre golpes del minion (60 = 1 segundo)
+        public virtual float RadioNiebla => 650f;               // tamaño de la niebla
+        public virtual int TiempoInfeccion => 180;              // ticks dentro de la niebla para convertir a un enemigo en aliado (60 = 1 segundo)
+        public virtual int DuracionMarca => 300;                // ticks que dura la marca (clic derecho)
+        public virtual float DistanciaTeletransporte => 800f;   // si el minion está más lejos, vuelve a ti al instante (16 px = 1 bloque)
+        public virtual float RadioBusquedaObjetivo => 1600f;    // distancia a la que los minions buscan enemigos
+
+        // Interruptores de habilidades (false = el tier no tiene esa habilidad)
+        public virtual bool TieneHabilidadF => true;            // Habilidad F (Aura Curativa)
+        public virtual bool TieneHabilidadG => true;            // Habilidad G (reorganizar minions)
+
+        // Cooldowns de las habilidades en ticks (60 = 1 segundo).
+        // A estos valores se les aplica después la reducción de cooldown de tus stats.
+        public virtual int CooldownHabilidad1 => 700;           // Habilidad F (Aura Curativa)
+        public virtual int CooldownHabilidad2 => 700;           // Habilidad G (reorganizar minions)
+
+        // Aura Curativa (habilidad F). Son multiplicadores: 1 = valores originales de la aura.
+        public virtual float CuraEficacia => 1f;                // multiplicador de la cantidad de curación
+        public virtual float RangoCuracion => 1f;               // multiplicador del tamaño/rango de la aura
+
+        // Devuelve el stand de Justice (de cualquier tier) del jugador, o null
+        public static JUSTICESTAND_Tier_4 ObtenerStand(int owner)
+        {
+            for (int i = 0; i < Main.maxProjectiles; i++)
+            {
+                Projectile p = Main.projectile[i];
+                if (p.active && p.owner == owner && p.ModProjectile is JUSTICESTAND_Tier_4 s)
+                    return s;
+            }
+            return null;
+        }
+
+        // Configuración del dueño. Si no tiene stand invocado, valores base del Tier 4.
+        public static JUSTICESTAND_Tier_4 Config(int owner)
+        {
+            return ObtenerStand(owner) ?? ModContent.GetInstance<JUSTICESTAND_Tier_4>();
+        }
+
+        // ====================================================================
+
         enum State { Idle, Attack }
         State state;
 
@@ -164,10 +213,8 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
             if (!spawning && isOwner)
             {
                 HandleSkills(p);
-                // HandleToggle(p); // Lo he comentado porque ya no necesitas el modo automático, el stand no ataca.
             }
 
-            // Forzamos la variable auto a false por limpieza
             auto = false;
 
             if (!spawning)
@@ -177,7 +224,6 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
 
             if (isOwner)
             {
-                // FORZAR MODO PACÍFICO Y MANOS LIBRES
                 state = State.Idle;
                 Projectile.friendly = false;
 
@@ -186,7 +232,6 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
                 syncOffX = off.X;
                 syncOffY = off.Y;
 
-                // Como ya no ataca, la rotación siempre es 0
                 Projectile.rotation = 0f;
 
                 ParticulasStands.FollowPlayer(Projectile, p, off, 0.25f);
@@ -214,7 +259,6 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
 
         Vector2 GetOffset(Player p)
         {
-            // Siempre se posiciona detrás del jugador (manos libres), ignorando el ratón
             return new Vector2(-40 * p.direction, -10);
         }
 
@@ -255,20 +299,44 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
 
             StandStatsPlayer stats = p.GetModPlayer<StandStatsPlayer>();
 
-            // NUEVA HABILIDAD DE LA LETRA 'F' (Aura Curativa)
-            if (JojoKeybinds.SkillF.JustPressed && !p.HasBuff(ModContent.BuffType<Cooldown1>()))
+            // HABILIDAD F (Aura Curativa) - solo si el tier la tiene (TieneHabilidadF)
+            // cooldown: CooldownHabilidad1. Se le pasa eficacia (ai[0]) y rango (ai[1]).
+            if (TieneHabilidadF && JojoKeybinds.SkillF.JustPressed && !p.HasBuff(ModContent.BuffType<Cooldown1>()))
             {
                 float factorTiempoF = Math.Max(0f, 1f - stats.standCooldown1Reduction);
-                p.AddBuff(ModContent.BuffType<Cooldown1>(), (int)(700 * factorTiempoF));
+                p.AddBuff(ModContent.BuffType<Cooldown1>(), (int)(CooldownHabilidad1 * factorTiempoF));
                 p.AddBuff(ModContent.BuffType<CD>(), 60);
 
-                // Invoca el proyectil de Aura verde en el centro del jugador
                 Projectile.NewProjectile(
                     Projectile.GetSource_FromThis(),
                     p.Center,
                     Vector2.Zero,
                     ModContent.ProjectileType<Justice_HealingAura>(),
-                    0, // No hace daño
+                    0,
+                    0f,
+                    p.whoAmI,
+                    CuraEficacia,
+                    RangoCuracion
+                );
+
+                Projectile.netUpdate = true;
+            }
+
+            // HABILIDAD G (Reorganizar) - solo si el tier la tiene (TieneHabilidadG)
+            // cooldown: CooldownHabilidad2
+            if (TieneHabilidadG && JojoKeybinds.SkillG.JustPressed && !p.HasBuff(ModContent.BuffType<Cooldown2>()))
+            {
+                float factorTiempoG = Math.Max(0f, 1f - stats.standCooldown2Reduction);
+                p.AddBuff(ModContent.BuffType<Cooldown2>(), (int)(CooldownHabilidad2 * factorTiempoG));
+                p.AddBuff(ModContent.BuffType<CD>(), 60);
+
+                // La señal se ejecuta en el servidor (o en singleplayer) para que funcione en multijugador
+                Projectile.NewProjectile(
+                    Projectile.GetSource_FromThis(),
+                    p.Center,
+                    Vector2.Zero,
+                    ModContent.ProjectileType<JusticeSenalReorganizar>(),
+                    0,
                     0f,
                     p.whoAmI
                 );
@@ -276,21 +344,7 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
                 Projectile.netUpdate = true;
             }
 
-            if (JojoKeybinds.SkillG.JustPressed && !p.HasBuff(ModContent.BuffType<Cooldown2>()))
-            {
-                float factorTiempoG = Math.Max(0f, 1f - stats.standCooldown2Reduction);
-                p.AddBuff(ModContent.BuffType<Cooldown2>(), (int)(700 * factorTiempoG));
-                p.AddBuff(ModContent.BuffType<CD>(), 60);
-                Projectile.netUpdate = true;
-            }
-
-            if (JojoKeybinds.SkillH.JustPressed && !p.HasBuff(ModContent.BuffType<Cooldown3>()))
-            {
-                float factorTiempoH = Math.Max(0f, 1f - stats.standCooldown3Reduction);
-                p.AddBuff(ModContent.BuffType<Cooldown3>(), (int)(700 * factorTiempoH));
-                p.AddBuff(ModContent.BuffType<CD>(), 60);
-                Projectile.netUpdate = true;
-            }
+            // La habilidad H (3) fue eliminada.
         }
 
         NPC FindEnemy(Player p)
@@ -369,5 +423,75 @@ namespace Jojo.Content.Projectiles.Justice.Justice_Tier_4
 
             return false;
         }
+    }
+
+    // ========================================================================
+    // Señal de la habilidad G: teletransporta todos los minions del jugador a él.
+    // Se ejecuta en el servidor / singleplayer (igual que JusticeSenalLiberar).
+    // ========================================================================
+    public class JusticeSenalReorganizar : ModProjectile
+    {
+        public override string Texture => "Terraria/Images/Projectile_0";
+
+        private bool aplicado = false;
+
+        public override void SetDefaults()
+        {
+            Projectile.width = 4;
+            Projectile.height = 4;
+            Projectile.friendly = false;
+            Projectile.hostile = false;
+            Projectile.tileCollide = false;
+            Projectile.ignoreWater = true;
+            Projectile.penetrate = -1;
+            Projectile.timeLeft = 5;
+            Projectile.hide = true;
+        }
+
+        public override bool? CanCutTiles() => false;
+
+        public override void OnSpawn(IEntitySource source)
+        {
+            Aplicar();
+        }
+
+        public override void AI()
+        {
+            Aplicar();
+        }
+
+        private void Aplicar()
+        {
+            if (aplicado) return;
+            if (Main.netMode == NetmodeID.MultiplayerClient) return;
+
+            aplicado = true;
+
+            if (Projectile.owner < 0 || Projectile.owner >= Main.maxPlayers) return;
+            Player dueno = Main.player[Projectile.owner];
+            if (!dueno.active || dueno.dead || string.IsNullOrEmpty(dueno.name)) return;
+
+            int k = 0;
+            for (int i = 0; i < Main.maxNPCs; i++)
+            {
+                NPC npc = Main.npc[i];
+                if (!npc.active) continue;
+                if (npc.realLife >= 0 && npc.realLife != npc.whoAmI) continue; // solo cabeza de los worms
+
+                JusticeGlobalNPC g = npc.GetGlobalNPC<JusticeGlobalNPC>();
+                if (!g.bajoControlMental || g.duenoNombre != dueno.name) continue;
+
+                // Los reparte un poco para que no queden todos apilados
+                float offX = ((k % 5) - 2) * 36f;
+                float offY = -20f - (k / 5) * 30f;
+                k++;
+
+                npc.Center = dueno.Center + new Vector2(offX, offY);
+                npc.velocity = Vector2.Zero;
+                npc.netUpdate = true;
+            }
+        }
+
+        public override bool PreDraw(ref Color lightColor) => false;
     }
 }
