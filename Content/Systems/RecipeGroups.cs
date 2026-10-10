@@ -71,13 +71,38 @@ namespace Jojo.Content.Systems
             );
             RecipeGroup.RegisterGroup("Jojo:SilverOrTungsten", silverTungstenGroup);
 
-            // --- GRUPO 8: RELOJ DE ORO O PLATINO (NUEVO) ---
+            // --- GRUPO 8: RELOJ DE ORO O PLATINO ---
             RecipeGroup goldPlatinumWatchGroup = new RecipeGroup(
                 () => $"{Language.GetTextValue("LegacyMisc.37")} {Lang.GetItemNameValue(ItemID.GoldWatch)}",
                 ItemID.GoldWatch,
                 ItemID.PlatinumWatch
             );
             RecipeGroup.RegisterGroup("Jojo:GoldOrPlatinumWatch", goldPlatinumWatchGroup);
+
+            // --- GRUPO 9: CUALQUIER TUMBA ---
+            RecipeGroup tombstoneGroup = new RecipeGroup(
+                () => $"{Language.GetTextValue("LegacyMisc.37")} Tumba",
+                ItemID.Tombstone,
+                ItemID.Gravestone,
+                ItemID.Obelisk,
+                ItemID.CrossGraveMarker,
+                ItemID.Headstone,
+                ItemID.GraveMarker,
+                ItemID.RichGravestone1,
+                ItemID.RichGravestone2,
+                ItemID.RichGravestone3,
+                ItemID.RichGravestone4,
+                ItemID.RichGravestone5
+            );
+            RecipeGroup.RegisterGroup("Jojo:AnyTombstone", tombstoneGroup);
+
+            // --- GRUPO 10: CORONA DE ORO O PLATINO ---
+            RecipeGroup goldPlatinumCrownGroup = new RecipeGroup(
+                () => $"{Language.GetTextValue("LegacyMisc.37")} {Lang.GetItemNameValue(ItemID.GoldCrown)}",
+                ItemID.GoldCrown,
+                ItemID.PlatinumCrown
+            );
+            RecipeGroup.RegisterGroup("Jojo:GoldOrPlatinumCrown", goldPlatinumCrownGroup);
         }
     }
 }

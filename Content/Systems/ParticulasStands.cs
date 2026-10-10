@@ -7,7 +7,7 @@ namespace Jojo.Systems
     public class ParticulasStands : ModSystem
     {
         // =========================
-        // VISUAL DATA
+        // 📦 VISUAL DATA
         // =========================
         public class StandVisualData
         {
@@ -22,7 +22,7 @@ namespace Jojo.Systems
         }
 
         // =========================
-        // STANDS REGISTRY
+        // 🧠 STANDS REGISTRY
         // =========================
         public static class Stands
         {
@@ -283,10 +283,29 @@ namespace Jojo.Systems
                 SpawnTexture = "Jojo/Content/Projectiles/Rika_Stand/RIKA_Spawn"
             };
 
+            public static StandVisualData JusticeParticulas1 = new()
+            {
+                IdleTexture = "Jojo/Content/Projectiles/Justice/Justice_Tier_1/JUSTICESTAND_Tier_1",
+                SpawnTexture = "Jojo/Content/Projectiles/Justice/Justice_Tier_1/Justice_Spawn_Tier_1"
+            };
+
+            public static StandVisualData JusticeParticulas2 = new()
+            {
+                IdleTexture = "Jojo/Content/Projectiles/Justice/Justice_Tier_2/JUSTICESTAND_Tier_2",
+                SpawnTexture = "Jojo/Content/Projectiles/Justice/Justice_Tier_2/Justice_Spawn_Tier_2"
+            };
+
+            public static StandVisualData JusticeParticulas3 = new()
+            {
+                IdleTexture = "Jojo/Content/Projectiles/Justice/Justice_Tier_3/JUSTICESTAND_Tier_3",
+                SpawnTexture = "Jojo/Content/Projectiles/Justice/Justice_Tier_3/Justice_Spawn_Tier_3"
+            };
+
             public static StandVisualData JusticeParticulas4 = new()
             {
                 IdleTexture = "Jojo/Content/Projectiles/Justice/Justice_Tier_4/JUSTICESTAND_Tier_4",
-                SpawnTexture = "Jojo/Content/Projectiles/Justice/Justice_Tier_4/Justice_Spawn_Tier_4"
+                SpawnTexture = "Jojo/Content/Projectiles/Justice/Justice_Tier_4/Justice_Spawn_Tier_4",
+                SpawnHeight = 98 // <- justic
             };
 
             public static StandVisualData WhiteSnakeParticulas1 = new()
@@ -314,7 +333,7 @@ namespace Jojo.Systems
             };
 
             // ==========================================
-            // EXCEPCIÓN AÑADIDA AQUÍ: Altura a 98
+            // 🚨 EXCEPCIÓN AÑADIDA AQUÍ: Altura a 98
             // ==========================================
             public static StandVisualData CMoonParticulas1 = new()
             {
@@ -369,7 +388,7 @@ namespace Jojo.Systems
             };
 
             // ==========================================
-            // EXCEPCIÓN AÑADIDA AQUÍ: Altura a 96
+            // 🚨 EXCEPCIÓN AÑADIDA AQUÍ: Altura a 96
             // ==========================================
             public static StandVisualData SCRequiemParticulas = new()
             {
@@ -534,7 +553,7 @@ namespace Jojo.Systems
         public static void Despawn(Projectile projectile, Player player)
         {
             // ==========================================
-            // MOVIMIENTO HACIA EL JUGADOR (SUAVE)
+            // 👤 MOVIMIENTO HACIA EL JUGADOR (SUAVE)
             // ==========================================
 
             Vector2 toPlayer = player.Center - projectile.Center;

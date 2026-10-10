@@ -11,6 +11,9 @@ using Terraria.ID;
 using Jojo.Content.Buffs;
 using Jojo.Content.Buffs.SilverChariot_Buffs;
 
+using Jojo.Content.Projectiles.Justice.Justice_Tier_1;
+using Jojo.Content.Projectiles.Justice.Justice_Tier_2;
+using Jojo.Content.Projectiles.Justice.Justice_Tier_3;
 using Jojo.Content.Projectiles.Justice.Justice_Tier_4;
 
 using Jojo.Content.Projectiles.Tusk.Tusk_Tier_1;
@@ -199,7 +202,7 @@ namespace Jojo.Content.UI
         public static bool HasKillerQueenGreenSkin => HasKillerQueenGreenSkinFor(Main.LocalPlayer);
         public static bool HasKillerQueenBlueSkin => HasKillerQueenBlueSkinFor(Main.LocalPlayer);
 
-        // ── skins de Magicians Red ──          
+        // ── skins de Magicians Red ──          ← NUEVO BLOQUE
         public static bool HasMagiciansRedPinkSkin => HasMagiciansRedPinkSkinFor(Main.LocalPlayer);
         public static bool HasMagiciansRedGreenSkin => HasMagiciansRedGreenSkinFor(Main.LocalPlayer);
         public static bool HasMagiciansRedBlueSkin => HasMagiciansRedBlueSkinFor(Main.LocalPlayer);
@@ -333,7 +336,7 @@ namespace Jojo.Content.UI
                    sp.skinItem.ModItem != null && sp.skinItem.ModItem.Name == "KillerQueen_Blue";
         }
 
-        // ── skins de Magicians Red 
+        // ── skins de Magicians Red ──          ← NUEVO BLOQUE
         public static bool HasMagiciansRedPinkSkinFor(Player p)
         {
             var sp = GetSlotPlayer(p);
@@ -362,6 +365,9 @@ namespace Jojo.Content.UI
             return name == "PLATINUM" ||
                    name == "RikaItem" ||
 
+                   name == "JusticeItem_Tier_1" ||
+                   name == "JusticeItem_Tier_2" ||
+                   name == "JusticeItem_Tier_3" ||
                    name == "JusticeItem_Tier_4" ||
 
                    name == "CinderellaItem_Tier_1" ||
@@ -471,9 +477,9 @@ namespace Jojo.Content.UI
                    name == "KillerQueen_Red" ||
                    name == "KillerQueen_Green" ||
                    name == "KillerQueen_Blue" ||
-                   name == "MagiciansRed_Pink" ||      
-                   name == "MagiciansRed_Green" ||     
-                   name == "MagiciansRed_Blue";       
+                   name == "MagiciansRed_Pink" ||      // ← NUEVO
+                   name == "MagiciansRed_Green" ||     // ← NUEVO
+                   name == "MagiciansRed_Blue";        // ← NUEVO
         }
 
         public static int GetStandProjectileType() =>
@@ -497,6 +503,9 @@ namespace Jojo.Content.UI
             if (name == "KingCrimsonItem_Tier_3") return ModContent.ProjectileType<KINGCRIMSONSTAND_Tier_3>();
             if (name == "KingCrimsonItem_Tier_4") return ModContent.ProjectileType<KINGCRIMSONSTAND_Tier_4>();
 
+            if (name == "JusticeItem_Tier_1") return ModContent.ProjectileType<JUSTICESTAND_Tier_1>();
+            if (name == "JusticeItem_Tier_2") return ModContent.ProjectileType<JUSTICESTAND_Tier_2>();
+            if (name == "JusticeItem_Tier_3") return ModContent.ProjectileType<JUSTICESTAND_Tier_3>();
             if (name == "JusticeItem_Tier_4") return ModContent.ProjectileType<JUSTICESTAND_Tier_4>();
 
             if (name == "TuskItem_Tier_1") return ModContent.ProjectileType<TUSKSTAND_Tier_1>();
@@ -662,6 +671,9 @@ namespace Jojo.Content.UI
                      proj.type == ModContent.ProjectileType<STARPLATINUMSTAND_Tier_3>() ||
                      proj.type == ModContent.ProjectileType<STARPLATINUMSTAND_Tier_4>() ||
 
+                     proj.type == ModContent.ProjectileType<JUSTICESTAND_Tier_1>() ||
+                     proj.type == ModContent.ProjectileType<JUSTICESTAND_Tier_2>() ||
+                     proj.type == ModContent.ProjectileType<JUSTICESTAND_Tier_3>() ||
                      proj.type == ModContent.ProjectileType<JUSTICESTAND_Tier_4>() ||
 
                      proj.type == ModContent.ProjectileType<TUSKSTAND_Tier_1>() ||
@@ -770,7 +782,7 @@ namespace Jojo.Content.UI
             Rectangle skinRect = new Rectangle((int)skinPosition.X, (int)skinPosition.Y, 52, 52);
 
             // ───────────────────────────────────────────────────────
-            //  ¿El slot de Stand está bloqueado por Time Erase?
+            // NUEVO: ¿El slot de Stand está bloqueado por Time Erase?
             // ───────────────────────────────────────────────────────
             bool standLockedByTimeErase = KingCrimsonTimeTracker_Tier_4.IsStandLockedFor(Main.myPlayer);
 
